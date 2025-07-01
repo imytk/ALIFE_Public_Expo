@@ -32,16 +32,16 @@ In the next section, you will be presented with a series of images and videos of
 
 The truth is, many fascinating systems exist right on the fringes of our definition of life. They often possess some, but not all, of the characteristics we just explored.
 
-Consider these compelling examples:
+Consider these examples:
 
-Viruses: They contain genetic material and can reproduce and evolve, but only by hijacking the machinery of a host cell. They lack their own metabolism and cellular structure. Are they alive, or just incredibly complex biological machines that exploit living systems?
+- Viruses: They contain genetic material and can reproduce and evolve, but only by hijacking the machinery of a host cell. They lack their own metabolism and cellular structure. Are they alive, or just incredibly complex biological machines that exploit living systems?
 
-Crystals: These minerals grow, exhibit stunning organization, and even heal fractures. However, they don't metabolize, respond to their environment in a biological sense, or reproduce through genetic inheritance. Their "growth" is purely accretion.
+- Crystals: These minerals grow, exhibit stunning organization, and even heal fractures. However, they don't metabolize, respond to their environment in a biological sense, or reproduce through genetic inheritance. Their "growth" is purely accretion.
 
-Fire: It consumes fuel (metabolism), grows rapidly, and responds dramatically to its environment (wind, fuel). Yet, fire has no cells, no genetic code, and doesn't reproduce "offspring" in a biological sense. It's a chemical reaction, not an organism.
+- Fire: It consumes fuel (metabolism), grows rapidly, and responds dramatically to its environment (wind, fuel). Yet, fire has no cells, no genetic code, and doesn't reproduce "offspring" in a biological sense. It's a chemical reaction, not an organism.
 
-Prions: These are misfolded proteins that can cause other normal proteins to misfold. This unique "replication" process causes devastating diseases, but prions are just molecules – they lack cells, metabolism, and the full suite of life's characteristics.
+- Prions: These are misfolded proteins that can cause other normal proteins to misfold. This unique "replication" process causes devastating diseases, but prions are just molecules – they lack cells, metabolism, and the full suite of life's characteristics.
 
-Artificial Systems: As we engineer increasingly sophisticated robots, artificial intelligences, and even synthetic cells in the lab, we are actively pushing the boundaries of what's possible. These creations force us to ask: If an artificial system could truly adapt, reproduce, and self-organize without biological components, would it be alive?
+- Artificial Systems: As we engineer increasingly sophisticated robots, artificial intelligences, and even synthetic cells in the lab, we are actively pushing the boundaries of what's possible. These creations force us to ask: If an artificial system could truly adapt, reproduce, and self-organize without biological components, would it be alive?
 
 The definition of "life" is not a fixed, simple checklist. It's a dynamic, evolving concept that continues to be debated and refined as science advances and we encounter new phenomena. This ongoing inquiry is at the heart of Artificial Life!
