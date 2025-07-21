@@ -8,11 +8,11 @@ In Artificial Life, we're fascinated by this idea. We design virtual worlds wher
 
 # Self-Organization: The Universe's Innate Drive for Order
 
-Closely intertwined with "emergence" is the concept of "self-organization". This is the ability of a system to arrange itself into a structured, coherent, or functional pattern without any external guidance or central command. There's no master plan, no blueprint being followed by a designer – the order arises from within.
+Closely intertwined with "emergence" is the concept of "self-organization". This is the ability of a "system" to arrange itself into a structured, coherent, or functional pattern without any external guidance or central command. There's no master plan, no blueprint being followed by a designer: the order arises from within.
 
-Think about this: a snowflake doesn't have an architect; its complex, symmetrical structure emerges purely from the physical properties of water molecules cooling. Similarly, the mesmerizing patterns in certain chemical reactions (like the Belousov-Zhabotinsky reaction you see in the vide) spontaneously form and dissolve based on the local interactions of chemicals.
+Think about this: a snowflake doesn't have an architect; its complex, symmetrical structure emerges purely from the physical properties of water molecules cooling. Similarly, the mesmerizing patterns in certain chemical reactions (like the Belousov-Zhabotinsky reaction you see in the video) spontaneously form and dissolve based on the local interactions of chemicals.
 
-In the world of ALife, we draw immense inspiration from self-organizing systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways, all from the bottom up. It reveals a profound truth: the universe has an innate capacity for creating order from apparent chaos.
+In the world of ALife, we draw inspiration from self-organizing systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways, all from the bottom up. What it reveals is exciting: the universe has an innate capacity for creating order from apparent chaos.
 
 # Creating "Life-like" Complexity: Why Emergence Matters for ALife
 
