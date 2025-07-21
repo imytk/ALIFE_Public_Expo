@@ -1,8 +1,10 @@
 # The Unseen Conductor: What is Emergence?
 
-Have you ever marvelled at the synchronized ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move. But there isn't. This astonishing phenomenon is called "emergence".
+Have you ever marvelled at the synchronized ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move. We see amazing things happening at the collective (or "global") level, but we usually can't point to any _one thing_ and determine it to be the cause of what we see. 
 
-Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands. Each bird follows a few basic rules (like "stay close to your neighbors," "don't crash," "match speed"), and from these humble beginnings, astonishing global patterns appear.
+This phenomenon is called "emergence".
+
+Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. It is when the "whole is greater than the sum of its parts." The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands of individually-acting birds. Each bird follows a few basic rules (like "stay close to your neighbors," "don't crash," "match speed"), and from these humble beginnings, astonishing global patterns appear.
 
 In Artificial Life, we're fascinated by this idea. We design virtual worlds where agents follow simple instructions, and then we watch as unexpected, "lifelike" behaviors spontaneously blossom. It's like finding a symphony in simple musical notes.
 
