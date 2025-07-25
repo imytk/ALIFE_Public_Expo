@@ -1,0 +1,85 @@
+<project name="Organic Builder" default="release" basedir=".">
+	<description>
+		build file to compile, test and package the application
+	</description>
+	
+	<!-- Set global properties for this build -->
+	<property name="src"		location="src"/>
+	<property name="release"	location="release"/>
+	<property name="build"		location="build"/>	
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the directory structure -->
+		<mkdir dir="${release}"/>
+		<mkdir dir="${build}"/>
+	</target>
+
+	<!-- Compile the source files for the application -->
+	<target name="compile_application_source" depends="init">
+	    <!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" excludes="test/**"
+			source="1.4" target="1.4"/>
+	</target>
+	
+	<!-- Compile and run the unit tests -->
+	<target name="compile_and_run_tests" depends="compile_application_source">
+		<!-- Compile the java code of unit tests from ${src} into ${build} -->
+		<javac debug="true" srcdir="${src}" destdir="${build}" 
+				source="1.4" target="1.4">
+			<include name="test/**/*.java"/>
+		</javac>
+		<junit printsummary="yes" filtertrace="yes" fork="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement location="${build}"/>
+			</classpath>
+			<batchtest >
+				<fileset dir="${src}">
+					<include name="**/*Test.java"/>
+					<exclude name="**/I**.java"/>
+				</fileset>
+			</batchtest>
+		</junit>
+
+		<!-- Stop the process if one test failed -->
+	</target>
+
+	<!-- Generate a release : jar and zip files -->
+	<target name="release" depends="compile_and_run_tests"
+			description="generate the release " >
+		<!-- Create the application jar file -->
+		<jar jarfile="${release}/OrganicBuilder.jar">
+			<fileset dir="media" includes="about.html"/>
+			<fileset dir="media" includes="configuration.properties"/>
+			<fileset dir="media" includes="license.html"/>
+			<zipfileset dir="media/icons" prefix="icons"/>
+			<zipfileset dir="media/pictures" prefix="pictures"/>
+			<zipfileset dir="media/translations" prefix="translations"/>
+			<fileset dir="${build}"/>
+			<manifest>
+				<attribute name="Sealed" value="true"/>
+				<attribute name="Main-Class"
+						value="uk.org.squirm3.Application"/>
+			</manifest>
+		</jar>
+		<!-- Create the release zip file -->
+		<zip destfile="${release}/OrganicBuilder-${DSTAMP}.zip">
+			<fileset dir="media" includes="README.txt"/>
+			<fileset dir="${release}" includes="OrganicBuilder.jar"/>
+			<fileset dir="launchers" includes="*.sh"/>
+			<fileset dir="launchers" includes="*.bat"/>
+			<fileset dir="." includes="build.xml"/>
+			<fileset dir="." includes="build_linux.sh"/>
+			<fileset dir="." includes="build_windows.bat"/>
+			<zipfileset dir="src" prefix="src"/>
+			<zipfileset dir="media" prefix="media"/>
+		</zip>
+ 	</target>
+
+	<!-- Clean all : delete the release directory -->
+ 	<target name="clean" description="clean up " >
+		<!-- Delete all -->
+		<delete dir="${release}"/>
+	</target>
+</project>
