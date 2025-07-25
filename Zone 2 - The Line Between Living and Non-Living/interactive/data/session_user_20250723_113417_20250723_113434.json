@@ -1,0 +1,169 @@
+{
+  "user_id": "user_20250723_113417",
+  "experience_level": "ALIFE researcher/professional",
+  "start_time": "2025-07-23T11:34:17.765924",
+  "end_time": "2025-07-23T11:34:34.817459",
+  "total_items": 20,
+  "responses": [
+    {
+      "item_number": 1,
+      "item_name": "Mountain",
+      "item_file": "mountain.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:20.824361",
+      "response_time_seconds": 3.058437
+    },
+    {
+      "item_number": 2,
+      "item_name": "Bird",
+      "item_file": "bird.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:22.226053",
+      "response_time_seconds": 4.460129
+    },
+    {
+      "item_number": 3,
+      "item_name": "Tree",
+      "item_file": "tree.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:23.182259",
+      "response_time_seconds": 5.416335
+    },
+    {
+      "item_number": 4,
+      "item_name": "Tornado",
+      "item_file": "tornado.mp4",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:23.847457",
+      "response_time_seconds": 6.081533
+    },
+    {
+      "item_number": 5,
+      "item_name": "Mushroom",
+      "item_file": "mushroom.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:24.523184",
+      "response_time_seconds": 6.75726
+    },
+    {
+      "item_number": 6,
+      "item_name": "Flower",
+      "item_file": "flower.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:25.236545",
+      "response_time_seconds": 7.470621
+    },
+    {
+      "item_number": 7,
+      "item_name": "Yeast",
+      "item_file": "yeast.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:25.887379",
+      "response_time_seconds": 8.121455
+    },
+    {
+      "item_number": 8,
+      "item_name": "Coral",
+      "item_file": "coral.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:26.414510",
+      "response_time_seconds": 8.648586
+    },
+    {
+      "item_number": 9,
+      "item_name": "River",
+      "item_file": "river.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:27.006154",
+      "response_time_seconds": 9.24023
+    },
+    {
+      "item_number": 10,
+      "item_name": "Thermostat",
+      "item_file": "thermostat.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:27.678326",
+      "response_time_seconds": 9.912402
+    },
+    {
+      "item_number": 11,
+      "item_name": "Computer",
+      "item_file": "computer.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:28.476528",
+      "response_time_seconds": 10.710604
+    },
+    {
+      "item_number": 12,
+      "item_name": "Virus",
+      "item_file": "virus.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:29.221468",
+      "response_time_seconds": 11.455544
+    },
+    {
+      "item_number": 13,
+      "item_name": "Fish",
+      "item_file": "fish.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:29.833836",
+      "response_time_seconds": 12.067912
+    },
+    {
+      "item_number": 14,
+      "item_name": "Fire",
+      "item_file": "fire.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:30.500902",
+      "response_time_seconds": 12.734978
+    },
+    {
+      "item_number": 15,
+      "item_name": "Robot",
+      "item_file": "robot.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:31.094923",
+      "response_time_seconds": 13.328999
+    },
+    {
+      "item_number": 16,
+      "item_name": "Clock",
+      "item_file": "clock.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:31.788819",
+      "response_time_seconds": 14.022895
+    },
+    {
+      "item_number": 17,
+      "item_name": "Bacteria",
+      "item_file": "bacteria.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:32.389464",
+      "response_time_seconds": 14.62354
+    },
+    {
+      "item_number": 18,
+      "item_name": "Dog",
+      "item_file": "dog.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:33.083974",
+      "response_time_seconds": 15.31805
+    },
+    {
+      "item_number": 19,
+      "item_name": "Volcano",
+      "item_file": "volcano.jpg",
+      "classification": "non-living",
+      "timestamp": "2025-07-23T11:34:34.189680",
+      "response_time_seconds": 16.423756
+    },
+    {
+      "item_number": 20,
+      "item_name": "Car",
+      "item_file": "car.jpg",
+      "classification": "living",
+      "timestamp": "2025-07-23T11:34:34.797446",
+      "response_time_seconds": 17.031522
+    }
+  ]
+}

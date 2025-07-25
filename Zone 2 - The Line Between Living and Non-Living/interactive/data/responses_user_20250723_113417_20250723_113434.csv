@@ -1,0 +1,21 @@
+user_id,experience_level,item_number,item_name,item_file,classification,timestamp,response_time_seconds
+user_20250723_113417,ALIFE researcher/professional,1,Mountain,mountain.jpg,living,2025-07-23T11:34:20.824361,3.058437
+user_20250723_113417,ALIFE researcher/professional,2,Bird,bird.jpg,non-living,2025-07-23T11:34:22.226053,4.460129
+user_20250723_113417,ALIFE researcher/professional,3,Tree,tree.jpg,non-living,2025-07-23T11:34:23.182259,5.416335
+user_20250723_113417,ALIFE researcher/professional,4,Tornado,tornado.mp4,living,2025-07-23T11:34:23.847457,6.081533
+user_20250723_113417,ALIFE researcher/professional,5,Mushroom,mushroom.jpg,non-living,2025-07-23T11:34:24.523184,6.75726
+user_20250723_113417,ALIFE researcher/professional,6,Flower,flower.jpg,non-living,2025-07-23T11:34:25.236545,7.470621
+user_20250723_113417,ALIFE researcher/professional,7,Yeast,yeast.jpg,living,2025-07-23T11:34:25.887379,8.121455
+user_20250723_113417,ALIFE researcher/professional,8,Coral,coral.jpg,non-living,2025-07-23T11:34:26.414510,8.648586
+user_20250723_113417,ALIFE researcher/professional,9,River,river.jpg,living,2025-07-23T11:34:27.006154,9.24023
+user_20250723_113417,ALIFE researcher/professional,10,Thermostat,thermostat.jpg,living,2025-07-23T11:34:27.678326,9.912402
+user_20250723_113417,ALIFE researcher/professional,11,Computer,computer.jpg,non-living,2025-07-23T11:34:28.476528,10.710604
+user_20250723_113417,ALIFE researcher/professional,12,Virus,virus.jpg,living,2025-07-23T11:34:29.221468,11.455544
+user_20250723_113417,ALIFE researcher/professional,13,Fish,fish.jpg,living,2025-07-23T11:34:29.833836,12.067912
+user_20250723_113417,ALIFE researcher/professional,14,Fire,fire.jpg,living,2025-07-23T11:34:30.500902,12.734978
+user_20250723_113417,ALIFE researcher/professional,15,Robot,robot.jpg,non-living,2025-07-23T11:34:31.094923,13.328999
+user_20250723_113417,ALIFE researcher/professional,16,Clock,clock.jpg,living,2025-07-23T11:34:31.788819,14.022895
+user_20250723_113417,ALIFE researcher/professional,17,Bacteria,bacteria.jpg,non-living,2025-07-23T11:34:32.389464,14.62354
+user_20250723_113417,ALIFE researcher/professional,18,Dog,dog.jpg,living,2025-07-23T11:34:33.083974,15.31805
+user_20250723_113417,ALIFE researcher/professional,19,Volcano,volcano.jpg,non-living,2025-07-23T11:34:34.189680,16.423756
+user_20250723_113417,ALIFE researcher/professional,20,Car,car.jpg,living,2025-07-23T11:34:34.797446,17.031522

@@ -24,7 +24,7 @@ Wet ALife experiments bring us face-to-face with the very building blocks and pr
 
 These ground-breaking efforts are not just about mimicking life; they are about understanding its fundamental principles so deeply that we can build it, molecule by molecule, from the ground up.
 
-# Re-thinking Life: From Origins to New Frontiers
+# Re-thinking Life
 
 Wet Artificial Life carries huge implications for our understanding of life itself, from its deep past to its imagined future.
 
