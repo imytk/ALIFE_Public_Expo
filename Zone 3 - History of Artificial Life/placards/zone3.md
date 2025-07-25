@@ -1,8 +1,8 @@
-\# Ancient Dreams \& Mechanical Wonders
+# Ancient Dreams \& Mechanical Wonders
 
 
 
-The desire to create artificial life is as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have questioned the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that move, react, and even "think."
+The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have questioned the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that move, react, and even "think."
 
 
 
@@ -26,7 +26,7 @@ These mechanical marvels weren't truly "alive," but they still showcased an earl
 
 
 
-\# From Automata to Algorithms
+# From Automata to Algorithms
 
 
 
@@ -54,7 +54,7 @@ These pioneers began to sketch out a radical new idea: that life might be unders
 
 
 
-\# The ALife Field Takes Shape
+# The ALife Field Takes Shape
 
 
 
