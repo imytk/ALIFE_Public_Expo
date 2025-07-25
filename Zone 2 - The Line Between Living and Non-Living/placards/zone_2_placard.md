@@ -1,36 +1,36 @@
 # Where Do You Draw The Line?
 
-From the smallest microbe to the largest whale, we instinctively recognize "life." Yet, when you truly think about it, what exactly makes something alive? Is it movement? Growth? Intelligence?
+From the smallest microbe to the largest whale, we instinctively recognize "life" when we see it. Yet, when you truly think about it, what exactly makes something alive? Is it movement? Growth? Intelligence? Autonomy?
 
-For centuries, scientists, philosophers, and curious minds have grappled with this profound question. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
+Scientists, philosophers, and curious minds have grappled with this question for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
 
-In this zone, we invite you to confront this fuzzy boundary. What qualities do you believe are truly essential for something to be considered alive? Get ready to challenge your assumptions and explore the very definition of existence!
+In this zone, we invite you to think about this boundary and how *you* draw the distinction (and why). What qualities do you believe are truly essential for something to be considered alive? Perhaps something you see here will challenge these assumptions and make you change your mind!
 
 # The Characteristics of Life: A Scientific View
 
-To help define and classify the myriad forms we encounter, scientists often rely on a set of seven universally accepted characteristics. Most entities we definitively call "alive" exhibit all of these properties. If something misses even one, its "life status" becomes a topic of debate!
+To help define and classify the wide variety of "life" forms we encounter, scientists often rely on a set of seven universally accepted characteristics (although this is sometimes challenged!). Most entities we definitively call "alive" exhibit all of these properties. If something misses even one, its "life status" becomes a topic of debate!
 
 Let's explore these key features:
 
-- Organization: Living things are highly ordered and complex. They're built from specialized parts (like cells) that work together in a structured way. Think of how intricately built a leaf or an eye is.
+- Organization: Living things are highly ordered and complex. They're built from specialized parts (like cells) that work together in a structured way. Consider the intricate internal machinery of a single cell, or the precise arrangement of organs within an animal.
 
-- Metabolism: All living organisms take in energy and materials from their environment and transform them to grow, reproduce, and maintain themselves. This is how they fuel life's processes. Like a car needs fuel, a living thing needs food or sunlight.
+- Metabolism: All living organisms take in energy and materials from their environment and transform them to grow, reproduce, and maintain themselves. This is how they fuel life's processes. From a plant converting sunlight into sugars, to an animal breaking down food for energy, life is a constant chemical transformation.
 
-- Homeostasis: Life actively maintains a stable internal environment, even when external conditions change drastically. This internal balance is vital for survival. Your body's ability to keep its temperature steady is a great example.
+- Homeostasis: Life actively maintains a stable internal environment, even when external conditions change drastically. This internal balance is vital for survival. Your body's ability to maintain a steady temperature (you will sweat if you get too hot), or a fish regulating salt levels in its blood, demonstrates this homeostatic balance at play.
 
-- Growth: Living organisms increase in size and often complexity throughout their lives. This isn't just swelling; it's an organized increase in cellular material. From a tiny seed to a towering tree.
+- Growth: Living organisms increase in size and often complexity throughout their lives. This isn't just swelling; it's an organized increase in cellular material. Watch a single-celled embryo develop into a complex animal, or a tiny seedling grow into a towering oak.
 
-- Reproduction: The ability to produce offspring, passing on genetic information to the next generation, is fundamental to the continuation of a species. Whether it's cells dividing or animals having babies.
+- Reproduction: The ability to produce offspring, passing on genetic information to the next generation, is fundamental to the continuation of a species.  From a bacterium splitting into two identical copies, to a bird laying eggs, life creates more of itself, passing on its blueprint.
 
-- Response to Stimuli: Living things react to changes in their environment. This can be as simple as a plant turning towards light or as complex as an animal fleeing danger. Touch a hot stove, and you pull your hand away.
+- Response to Stimuli: Living things react to changes in their environment. This can be as simple as a plant turning towards light or as complex as an animal fleeing danger. A plant turning its leaves towards the sun, or reflexively pulling your hand from a hot stove, are all forms of response to the outside world.
 
-- Adaptation: Over many generations, populations of living things evolve and change to better suit their environment, increasing their chances of survival. The chameleon's camouflage is an adaptation.
+- Adaptation: Over many generations, populations of living things evolve and change to better suit their environment, increasing their chances of survival. The polar bear's thick fur in the Arctic, or bacteria developing antibiotic resistance, are testaments to life's adaptability over generations.
 
 In the next section, you will be presented with a series of images and videos of different system and phenomena: you can think about which of these hallmarks are present or missing, and whether the systems you see are alive (or not!)
 
 # The Ambiguity Zone: Life's Edges
 
-The truth is, many fascinating systems exist right on the fringes of our definition of life. They often possess some, but not all, of the characteristics we just explored.
+The truth is, many interesting systems exist right on the fringes of our definition of life. They often possess some, but not all, of the characteristics we just explored.
 
 Consider these examples:
 
