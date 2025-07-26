@@ -14,7 +14,7 @@ Artificial Life (ALife) isn't about copying existing organisms and creating real
 
 Instead, it's about studying life by building simplified systems that exhibit life-like behaviors – even if they're not made of the same things as other living systems.
 
-We use many tools, ranging from computers and software, robots, chemistry, and even a combination of all these things, to explore some really important questions:
+We use many tools, ranging from computers and software, robots, chemistry, and even combinations of all these things, to explore some really important questions:
 
 - How do complex and stable patterns emerge from surprisingly simple rules? Think of a flock of birds, where no single bird directs the entire swarm, yet incredible patterns emerge.
 
