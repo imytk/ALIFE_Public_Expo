@@ -16,13 +16,13 @@ Let's explore these key features:
 
 - Metabolism: All living organisms take in energy and materials from their environment and transform them to grow, reproduce, and maintain themselves. This is how they fuel life's processes. From a plant converting sunlight into sugars, to an animal breaking down food for energy, life is a constant chemical transformation.
 
-- Homeostasis: Life actively maintains a stable internal environment, even when external conditions change drastically. This internal balance is vital for survival. Your body's ability to maintain a steady temperature (you will sweat if you get too hot), or a fish regulating salt levels in its blood, demonstrates this homeostatic balance at play.
+- Homeostasis: Life actively maintains a stable internal environment, even when external conditions change drastically. This internal balance is vital for survival. Your body's ability to maintain a steady temperature - you will sweat if you get too hot - or a fish regulating salt levels in its blood both demonstrate this homeostatic balance at play.
 
 - Growth: Living organisms increase in size and often complexity throughout their lives. This isn't just swelling; it's an organized increase in cellular material. Watch a single-celled embryo develop into a complex animal, or a tiny seedling grow into a towering oak.
 
 - Reproduction: The ability to produce offspring, passing on genetic information to the next generation, is fundamental to the continuation of a species.  From a bacterium splitting into two identical copies, to a bird laying eggs, life creates more of itself, passing on its blueprint.
 
-- Response to Stimuli: Living things react to changes in their environment. This can be as simple as a plant turning towards light or as complex as an animal fleeing danger. A plant turning its leaves towards the sun, or reflexively pulling your hand from a hot stove, are all forms of response to the outside world.
+- Response to Stimuli: Living things react to changes in their environment. This can be as simple as a plant turning towards light, or as complex as an animal fleeing danger. A plant turning its leaves towards the sun, or reflexively pulling your hand from a hot stove, are all forms of response to the outside world.
 
 - Adaptation: Over many generations, populations of living things evolve and change to better suit their environment, increasing their chances of survival. The polar bear's thick fur in the Arctic, or bacteria developing antibiotic resistance, are testaments to life's adaptability over generations.
 
