@@ -26,7 +26,7 @@ How do you design something truly innovative without knowing exactly what it sho
 
 Instead of working with DNA, we work with digital "genes" – strings of code that define the characteristics of our virtual creatures, robots, or even artistic designs. We create a "population" of these digital individuals, then set up a "fitness function" – a measure of how "good" each individual is at solving a problem (e.g., how fast a virtual robot walks, or how aesthetically pleasing an image is).
 
-Then, we simulate the evolutionary cycle:
+Next, we simulate the evolutionary cycle:
 
 - Selection: The "fittest" individuals are chosen.
 
