@@ -6,7 +6,7 @@ The desire to create artificial life is almost as old as humanity itself. For mi
 
 
 
-This fascination materialized into mechanical wonders long before the advent of computers. Skilled artisans and engineers crafted elaborate automatons: intricate clockwork figures designed to mimic life with astonishing fidelity. Some examples you might already be familiar with include:
+This fascination materialized into mechanical wonders, long before the advent of computers, when skilled artisans and engineers crafted elaborate automatons (intricate clockwork figures designed to mimic life with astonishing fidelity). Some examples you might already be familiar with include:
 
 
 
@@ -58,7 +58,7 @@ These pioneers began to sketch out a radical new idea: that life might be unders
 
 
 
-While the ideas had simmered for centuries, the field of Artificial Life as a distinct scientific discipline was formally born in September 1987 with the first international workshop held in Los Alamos, New Mexico. Organized by visionary researcher Christopher Langton, this pivotal event brought together scientists from diverse fields – computer science, biology, physics, mathematics, and philosophy.
+While the ideas had been simmering for centuries, the field of Artificial Life as a distinct scientific discipline was formally born in September 1987 with the first international workshop held in Los Alamos, New Mexico. Organized by visionary researcher Christopher Langton, this pivotal event brought together scientists from many diverse fields, including computer science, biology, physics, mathematics, and philosophy.
 
 
 
