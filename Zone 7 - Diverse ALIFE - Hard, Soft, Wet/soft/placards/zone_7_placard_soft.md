@@ -1,12 +1,12 @@
-# Soft ALife: Life In Lines of Code
+# Soft ALife: Life in Lines of Code
 
 Welcome to the realm of Soft Artificial Life, where the medium for creating life-like systems is purely computational. Here, "life" doesn't rely on biological cells or physical bodies, but emerges from algorithms, data structures, and the raw processing power of computers.
 
 Think of it as creating entire universes within a computer's memory. Researchers define simple digital rules and initial conditions, then let these virtual "bits" and "agents" interact. What results can be astonishingly complex and dynamic, mimicking natural phenomena from evolution to self-organization.
 
-This branch of ALife allows us to rapidly test theories, explore vast spaces of possibility, and witness "life" unfold at speeds impossible in the physical world. It's about understanding the fundamental logic of life, abstracting it from its biological substrate.
+This branch of ALife allows us to rapidly test theories, explore vast spaces of possibility, and witness "life" unfold at speeds impossible in the physical world. It's about understanding the fundamental logic of life by abstracting it from its biological substrate.
 
-# Creating Digital Worlds, From Pixels to Ecosystems
+# Creating Digital Worlds, from Pixels to Ecosystems
 
 Soft ALife isn't just theory; it's about building vibrant, self-sustaining digital worlds that exhibit profound life-like properties.
 
@@ -30,5 +30,5 @@ Why dedicate an entire field to creating "life" that isn't physical? Soft ALife 
 
 - Engineering & Design: Evolutionary algorithms developed in Soft ALife are now used to optimize everything from antenna designs to drug discovery and supply chain logistics.
 
-By exploring life's principles in their most abstract form, Soft ALife illuminates the underlying dynamics of all complex adaptive systems, pushing the boundaries of what we can understand and what we can build.
+By exploring life's principles in their most abstract form, Soft ALife illuminates the underlying dynamics of all complex adaptive systems, pushing the boundaries of what we can understand as well as what we can build.
 
