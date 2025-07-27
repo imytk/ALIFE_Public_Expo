@@ -2,7 +2,7 @@
 
 
 
-We live in the "Anthropocene", an age where humans are changing the planet like never before, and our new creations come with huge responsibilities. As we continue to learn abou and even create "life", and systems that can learn, adapt, and even make decisions on their own, we face big questions about right and wrong. Many practitioners of ALife recognize their role in this. It's vital that we think carefully about:
+We live in the "Anthropocene", an age where humans are changing the planet like never before, and our new creations come with huge responsibilities. As we continue to learn about and even create "life", and systems that can learn, adapt, and even make decisions on their own, we face big questions about right and wrong. Many practitioners of ALife recognize their role in this. It's vital that we think carefully about:
 
 
 
