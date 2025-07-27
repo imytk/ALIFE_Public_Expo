@@ -30,12 +30,12 @@ In ALife, we study these phenomena by building simple models of interacting agen
 
 In the realm of Artificial Life, embracing "complexity from simplicity" is more than just a theoretical curiosity – it's a powerful methodology for design and discovery. Instead of programming every action for a robot or virtual creature, ALife researchers often focus on defining just a few fundamental interaction rules.
 
-This "bottom-up" approach yields several profound advantages:
+This "bottom-up" approach provides several advantages:
 
 - Robustness: Systems built on simple, local rules tend to be incredibly resilient. If one part fails, the whole system can often adapt and continue to function, as the collective behavior isn't dependent on any single point of control. Think of an ant colony: even if a few ants are removed, the colony will still thrive.
 
-- Scalability: It's easier to scale up a system by simply adding more simple agents, rather than trying to manage an ever-growing list of complex global instructions. This makes it ideal for simulations with millions of interacting elements, or large robot swarms.
+- Scalability: It's easier to scale up a system by simply adding more simple agents, rather than trying to manage an ever-growing list of complex global instructions. Focusing on simple rules results in more efficient simulations when we have hundreds or even millions of interacting elements, like large robot swarms or social simulations.
 
 - Discovery of Novel Solutions: When complexity emerges, it often leads to unexpected and innovative behaviors that a human designer might never have anticipated. This "unintended intelligence" can reveal new ways to solve problems in engineering, optimization, and even artificial intelligence.
 
-- From creating realistic crowd simulations to designing self-assembling materials and understanding the fundamental building blocks of intelligence, harnessing simple rules to generate profound complexity is at the very heart of how we build and understand "life as it could be."
+- From creating realistic crowd simulations to designing self-assembling materials and understanding the fundamental building blocks of intelligence, harnessing simple rules to generate complexity is at the very heart of how we build and understand "life as it could be."
