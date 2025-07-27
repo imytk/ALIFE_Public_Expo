@@ -26,7 +26,7 @@ Let's explore these key features:
 
 - Adaptation: Over many generations, populations of living things evolve and change to better suit their environment, increasing their chances of survival. The polar bear's thick fur in the Arctic, or bacteria developing antibiotic resistance, are testaments to life's adaptability over generations.
 
-In the next section, you will be presented with a series of images and videos of different system and phenomena: you can think about which of these hallmarks are present or missing, and whether the systems you see are alive (or not!)
+In the next section, you will be presented with a series of images and videos of different systems and phenomena: you can think about which of life's hallmarks are present or missing, and whether the systems you see are alive (or not!)
 
 # The Ambiguity Zone: Life's Edges
 
