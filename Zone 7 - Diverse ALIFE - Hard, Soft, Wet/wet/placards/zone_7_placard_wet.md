@@ -22,13 +22,13 @@ Wet ALife experiments bring us face-to-face with the very building blocks and pr
 
 - Synthetic Biology: This related field uses engineering principles to redesign or build new biological components and systems. Scientists can re-engineer bacteria to produce drugs, detect toxins, or even act as tiny "computers", pushing the boundaries of what biological systems can do.
 
-These ground-breaking efforts are not just about mimicking life; they are about understanding its fundamental principles so deeply that we can build it, molecule by molecule, from the ground up.
+These ground-breaking efforts are not just about mimicking life; they are about understanding its fundamental principles at a level so deep that we can build life, molecule by molecule, from the ground up.
 
 # Re-thinking Life
 
 Wet Artificial Life carries huge implications for our understanding of life itself, from its deep past to its imagined future.
 
-- Understanding Life's Origins (Abiogenesis): By demonstrating how "life-like" properties can spontaneously arise from non-living chemicals, Wet ALife provides crucial clues about how life might have first emerged on Earth billions of years ago. It helps us reconstruct the step-by-step process from simple molecules to complex living cells.
+- Understanding Life's Origins (Abiogenesis): By demonstrating how "life-like" properties can spontaneously arise from non-living chemicals, Wet ALife provides crucial clues about how life might have first emerged billions of years ago on Earth. It helps us reconstruct the step-by-step process from simple molecules to complex living cells.
 
 - Beyond Carbon-Based Life: Wet ALife allows us to explore theoretical life forms based on entirely different chemical principles, expanding our imagination for what extra-terrestrial life might look like.
 
@@ -36,4 +36,4 @@ Wet Artificial Life carries huge implications for our understanding of life itse
 
 - Ethical Frontiers: As we approach the ability to synthesize truly life-like systems, Wet ALife sparks crucial ethical debates about responsibility, definition, and the very nature of creation.
 
-Wet ALife is perhaps the most audacious frontier, attempting to recreate the very spark of life, not just in simulation, but in the physical reality of the lab.
+Wet ALife is perhaps the most audacious frontier — it attempts to recreate the very spark of life, not just in simulation, but in the physical reality of the lab.
