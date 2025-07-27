@@ -2,7 +2,7 @@
 
 Welcome to the realm of Soft Artificial Life, where the medium for creating life-like systems is purely computational. Here, "life" doesn't rely on biological cells or physical bodies, but emerges from algorithms, data structures, and the raw processing power of computers.
 
-Think of it as creating entire universes within a computer's memory. Researchers define simple digital rules and initial conditions, then let these virtual "bits" and "agents" interact. What results can be astonishingly complex and dynamic, mimicking natural phenomena from evolution to self-organization.
+Think of it as creating entirely new universes within a computer's memory. Researchers define simple digital rules and initial conditions, then let these virtual "bits" and "agents" interact. What results can be astonishingly complex and dynamic, mimicking natural phenomena from evolution to self-organization.
 
 This branch of ALife allows us to rapidly test theories, explore vast spaces of possibility, and witness "life" unfold at speeds impossible in the physical world. It's about understanding the fundamental logic of life by abstracting it from its biological substrate.
 
