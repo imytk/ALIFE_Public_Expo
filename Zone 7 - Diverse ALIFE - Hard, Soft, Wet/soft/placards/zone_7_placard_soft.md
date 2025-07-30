@@ -8,7 +8,7 @@ This branch of ALife allows us to rapidly test theories, explore vast spaces of 
 
 # Creating Digital Worlds, from Pixels to Ecosystems
 
-Soft ALife isn't just theory; it's about building vibrant, self-sustaining digital worlds that exhibit profound life-like properties.
+Soft ALife isn't just theory; it's about building vibrant, self-sustaining digital worlds that can explore or exhibit life-like properties.
 
 - Agent-Based Models & Virtual Ecosystems: Using a technique called Agent-Based Modelling (ABM), researchers create digital "habitats" where countless individual "agents" (abstract organisms, virtual people, or economic entities) follow simple rules. Their collective interactions lead to complex emergent behaviors, allowing us to study ecological dynamics, the spread of diseases, social trends, and the long-term effects of environmental changes in a controlled, accelerated environment.
 
