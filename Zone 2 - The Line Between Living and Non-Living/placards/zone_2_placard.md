@@ -1,10 +1,10 @@
 # Where Do You Draw The Line?
 
-From the smallest microbe to the largest whale, we instinctively recognize "life" when we see it. Yet, when you truly think about it, what exactly makes something alive? Is it movement? Growth? Intelligence? Autonomy?
+From the smallest microbe to the largest whale, we instinctively recognize "life" when we see it. But peel back the surface, and the question of what exactly makes a system truly alive becomes surprisingly difficult to answer. What exactly makes something alive? Is it movement? Growth? Intelligence? Autonomy? Or is there a deeper, more fundamental essence that defines the very spark of life?
 
-Scientists, philosophers, and curious minds have grappled with this question for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
+This isn't a simple checklist. Scientists, philosophers, and curious minds have grappled with this question for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
 
-In this zone, we invite you to think about this boundary and how *you* draw the distinction (and why). What qualities do you believe are truly essential for something to be considered alive? Perhaps something you see here will challenge these assumptions and make you change your mind!
+In this zone, we invite you to step into this ambiguity. Actively consider this boundary and how you draw the distinction – and why. What qualities do you believe are truly essential for a system to be considered alive? Be prepared: the examples and ideas presented here may challenge your assumptions and make you rethink your definition entirely!
 
 # The Characteristics of Life: A Scientific View
 
