@@ -30,7 +30,7 @@ These pioneers began to sketch out a radical new idea: that life might be unders
 
 # The ALife Field Takes Shape
 
-While the ideas had been simmering for centuries, the field of Artificial Life as a distinct scientific field was formally born in September 1987 with the first international workshop held in Los Alamos, New Mexico. Organized by visionary researcher Christopher Langton, this pivotal event brought together scientists from many diverse fields, including computer science, biology, physics, mathematics, and philosophy.
+While the ideas had been simmering for centuries, the field of Artificial Life as a distinct scientific field was formally born in September 1987, with the first international workshop held in Los Alamos, New Mexico. Organized by visionary researcher Christopher Langton, this pivotal event brought together scientists from many diverse fields, including computer science, biology, physics, mathematics, and philosophy.
 
 Langton famously articulated the core philosophy of this new field: *"life as it could be."* The goal was not just to simulate known life, but to synthesize, or build, artificial systems that exhibit the fundamental properties of life — like metabolism, self-organization, adaptation, and reproduction — regardless of their underlying material.
 
@@ -40,7 +40,7 @@ This marked a revolutionary shift:
 
 * **From Biology to Universal Principles**: Seeking to uncover the universal laws of life, which are applicable whether the medium is carbon, silicon, or something entirely alien.
 
-* **A Thriving Community**: Since 1987, the ALife community has grown exponentially, with regular conferences, dedicated journals, and research groups worldwide, driving innovation in areas like robotics, artificial intelligence, evolutionary computation, and synthetic biology. Researchers from those early ALife conferences are still alive and active in this community!
+* **From Obscurity to a Thriving Community**: Since 1987, the ALife community has grown exponentially, with regular conferences, dedicated journals, and research groups worldwide, driving innovation in areas like robotics, artificial intelligence, evolutionary computation, and synthetic biology. Researchers from those early ALife conferences are still alive and active in this community!
 
 The modern era of Artificial Life continues to challenge our deepest assumptions about what it means to be alive, pushing the boundaries of science and inviting us to imagine life in all its myriad forms.
 
