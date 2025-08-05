@@ -1,18 +1,18 @@
 # Where Do You Draw The Line?
 
-From the smallest microbe to the largest whale, we instinctively recognize "life" when we see it. But peel back the surface, and the question of what exactly makes a system truly alive becomes surprisingly difficult to answer. What exactly makes something alive? Is it movement? Growth? Intelligence? Autonomy? Or is there a deeper, more fundamental essence that defines the very spark of life?
+From the smallest microbe to the largest whale, we often feel we instinctively recognize "life" when we see it. But peel back the surface, and the question of what exactly makes a system truly alive becomes surprisingly difficult to answer. What exactly makes something alive? Is it simply movement? Growth? Intelligence? Autonomy? Or is there a deeper, more fundamental essence that defines the very spark of life?
 
-This isn't a simple checklist. Scientists, philosophers, and curious minds have grappled with this question for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
+This isn't a simple checklist. Scientists, philosophers, and curious minds have grappled with this mystery for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
 
 In this zone, we invite you to step into this ambiguity. Actively consider this boundary and how you draw the distinction – and why. What qualities do you believe are truly essential for a system to be considered alive? Be prepared: the examples and ideas presented here may challenge your assumptions and make you rethink your definition entirely!
 
 # The Characteristics of Life: A Scientific View
 
-To help define and classify the wide variety of "life" forms we encounter, scientists often rely on a set of seven universally accepted characteristics (although this is sometimes challenged!). Most entities we definitively call "alive" exhibit all of these properties. If something misses even one, its "life status" becomes a topic of debate!
+To help define and classify the wide variety of "life" forms we encounter, scientists often rely on a set of universally accepted characteristics (although this is sometimes challenged!). Most entities we definitively call "alive" exhibit all of these properties. If something misses even one, its "life status" becomes a topic of debate!
 
-Let's explore these key features:
+Let's explore these characteristics with some examples:
 
-- Organization: Living things are highly ordered and complex. They're built from specialized parts (like cells) that work together in a structured way. Consider the intricate internal machinery of a single cell, or the precise arrangement of organs within an animal.
+- Organization: Living things are highly ordered and complex. They're built from specialized parts (like cells) that work together in a structured way. Consider the internal machinery of a single cell, or the precise arrangement of organs within an animal, that interact to keep these systems alive.
 
 - Metabolism: All living organisms take in energy and materials from their environment and transform them to grow, reproduce, and maintain themselves. This is how they fuel life's processes. From a plant converting sunlight into sugars, to an animal breaking down food for energy, life is a constant chemical transformation.
 
@@ -26,11 +26,19 @@ Let's explore these key features:
 
 - Adaptation: Over many generations, populations of living things evolve and change to better suit their environment, increasing their chances of survival. The polar bear's thick fur in the Arctic, or bacteria developing antibiotic resistance, are testaments to life's adaptability over generations.
 
-In the next section, you will be presented with a series of images and videos of different systems and phenomena: you can think about which of life's hallmarks are present or missing, and whether the systems you see are alive (or not!)
+However, while these hallmarks of life are useful tools, they can sometimes be misleading. Many non-living systems, from natural phenomena to human inventions, can exhibit one or two of these characteristics in interesting, but ultimately superficial, ways. These are not living things, but they serve as excellent examples of how a single property of life can be mimicked in the absence of all the others. Consider the following examples and ask yourself: what is missing that prevents them from being truly alive?
 
-# The Ambiguity Zone: Life's Edges
+- Reproduction: An assembly line uses a blueprint to create thousands of identical cars, much like a bacterium divides to create a new cell.
 
-The truth is, many interesting systems exist right on the fringes of our definition of life. They often possess some, but not all, of the characteristics we just explored.
+- Growth: A salt crystal in a solution grows larger and larger as more molecules attach to it, similar to a plant adding new cells to its leaves.
+
+- Response to Stimuli: A motion-activated light turns on when it detects movement, much like a plant turning its leaves towards the sun.
+
+- Adaptation: An evolutionary algorithm "evolves" a computer program over thousands of generations to become better at walking, mimicking the process of natural selection.
+
+# The Fringes That Cause the Debates
+
+The truth is, many interesting systems exist right on the fringes of our definition of life. These are not simple imitations, but rather ambiguous entities that possess some (but not all) of the characteristics we just explored. These are the systems that make us truly question where we draw the line.
 
 Consider these examples:
 
@@ -45,3 +53,5 @@ Consider these examples:
 - Artificial Systems: As we engineer increasingly sophisticated robots, artificial intelligences, and even synthetic cells in the lab, we are actively pushing the boundaries of what's possible. These creations force us to ask: If an artificial system could truly adapt, reproduce, and self-organize without biological components, would it be alive?
 
 The definition of "life" is not a fixed, simple checklist. It's a dynamic, evolving concept that continues to be debated and refined as science advances and we encounter new phenomena. This ongoing inquiry is at the heart of Artificial Life!
+
+In the next section, you will be presented with a series of images and videos of different systems and phenomena: you can think about which of life's characteristics or propertiies are present or missing, and whether the systems you see are alive (or not!)
