@@ -15,7 +15,7 @@ These mechanical marvels weren't truly "alive," but they still showcased an earl
 
 # From Automata to Algorithms
 
-The true leap towards modern Artificial Life came not just from mechanical ingenuity, but from the realization that the logic of life could be separated from its physical manifestation. The mid-20th century saw groundbreaking ideas that shifted the focus from building physical machines to understanding the underlying computational and informational processes of life.
+The true leap towards modern Artificial Life (Alife) came not just from mechanical ingenuity, but from the realization that the logic of life could be separated from its physical manifestation. The mid-20th century saw groundbreaking ideas that shifted the focus from building physical machines to understanding the underlying computational and informational processes of life.
 
 Key figures and concepts that ignited this shift include:
 
