@@ -22,7 +22,7 @@ We use many tools, ranging from computers and software, robots, chemistry, and e
 
 ALife helps us understand both the life around us and the possibilities of life yet undiscovered – on other planets, or even in our own designs.
 
-# The ALife Approach - Building to Understand
+# The ALife Approach — Building to Understand
 
 While traditional biology primarily observes and analyzes existing living organisms ("life as it is"), Artificial Life gives us a chance to try a different approach: we build it to understand it. 
 Imagine trying to understand how a colony of thousands of ants, with no single leader, can collectively find the shortest path to food. The ALife approach is to build a single digital ant, give it a few simple rules, and then release thousands of these ants into a simulated environment to see whether the colony-level intelligence we observe in nature will emerge on its own.
