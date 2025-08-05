@@ -20,7 +20,7 @@ We use many tools, ranging from computers and software, robots, chemistry, and e
 
 - What are the absolute minimum ingredients needed for something to be considered "alive"? How will we know when we see it? Can we find that spark of life in a computer program, a robot, or even a test tube?
 
-ALife helps us understand both the life around us and the possibilities of life yet undiscovered – on other planets, or even in our own designs.
+ALife helps us understand both the life around us and the possibilities of life yet undiscovered — on other planets, or even in our own designs.
 
 # The ALife Approach — Building to Understand
 
