@@ -54,4 +54,4 @@ Consider these examples:
 
 The definition of "life" is not a fixed, simple checklist. It's a dynamic, evolving concept that continues to be debated and refined as science advances and we encounter new phenomena. This ongoing inquiry is at the heart of Artificial Life!
 
-In the next section, you will be presented with a series of images and videos of different systems and phenomena: you can think about which of life's characteristics or propertiies are present or missing, and whether the systems you see are alive (or not!)
+In the next section, you will be presented with a series of images and videos of different systems and phenomena: you can think about which of life's characteristics or properties are present or missing, and whether the systems you see are alive (or not!)
