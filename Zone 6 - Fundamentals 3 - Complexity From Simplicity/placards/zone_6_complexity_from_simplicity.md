@@ -1,6 +1,6 @@
 # Unpacking Complexity
 
-When we look at the world, we often use the word "complex" to describe something intricate or difficult.  But in science (including the world of ALife), "complexity" has a very specific meaning—and it's not the same as being "complicated"!
+When we look at the world, we often use the word "complex" to describe something intricate or difficult.  But in science (including the world of ALife), "complexity" has a very specific meaning — and it's not the same as being "complicated"!
 
 A complicated system (like a high-tech watch, or a jet engine) has many parts, but its behavior is often predictable. Every part has a defined role, and the system has been built from the top down, piece by piece, following a detailed plan. If you know the parts, you can predict the whole.
 
