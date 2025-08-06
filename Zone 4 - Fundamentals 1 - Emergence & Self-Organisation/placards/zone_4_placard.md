@@ -2,7 +2,7 @@
 
 Have you ever marvelled at the synchronized ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't. This astonishing phenomenon is called "emergence".
 
-Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands. Each bird follows a few basic rules (including "stay close to your neighbors," "don't crash," "match speed"), and from these humble beginnings, beautiful and "intelligent" global patterns start to appear.
+Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands. Each bird follows a few basic rules (like "stay close to your neighbors," "don't crash," or "match speed"), and from these humble beginnings, beautiful and "intelligent" global patterns start to appear.
 
 In Artificial Life, we're fascinated by the idea of emergence. We design virtual worlds where agents follow simple instructions, and then we watch as unexpected, "lifelike" behaviors spontaneously blossom.  It's a reminder that complexity does not arise solely from a grand design, or from instructions that dictate how everything needs to behave. Instead, complexity can start from the "bottom up" — from simple rules that bring about unexpected phenomena.
 
@@ -26,6 +26,6 @@ This bottom-up approach is incredibly powerful. It allows us to:
 
 - **Design Resilient Systems**: Create computer networks, robotic swarms, and even smart cities that can adapt and recover from failures without needing a central controller.
 
-- **Explore Novel Forms of Life**: Imagine forms of life that don't need a single "body" or "brain," but exist as distributed, self-organizing networks of interacting components.
+- **Explore Novel Forms of Life**: Imagine forms of life that don't need a single "body" or "brain", but exist as distributed, self-organizing networks of interacting components.
 
 By understanding emergence, we gain a crucial tool for building artificial systems that truly behave as if they are alive, adaptive, and intelligent.
