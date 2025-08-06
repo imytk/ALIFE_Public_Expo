@@ -30,6 +30,6 @@ Next, we simulate the evolutionary cycle:
 
 - **Selection**: The "fittest" individuals are chosen to be the next generation of parents.
 
-- **Reproduction & Mutation**: The “genes” of the fittest are combined and slightly altered (mutated) to create a new generation of "offspring."
+- **Reproduction & Mutation**: The “genes” of the fittest are combined and slightly altered (mutated) to create a new generation of "offspring".
 
-Over hundreds or thousands of generations, this can result in surprisingly complex and optimized solutions for a particular problem. This approach lets us explore vast design spaces, discover novel engineering solutions, and even create art that will continually surprise us, all by letting a process akin to natural selection do the "designing."  It's a testament to the universal power of evolution, a force that works just as effectively in silicon as it does in nature.
+Over hundreds or thousands of generations, this can result in surprisingly complex and optimized solutions for a particular problem. This approach lets us explore vast design spaces, discover novel engineering solutions, and even create art that will continually surprise us, all by letting a process akin to natural selection do the "designing".  It's a testament to the universal power of evolution, a force that works just as effectively in silicon as it does in nature.
