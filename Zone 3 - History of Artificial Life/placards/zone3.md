@@ -1,6 +1,6 @@
 # Ancient Dreams \& Mechanical Wonders
 
-The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have investigated the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that move, react, and even "think."
+The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have investigated the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that move, react, and even "think".
 
 Long before the advent of computers, this fascination took shape in mechanical wonders, as skilled artisans and engineers crafted elaborate automatons (intricate clockwork figures designed to mimic life with astonishing fidelity). Some examples you might already be familiar with include:
 
@@ -8,9 +8,9 @@ Long before the advent of computers, this fascination took shape in mechanical w
 
 * **Leonardo da Vinci (c. 1495)**: Designed a mechanical knight that could sit up, wave its arms, and open its visor.
 
-* **Jacques de Vaucanson (18th Century)**: Built incredibly complex, life-sized automatons, including a mechanical duck that could quack, drink water, digest food, and even "excrete."
+* **Jacques de Vaucanson (18th Century)**: Built incredibly complex, life-sized automatons, including a mechanical duck that could quack, drink water, digest food, and even "excrete".
 
-These mechanical marvels weren't truly "alive," but they still showcased an early curiosity about the mechanisms of life and especially the possibility of replicating them. They laid the conceptual groundwork for a science (and a community) that would emerge centuries later.
+These mechanical marvels weren't truly "alive", but they still showcased an early curiosity about the mechanisms of life and especially the possibility of replicating them. They laid the conceptual groundwork for a science (and a community) that would emerge centuries later.
 
 
 # From Automata to Algorithms
