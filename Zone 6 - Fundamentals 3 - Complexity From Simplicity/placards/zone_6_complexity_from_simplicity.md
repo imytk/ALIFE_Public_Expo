@@ -18,7 +18,7 @@ Think of a bustling ant colony, a thriving rainforest, or your own human brain. 
 
 # Local Rules, Global Patterns
 
-This principle isn't just for abstract simulations; it’s currently at play all around us, influencing everything from the traffic on our roads to the trends in our social circles.
+The principle of complexity from simplicity isn't just for abstract simulations; it’s currently at play all around us, influencing everything from the traffic on our roads to the trends in our social circles.
 
 Consider traffic congestion: no single driver intends to create (or believes that they are the cause of) a traffic jam. Yet, when many individual drivers follow simple rules like "maintain a safe distance" and "slow down if the car in front slows," these local interactions can emerge into a global traffic wave or even a complete standstill. The traffic jam is a property of the collective, not a single driver.
 
