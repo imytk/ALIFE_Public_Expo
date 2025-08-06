@@ -2,9 +2,9 @@
 
 Welcome to a world where the very definition of "life" is questioned, reimagined and expanded. Beyond the vibrant tapestry of plants, animals, and microbes we observe in our everyday lives, there lies a whole new world of possibilities where life might emerge in entirely new forms.
 
-In this exhibition, we explore the field of Artificial Life, commonly referred to as "ALife", "Alife" or "A-Life". It is where we ask: What if life isn't _just_ biological in the ways that we know it? What if it could be digital, robotic, or even exist as some chemical system on another planet in our solar system or beyond? How can we determine whether something is "alive" or not?
+In this exhibition, we explore the field of Artificial Life, commonly referred to as "ALife", "Alife", or "A-Life". It is where we ask: What if life isn't *just* biological in the ways that we know it? What if it could be digital, robotic, or even exist as some chemical system on another planet in our solar system or beyond? How can we determine whether something is "alive" or not?
 
-Here, you will not only learn about artificial life in various forms: you will engage with a new way of thinking. Prepare to question your assumptions, play with digital worlds, and discover how the very essence of "life" might not look like you expect. Your journey into "life as it could be" starts here!
+Here, you will not only learn about artificial life in various forms: you will engage with a new way of thinking. Prepare to question your assumptions, play with digital worlds, and discover how the very essence of "life" might not look like you expect. Your journey into *"life as it could be"* starts here!
 
 # What is Artificial Life?
 
