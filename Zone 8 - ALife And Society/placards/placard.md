@@ -6,7 +6,7 @@ We live in the "Anthropocene", an age where humans are changing the planet like 
 
 * **Fairness for All**: Who gets to develop and benefit from these powerful new technologies? ALife's methods and insights can help us design solutions that consider equity from the start, without inadvertently making existing problems worse. We need to make sure these technologies help everyone, not just a few.
 
-* **What Does It Mean to Be Human?** If we can create new forms of "life" in silicon, code, or a test tube, what does that mean for our own place in the world? How do we define and treat these new creations, and how will our relationship with them change what it means for us to be human?
+* **What Does It Mean to Be Human?** If we can create new forms of "life" in silicon, code, or a test tube, then what does that mean for our own place in the world? How do we define and treat these new creations, and how will our relationship with them change what it means for us to be human?
 
 * **Our Interconnectedness**: ALife helps us realize that everything is linked – our actions, our communities, our technology, our environment. They all influence each other in a constant dance of change. 
 
@@ -30,7 +30,7 @@ By embracing this way of thinking, ALife inspires completely new solutions that 
 
 # ALife; You; Us.
 
-Artificial Life isn't just about what's happening in labs today; it's a field that deeply shapes our visions of artificial futures. It helps us imagine "life as it could be" in ways that challenge our minds and spark conversations about what kind of world we want to live in. As new technologies like hybrid living systems and truly autonomous AI with a sense of "agency" emerge, ALife gives us the crucial tools to explore all of their potential impacts: exciting opportunities and new challenges.
+Artificial Life isn't just about what's happening in labs today; it's a field that deeply shapes our visions of artificial futures. It helps us imagine "life as it could be" in ways that challenge our minds and spark conversations about what kind of world we want to live in. As new technologies like hybrid living systems and truly autonomous AI (with a sense of "agency") emerge, ALife gives us the crucial tools to explore all of their potential impacts: exciting opportunities and new challenges.
 
 Moving beyond science fiction, ALife-inspired visions and speculative fiction help us explore the many different possible paths that humanity could take in the Anthropocene. What might life be like when biological and artificial intelligence evolve together and learn from each other? ALife is crucial for helping everyone understand these complex scientific ideas. 
 
