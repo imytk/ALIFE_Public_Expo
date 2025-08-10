@@ -8,13 +8,13 @@ We live in the "Anthropocene", an age where humans are changing the planet like 
 
 * **What Does It Mean to Be Human?** If we can create new forms of "life" in silicon, code, or a test tube, then what does that mean for our own place in the world? How do we define and treat these new creations, and how will our relationship with them change what it means for us to be human?
 
-* **Our Interconnectedness**: ALife helps us realize that everything is linked – our actions, our communities, our technology, our environment. They all influence each other in a constant dance of change. 
+* **Our Interconnectedness**: ALife helps us realize that everything is linked — our actions, our communities, our technology, our environment. They all influence each other in a constant dance of change. 
 
 These next two zones invite you to explore a bigger, more connected idea of what it means to be alive, to understand how we're all part of one grand, evolving system, and to think deeply about what our future looks like as we build it.
 
 # Can We Solve Our Toughest Global Challenges Through ALife?
 
-Beyond the deep questions, Artificial Life research is already giving us amazing tools to tackle the world's biggest and trickiest problems – the "wicked problems" that affect everyone. Many of these, like climate change, poverty, and social inequalities, are so complex that "simple" top-down solutions often fail. Many of the things you've come across so far in this expo, like emergence, complexity, and self-organization, give us clues for how we can use ALife to try to solve these global challenges. It does this by helping us: 
+Beyond the deep questions, Artificial Life research is already giving us amazing tools to tackle the world's biggest and trickiest problems — the "wicked problems" that affect everyone. Many of these, like climate change, poverty, and social inequalities, are so complex that "simple" top-down solutions often fail. Many of the things you've come across so far in this expo, like emergence, complexity, and self-organization, give us clues for how we can use ALife to try to solve these global challenges. It does this by helping us: 
 
 * **Understand Our Planet**: We can build ALife models to predict how climate change will affect ecosystems, help us manage natural resources better, and understand how human activities and the natural world interact in complex, non-linear ways.
 
