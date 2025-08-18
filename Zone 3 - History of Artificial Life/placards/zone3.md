@@ -40,7 +40,7 @@ This marked a revolutionary shift:
 
 * **From Biology to Universal Principles**: Seeking to uncover the universal laws of life, which are applicable whether the medium is carbon, silicon, or something entirely alien.
 
-* **From Obscurity to a Thriving Community**: Since 1987, the ALife community has grown exponentially, with regular conferences, dedicated journals, and research groups worldwide, driving innovation in areas like robotics, artificial intelligence, evolutionary computation, and synthetic biology. Researchers from those early ALife conferences are still alive and active in this community!
+* **From Obscurity to a Thriving Community**: Since 1987, the ALife community has grown exponentially, with regular conferences, dedicated journals, and research groups worldwide, driving innovation in areas like robotics, artificial intelligence, evolutionary computation, and synthetic biology. Many researchers from those early ALife conferences are still active in this community!
 
 The modern era of Artificial Life continues to challenge our deepest assumptions about what it means to be alive, pushing the boundaries of science and inviting us to imagine life in all its myriad forms.
 
