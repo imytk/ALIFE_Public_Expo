@@ -8,7 +8,7 @@ In this zone, we invite you to step into ambiguity. As you actively consider thi
 
 # The Characteristics of Life: A Scientific View
 
-To help define and classify the wide variety of "life" forms we encounter, scientists often rely on a set of universally accepted characteristics (although this is sometimes challenged!). Most entities we definitively call "alive" exhibit all of these properties. If something is missing even one property, that entity's "life status" becomes a topic of debate!
+To help define and classify the wide variety of "life" forms we encounter, scientists often rely on a set of universally accepted characteristics (although this is sometimes challenged!). Most of the entities we definitively call "alive" exhibit all of these properties. If something is missing even one property, that entity's "life status" becomes a topic of debate!
 
 Let's explore these characteristics with some examples:
 
@@ -18,7 +18,7 @@ Let's explore these characteristics with some examples:
 
 - **Homeostasis**: Life actively maintains a stable internal environment, even when external conditions change drastically. This internal balance is vital for survival. Your body's ability to maintain a steady temperature — you will sweat if you get too hot — or a fish regulating salt levels in its blood both demonstrate this homeostatic balance at play.
 
-- **Growth**: Living organisms increase in size and often complexity throughout their lives. This isn't just swelling; it's an organized increase in cellular material. Watch as a single-celled embryo develops into a complex animal, or a tiny seedling grows into a towering oak.
+- **Growth**: Living organisms increase in size (and often complexity) throughout their lives. This isn't just swelling; it's an organized increase in cellular material. Watch as a single-celled embryo develops into a complex animal, or a tiny seedling grows into a towering oak.
 
 - **Reproduction**: The ability to produce offspring, passing on genetic information to the next generation, is fundamental to the continuation of a species.  From a bacterium splitting into two identical copies, to a bird laying eggs, life creates more of itself, passing on its blueprint.
 
