@@ -1,6 +1,6 @@
 # The Unseen Conductor: What is Emergence?
 
-Have you ever marvelled at the synchronized ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't. This astonishing phenomenon is called "emergence".
+Have you ever marvelled at the synchronized ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't! This astonishing phenomenon is called "emergence".
 
 Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands. Each bird follows a few basic rules (like "stay close to your neighbors," "don't crash," or "match speed"), and from these humble beginnings, beautiful and "intelligent" global patterns start to appear.
 
@@ -14,7 +14,7 @@ Consider a snowflake: its intricate, symmetrical structure emerges purely from t
 
 In the world of ALife, we draw immense inspiration from self-organizing systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways, all from the bottom up. These self-organized systems tell us something utterly fascinating: that the universe has an innate capacity for creating order from apparent chaos.
 
-# Creating "Life-like" Complexity: Why Emergence Matters for ALife
+# Creating "Life-Like" Complexity: Why Emergence Matters for ALife
 
 Why are emergence and self-organization so fundamental to Artificial Life? Because they offer a powerful framework for understanding and creating "life-like" properties, without needing to precisely program every single detail. This bottom-up approach is incredibly powerful for both science and engineering.
 
