@@ -4,13 +4,13 @@ Welcome to a world where the very definition of "life" is questioned, reimagined
 
 In this exhibition, we explore the field of Artificial Life, commonly referred to as "ALife", "Alife", or "A-Life". It is where we ask: What if life isn't *just* biological in the ways that we know it? What if it could be digital, robotic, or even exist as some chemical system on another planet in our solar system or beyond? How can we determine whether something is "alive" or not?
 
-Here, you will not only learn about artificial life in various forms: you will engage with a new way of thinking. Prepare to question your assumptions, play with digital worlds, and discover how the very essence of "life" might not look like you expect. Your journey into *"life as it could be"* starts here!
+Here, you will not only learn about artificial life in various forms: you will engage with an entirely new way of thinking. Prepare to question your assumptions, play with digital worlds, and discover how the very essence of "life" might not look like you expect. Your journey into *"life as it could be"* starts here!
 
 # What is Artificial Life?
 
 In the mid-1980s, computer scientist Christopher Langton formally founded the field of Artificial Life, defining it as "the study of artificial systems that exhibit behaviors characteristic of natural living systems." The goal was not simply to replicate nature, but to use a new, synthetic approach to understand the universal principles of life.
 
-Rather than just observing and analyzing existing organisms, ALife researchers build simplified systems from the ground up to explore how life-like properties emerge — even if these systems are not made of the same things as the same living things that we know about. So, deciding which properties to look for, what they look like, and how to decide whether they are "life-like" is not always obvious!
+Rather than just observing and analyzing existing organisms, ALife researchers build simplified systems from the ground up to explore how life-like properties emerge — even if these systems are not made of the same things as the living things that we know about. So, deciding which properties to look for, what they look like, and how to decide whether they are "life-like" is not always obvious!
 
 We use many tools, ranging from computers and software, robots, chemistry, and even combinations of all these things, to explore some really important questions:
 
