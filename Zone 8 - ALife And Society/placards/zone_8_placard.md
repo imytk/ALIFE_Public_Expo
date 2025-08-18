@@ -1,6 +1,6 @@
 # Our Role in Shaping the Future through ALife
 
-We live in the "Anthropocene", an age where humans are changing the planet like never before, and our new creations come with huge responsibilities. As we continue to learn about, model, and even create "life-like" systems that can learn, adapt, and make decisions on their own, our power — and our responsibilities — grow exponentially.  This new era brings with it a host of difficult ethical questions, a fact recognized by many practitioners of ALife. It's vital that we think carefully about:
+We live in the "Anthropocene", an age where humans are changing the planet like never before, and our new creations come with huge responsibilities. As we continue to learn about, model, and even create "life-like" systems that can learn, adapt, and make decisions on their own, our power — and our responsibilities — grow exponentially.  This new era brings with it a host of difficult ethical questions, a fact that is recognized by many practitioners of ALife. It's vital that we think carefully about:
 
 * **Navigating the Unseen**: How do we guide these new "living" technologies that, through emergence and self-organization, can behave in surprising and unpredictable ways? As we design systems with true autonomy, how do we ensure that they act safely, predictably, and in alignment with human values? Who is in charge of these decisions?
 
@@ -14,7 +14,7 @@ These next two zones invite you to explore a bigger, more connected idea of what
 
 # Can We Solve Our Toughest Global Challenges Through ALife?
 
-Beyond the deep questions, Artificial Life research is already giving us amazing tools to tackle the world's biggest and trickiest problems — the "wicked problems" that affect everyone. Many of these, like climate change, poverty, and social inequalities, are so complex that "simple" top-down solutions often fail. Many of the things you've come across so far in this expo, like emergence, complexity, and self-organization, give us clues for how we can use ALife to try to solve these global challenges. It does this by helping us: 
+Beyond the deep questions, Artificial Life research is already giving us amazing tools to tackle the world's biggest and trickiest problems — the "wicked problems" that affect everyone. Many of these, like climate change, poverty, and social inequalities, are so complex that "simple" top-down solutions often fail. Many of the ideas and concepts you've come across so far, like emergence, complexity, and self-organization, give us clues for how we can use ALife to try to solve these global challenges. It does this by helping us: 
 
 * **Understand Our Planet**: We can build ALife models to predict how climate change will affect ecosystems, help us manage natural resources better, and understand how human activities and the natural world interact in complex, non-linear ways.
 
@@ -28,7 +28,7 @@ Beyond the deep questions, Artificial Life research is already giving us amazing
 
 By embracing this way of thinking, ALife inspires completely new solutions that traditional methods might miss, helping us move toward a more sustainable and equitable future for our society and our planet.
 
-# ALife; You; Us.
+# ALife...You...Us
 
 Artificial Life isn't just about what's happening in labs today; it's a field that deeply shapes our visions of artificial futures. It helps us imagine "life as it could be" in ways that challenge our minds and spark conversations about what kind of world we want to live in. As new technologies like hybrid living systems and truly autonomous AI (with a sense of "agency") emerge, ALife gives us the crucial tools to explore all of their potential impacts: exciting opportunities and new challenges.
 
