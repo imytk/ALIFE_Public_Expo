@@ -4,7 +4,7 @@ From the smallest microbe to the largest whale, we often feel that we instinctiv
 
 There isn't a simple checklist. Scientists, philosophers, and curious minds have grappled with this mystery for centuries. The boundary between a "living" organism and "non-living" matter isn't always as clear-cut as it seems, especially as we discover bizarre new entities on Earth, search for life in the cosmos, or even begin to create our own artificial systems.
 
-In this zone, we invite you to step into ambiguity. Ask yourself how you draw the distinction — and why. What qualities do you believe are truly essential for a system to be considered alive? Be prepared: the examples and ideas presented here may challenge your assumptions about life, and may even make you rethink your definition entirely!
+In this zone, we invite you to step into ambiguity. Ask yourself how you draw the distinction between living and non-living — and why. What qualities do you believe are truly essential for a system to be considered alive? Be prepared: the examples and ideas presented here may challenge your assumptions about life, and may even make you rethink your definition entirely!
 
 # The Characteristics of Life: A Scientific View
 
