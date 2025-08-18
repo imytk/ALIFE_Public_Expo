@@ -1,6 +1,6 @@
 # Ancient Dreams \& Mechanical Wonders
 
-The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have investigated the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that move, react, and even "think".
+The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have investigated the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that can move, react, and even "think".
 
 Long before the advent of computers, this fascination took shape in mechanical wonders, as skilled artisans and engineers crafted elaborate automatons (intricate clockwork figures designed to mimic life with astonishing fidelity). Some examples you might already be familiar with include:
 
@@ -8,14 +8,14 @@ Long before the advent of computers, this fascination took shape in mechanical w
 
 * **Leonardo da Vinci (c. 1495)**: Designed a mechanical knight that could sit up, wave its arms, and open its visor.
 
-* **Jacques de Vaucanson (18th Century)**: Built incredibly complex, life-sized automatons, including a mechanical duck that could quack, drink water, digest food, and even "excrete".
+* **Jacques de Vaucanson (18th Century)**: Built incredibly complex, life-sized automatons, including a mechanical duck that could quack, drink water, and even "digest" and "excrete" food.
 
 These mechanical marvels weren't truly "alive", but they still showcased an early curiosity about the mechanisms of life and especially the possibility of replicating them. They laid the conceptual groundwork for a science (and a community) that would emerge centuries later.
 
 
 # From Automata to Algorithms
 
-The true leap towards modern Artificial Life (ALife) came not just from mechanical ingenuity, but from the realization that the logic of life could be separated from its physical manifestation. The mid-20th century saw groundbreaking ideas that shifted the focus from building physical machines to understanding the underlying computational and informational processes of life.
+The true leap towards modern Artificial Life (or "ALife") came not just from mechanical ingenuity, but from the realization that the logic of life could be separated from its physical manifestation. The mid-20th century saw groundbreaking ideas that shifted the focus from building physical machines to understanding the underlying computational and informational processes of life.
 
 Key figures and concepts that ignited this shift include:
 
@@ -32,7 +32,7 @@ These pioneers began to sketch out a radical new idea: that life might be unders
 
 While the ideas had been simmering for centuries, the field of Artificial Life as a distinct scientific field was formally born in September 1987, with the first international workshop held in Los Alamos, New Mexico. Organized by visionary researcher Christopher Langton, this pivotal event brought together scientists from many diverse fields, including computer science, biology, physics, mathematics, and philosophy.
 
-Langton famously articulated the core philosophy of this new field: *"life as it could be."* The goal was not just to simulate known life, but to synthesize, or build, artificial systems that exhibit the fundamental properties of life — like metabolism, self-organization, adaptation, and reproduction — regardless of their underlying material.
+Langton famously articulated the core philosophy of this new field: *"Life as it could be."* The goal was not just to simulate known life, but to synthesize, or build, artificial systems that exhibit the fundamental properties of life — like metabolism, self-organization, adaptation, and reproduction — regardless of their underlying material.
 
 This marked a revolutionary shift:
 
