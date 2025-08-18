@@ -1,4 +1,4 @@
-# The Future of Life and ALife
+# The Future of (A)Life
 
 From ancient myths to the cutting edge of science, the desire to create life is a constant thread in human history. The field of ALife suggests that this dream is a matter of how and when, not if. What might the future look like when we have truly succeeded in creating new forms of life?
 
