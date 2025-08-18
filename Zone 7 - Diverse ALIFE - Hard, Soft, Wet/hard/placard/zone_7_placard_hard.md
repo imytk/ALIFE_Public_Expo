@@ -20,13 +20,13 @@ Hard ALife brings the principles of collective intelligence, adaptation, and phy
 
 - **Bio-Inspired Locomotion**: Some of the most efficient and robust robots are designed to mimic the movements of animals — from insect-like crawling to fish-like swimming to bird-like flight. These designs often leverage simple control mechanisms in tandem with clever body design.
 
-- **Soft Robotics**: Robots aren’t always made of rigid metal! Instead, soft robots are made from flexible materials like silicone or fabric. Their inherent compliance (ability to bend and adapt) allows soft robots to squeeze through tight spaces, grasp delicate objects, and interact safely with humans, while their squishy bodies will often begin to demonstrate emergent behaviors.
+- **Soft Robotics**: Robots aren’t always made of rigid metal! Instead, soft robots are made from flexible materials like silicone or fabric. Their inherent compliance (the ability to bend and adapt) allows soft robots to squeeze through tight spaces, grasp delicate objects, and interact safely with humans, while their squishy bodies will often begin to demonstrate emergent behaviors.
 
 - **Modular & Self-Reconfiguring Robots**: Some robots are designed as collections of interchangeable modules that can connect and reconfigure themselves. As these robots adapt to new tasks or repair damage, they exhibit a form of "artificial regeneration" (the ability to self-repair and reconfigure).
 
 These "living machines" offer a glimpse into a future where robots exist not just as tools, but as adaptive, resilient, and collaborative entities operating seamlessly in our shared world.
 
-# Embodied Intelligence: Engineering Life-like Adaptation
+# Embodied Intelligence: Engineering Life-Like Adaptation
 
 The central tenet of Hard ALife is embodied intelligence: the idea that a significant part of "intelligence" isn’t just stored in the brain, but also emerges from the interaction between the body and its environment. Just as a fish's shape makes swimming easy, a robot's physical design can simplify its control and enhance its capabilities.
 
