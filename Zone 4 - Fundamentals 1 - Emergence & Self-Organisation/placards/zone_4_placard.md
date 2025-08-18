@@ -4,7 +4,7 @@ Have you ever marvelled at the synchronized ballet of a massive flock of starlin
 
 Emergence is the process where complex, intelligent, or surprising patterns and behaviors arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that emerges from the collective decisions of thousands. Each bird follows a few basic rules (like "stay close to your neighbors," "don't crash," or "match speed"), and from these humble beginnings, beautiful and "intelligent" global patterns start to appear.
 
-In Artificial Life, we're fascinated by the idea of emergence. We design virtual worlds where agents follow simple instructions, and then we watch as unexpected, "lifelike" behaviors spontaneously blossom.  It's a reminder that complexity does not arise solely from a grand design, or from instructions that dictate how everything needs to behave. Instead, complexity can start from the "bottom up" — from simple rules that bring about unexpected phenomena.
+In Artificial Life, we're fascinated by the idea of emergence. We design virtual worlds where agents follow simple instructions, and then we watch as unexpected, "life-like" behaviors spontaneously blossom.  It's a reminder that complexity does not arise solely from a grand design, or from instructions that dictate how everything needs to behave. Instead, complexity can start from the "bottom up" — from simple rules that bring about unexpected phenomena.
 
 # Self-Organization: The Universe's Innate Drive for Order
 
