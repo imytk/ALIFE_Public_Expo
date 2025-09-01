@@ -16,7 +16,7 @@ A complex system, however, is different. It is characterized by:
 
 Think of a bustling ant colony, a thriving rainforest, or your own human brain. No central blueprint dictates their every action. Instead, their functionality and adaptability emerge from countless, simple local interactions. This fundamental concept of how complexity can arise from such surprising simplicity is a cornerstone of Artificial Life.
 
-# Local Rules, Global Patterns
+# Feedback Loops and Global Patterns
 
 The principle of complexity from simplicity is currently at play all around us, influencing everything from the traffic on our roads to the trends in our social circles.
 
@@ -33,7 +33,7 @@ Since we can't fully grasp these systems by just observing them, we use mathemat
 And this helps us to explore _: the core pursuit of ALife. By building these models, we move beyond just observing life as it exists on Earth and begin to explore the universe of possibilities. We can ask questions like:
 We can also use these tools to help us explore _life as it could be_: the core pursuit of ALife. Moving beyond the questions of life as it currently exists on Earth, we can think about:
 
-- **Alternative Chemistries:** Could life emerge from different building blocks? What if the universe contains life based on silicon or entirely different chemical principles? Models allow us to simulate these hypothetical "chemical soups" to see if self-organizing, life-like properties could arise.
+- **Alternative Chemistries:** Could life emerge from different building blocks? What if the universe contains life based on silicon or entirely different chemical principles? These models allow us to simulate these hypothetical "chemical soups" to see if self-organizing, life-like properties could arise.
 
 - **Open-Ended Evolution:** Can we create systems in which novelty and complexity continuously increase without a pre-set goal? This challenges the traditional notion of evolution as a simple march toward a single, optimal solution and instead explores the potential for truly open-ended evolution.
 
