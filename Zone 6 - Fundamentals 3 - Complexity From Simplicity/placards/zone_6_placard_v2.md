@@ -20,7 +20,7 @@ Think of a bustling ant colony, a thriving rainforest, or your own human brain. 
 
 The principle of complexity from simplicity is currently at play all around us, influencing everything from the traffic on our roads to the trends in our social circles.
 
-A single droplet of water, a grain of sand, or an individual neuron is simple. But when countless elements interact, following a few non-linear rules, they give rise to structures and behaviors on a completely different scale. The spiral of a hurricane, the formation of a galaxy, or the flow of a city's traffic are all emergent properties that cannot be explained by looking at a single molecule, star, or car.
+A single droplet of water, a grain of sand, or an individual neuron is simple. But when countless elements interact, following a few non-linear rules, they give rise to structures and behaviors on a completely different scale. The spiral of a hurricane, the formation of a galaxy, or the flow of a city's traffic are all emergent properties that cannot be explained by looking at a single molecule, star, or vehicle.
 
 The true magic of these systems lies in **feedback loops**. A small action in one part of the system can create a chain of cause-and-effect that amplifies itself. For example, in a bustling financial market, a single trader's decision to sell can cause a small dip in stock price. This dip can trigger other traders to sell, causing the price to drop even further, and so on. This self-reinforcing loop is a direct, albeit unpredictable, result of countless local decisions that create a global outcome: a market crash.
 
