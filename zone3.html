@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zone 3: History of Artificial Life — ALife Public Expo</title>
+  <meta name="description" content="Zone 3: From ancient automata to modern algorithms — tracing humanity's long dream of creating life." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-bar">ALIFE 2025 · 6–10 October · Kyoto, Japan · Ciphers of Life</div>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a class="nav-logo" href="index.html">Life As It Could Be
+        <span class="nav-logo-sub">ALIFE 2025 · Kyoto</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Welcome</a>
+        <a href="zone1.html">Zone 1</a>
+        <a href="zone2.html">Zone 2</a>
+        <a href="zone3.html" class="active">Zone 3</a>
+        <a href="zone4.html">Zone 4</a>
+        <a href="zone5.html">Zone 5</a>
+        <a href="zone6.html">Zone 6</a>
+        <a href="zone7.html">Zone 7</a>
+        <a href="zone8.html">Zone 8</a>
+        <a href="zone9.html">Zone 9</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" data-hero-bg="clock">
+    <div class="container">
+      <span class="zone-badge">Zone 3</span>
+      <h1>History of Artificial Life</h1>
+      <p class="hero-sub">From ancient mechanical wonders to the birth of a scientific discipline — tracing humanity's long dream of creating life.
+      <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
+        <a href="#watch" class="btn btn-primary">▶ Watch ↓</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Video ── -->
+    <section id="watch" class="section" style="padding-top:1.5rem;">
+      <div class="container">
+        <h2 class="section-title">Watch</h2>
+        <div class="video-block">
+          <div class="video-label">📽 Zone 3 — Video</div>
+          <div class="video-wrapper">
+            <div class="placeholder-video">
+              <span class="icon">▶</span>
+              <strong>Video coming soon</strong>
+              <span>The Zone 3 video will appear here once uploaded.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="placards" class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="placard-pager"
+             data-try-label="Explore the Timeline"
+             data-prev-zone="zone2.html"
+             data-prev-label="← Zone 2: Living vs. Non-Living"
+             data-next-zone="zone4.html"
+             data-next-label="Zone 4: Emergence &amp; Self-Organisation →">
+          <div class="placard-pages">
+
+            <!-- Page 1 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">Ancient Dreams &amp; Mechanical Wonders</h2>
+
+              <div class="card placard-text">
+                <p>The desire to create artificial life is almost as old as humanity itself. For millennia, myths, legends, and philosophical inquiries have investigated the possibility of bringing inanimate matter to life. From the clay Golems of ancient folklore to the animated statues of Greek mythology, humans have dreamed of crafting beings that can move, react, and even "think".</p>
+                <p>Long before the advent of computers, this fascination took shape in <strong>mechanical wonders</strong> — intricate clockwork figures designed to mimic life with astonishing fidelity, built by skilled artisans and engineers. Some examples you might already be familiar with include:</p>
+                <ul>
+                  <li><strong>Heron of Alexandria (1st Century AD)</strong> — Devised steam-powered engines and mechanical birds that sang and moved.</li>
+                  <li><strong>Leonardo da Vinci (c. 1495)</strong> — Designed a mechanical knight that could sit up, wave its arms, and open its visor.</li>
+                  <li><strong>Jacques de Vaucanson (18th Century)</strong> — Built incredibly complex, life-sized automatons, including a mechanical duck that could quack, drink water, and even "digest" and "excrete" food.</li>
+                </ul>
+                <p>These mechanical marvels weren't truly "alive", but they showcased an early curiosity about the mechanisms of life and especially the possibility of replicating them. They laid the conceptual groundwork for a science — and a community — that would emerge centuries later.</p>
+              </div>
+            </div>
+
+            <!-- Page 2 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">From Automata to Algorithms</h2>
+
+              <!-- SVG: Timeline of key figures -->
+              <figure class="svg-illustration">
+                <svg viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
+                  <rect width="700" height="160" fill="#13152a"/>
+                  <!-- Timeline spine -->
+                  <line x1="60" y1="80" x2="640" y2="80" stroke="#3d3878" stroke-width="2"/>
+                  <!-- Gradient arrow -->
+                  <defs>
+                    <linearGradient id="tl" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0%" stop-color="#f07868"/>
+                      <stop offset="100%" stop-color="#9b8ec4"/>
+                    </linearGradient>
+                  </defs>
+                  <line x1="60" y1="80" x2="640" y2="80" stroke="url(#tl)" stroke-width="2.5"/>
+                  <polygon points="640,74 655,80 640,86" fill="#9b8ec4"/>
+                  <!-- Points -->
+                  <!-- Turing 1936 -->
+                  <circle cx="160" cy="80" r="7" fill="#f07868"/>
+                  <text x="160" y="58" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">Turing</text>
+                  <text x="160" y="70" text-anchor="middle" fill="#7a7a99" font-size="9">1930s–50s</text>
+                  <text x="160" y="100" text-anchor="middle" fill="#9b96c0" font-size="8.5">Universal</text>
+                  <text x="160" y="112" text-anchor="middle" fill="#9b96c0" font-size="8.5">Computation</text>
+                  <!-- Von Neumann 1948 -->
+                  <circle cx="290" cy="80" r="7" fill="#f07868"/>
+                  <text x="290" y="58" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">von Neumann</text>
+                  <text x="290" y="70" text-anchor="middle" fill="#7a7a99" font-size="9">1940s–50s</text>
+                  <text x="290" y="100" text-anchor="middle" fill="#9b96c0" font-size="8.5">Self-Reproducing</text>
+                  <text x="290" y="112" text-anchor="middle" fill="#9b96c0" font-size="8.5">Automata</text>
+                  <!-- Conway 1970 -->
+                  <circle cx="420" cy="80" r="7" fill="#f07868"/>
+                  <text x="420" y="58" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">Conway</text>
+                  <text x="420" y="70" text-anchor="middle" fill="#7a7a99" font-size="9">1970</text>
+                  <text x="420" y="100" text-anchor="middle" fill="#9b96c0" font-size="8.5">Game of Life</text>
+                  <!-- Langton 1987 -->
+                  <circle cx="570" cy="80" r="9" fill="#9b8ec4" stroke="#f07868" stroke-width="2"/>
+                  <text x="570" y="55" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Langton</text>
+                  <text x="570" y="67" text-anchor="middle" fill="#7a7a99" font-size="9">1987</text>
+                  <text x="570" y="100" text-anchor="middle" fill="#c4b8e8" font-size="8.5" font-weight="600">ALife</text>
+                  <text x="570" y="112" text-anchor="middle" fill="#c4b8e8" font-size="8.5" font-weight="600">Founded</text>
+                </svg>
+                <figcaption>Key milestones from computational theory to the founding of Artificial Life</figcaption>
+              </figure>
+
+              <div class="card placard-text">
+                <p>The true leap towards modern Artificial Life came not just from mechanical ingenuity, but from the realisation that <em>the logic of life could be separated from its physical manifestation</em>. The mid-20th century saw groundbreaking ideas that shifted the focus from building physical machines to understanding the underlying computational and informational processes of life.</p>
+                <ul>
+                  <li><strong>Alan Turing (1930s–1950s)</strong> — His theoretical "Turing Machine" established the concept of universal computation, proving that any computable process could be broken down into simple, logical steps — the blueprint for thinking about biological processes computationally.</li>
+                  <li><strong>John von Neumann (1940s–1950s)</strong> — Proposed the concept of <em>self-reproducing automata</em>, theorising how a complex machine could be designed to build copies of itself — laying the theoretical foundation for understanding biological reproduction computationally.</li>
+                  <li><strong>Early Cellular Automata</strong> — Systems like John Conway's <em>Game of Life</em> (1970) showed that astonishingly complex, "life-like" behaviours — including self-organisation and reproduction — could emerge from incredibly simple rules applied to a grid of cells.</li>
+                </ul>
+                <p>These pioneers began to sketch out a radical new idea: that life might be understood not just by its material composition, but by the abstract computational processes that define it.</p>
+              </div>
+            </div>
+
+            <!-- Page 3 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">The ALife Field Takes Shape</h2>
+
+              <div class="card placard-text">
+                <p>The field of Artificial Life as a distinct scientific discipline was formally born in <strong>September 1987</strong>, with the first international workshop held in Los Alamos, New Mexico. Organised by visionary researcher <strong>Christopher Langton</strong>, this pivotal event brought together scientists from diverse fields: computer science, biology, physics, mathematics, and philosophy.</p>
+                <p>Langton famously articulated the core philosophy of this new field: <em>"Life as it could be."</em> The goal was not just to simulate known life, but to synthesise — to build — artificial systems that exhibit the fundamental properties of life like metabolism, self-organisation, adaptation, and reproduction, regardless of their underlying material.</p>
+                <p>This marked a revolutionary shift in how we think about life:</p>
+                <ul>
+                  <li><strong>From Analysis to Synthesis</strong> — Instead of just dissecting biological organisms, ALife proposes to understand life by creating it from scratch.</li>
+                  <li><strong>From Biology to Universal Principles</strong> — Seeking to uncover the universal laws of life, applicable whether the medium is carbon, silicon, or something entirely alien.</li>
+                  <li><strong>From Obscurity to a Thriving Community</strong> — Since 1987, the ALife community has grown exponentially, with regular conferences, dedicated journals, and research groups worldwide. Many researchers from those early ALife conferences are still active in this community today — including at <strong>ALIFE 2025 in Kyoto!</strong></li>
+                </ul>
+                <p>Still, this short overview does not do the history of artificial life justice. We invite you to explore the timeline in this zone for more detail.</p>
+              </div>
+            </div>
+
+            <!-- Page 4: Interactive -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">Explore: The ALife Timeline</h2>
+              <div class="interactive-block">
+                <div class="interactive-label">
+                  <span>🕰 Interactive — ALife History Timeline</span>
+                  <a href="#" target="_blank" rel="noopener">Open full screen ↗</a>
+                </div>
+                <div class="interactive-wrapper" style="height:480px;display:flex;align-items:center;justify-content:center;background:var(--color-surface2);">
+                  <div class="placeholder-interactive">
+                    <div class="icon">🕰</div>
+                    <strong style="color:var(--color-heading);">Timeline coming soon</strong>
+                    <span style="font-size:0.88rem;">Replace this placeholder with the ALife Timeline embed URL.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /placard-pages -->
+
+          <div class="placard-page-nav">
+            <button class="pager-btn pager-prev" disabled>&larr; Back</button>
+            <div style="display:flex;align-items:center;gap:0.75rem;">
+              <span class="page-indicator"></span>
+              <div class="page-dots"></div>
+            </div>
+            <button class="pager-btn pager-next">Next &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-conf">ALIFE 2025 · 6–10 Oct · Kyoto, Japan · Ciphers of Life</span>
+        <span><em>Life As It Could Be</em> — ALife Public Expo &nbsp;|&nbsp; <a href="https://alife.org" target="_blank" rel="noopener">alife.org</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="expo.js"></script>
+  <script src="hero-bg.js"></script>
+</body>
+</html>

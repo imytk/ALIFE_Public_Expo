@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zone 5: Evolution & Adaptation — ALife Public Expo</title>
+  <meta name="description" content="Zone 5: How does evolution work, and how can we harness it in artificial systems?" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-bar">ALIFE 2025 · 6–10 October · Kyoto, Japan · Ciphers of Life</div>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a class="nav-logo" href="index.html">Life As It Could Be
+        <span class="nav-logo-sub">ALIFE 2025 · Kyoto</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Welcome</a>
+        <a href="zone1.html">Zone 1</a>
+        <a href="zone2.html">Zone 2</a>
+        <a href="zone3.html">Zone 3</a>
+        <a href="zone4.html">Zone 4</a>
+        <a href="zone5.html" class="active">Zone 5</a>
+        <a href="zone6.html">Zone 6</a>
+        <a href="zone7.html">Zone 7</a>
+        <a href="zone8.html">Zone 8</a>
+        <a href="zone9.html">Zone 9</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" data-hero-bg="phylo">
+    <div class="container">
+      <span class="zone-badge">Zone 5 · ALife Fundamentals II</span>
+      <h1>Evolution &amp; Adaptation</h1>
+      <p class="hero-sub">Nature's most powerful design engine — and how we've brought it into the digital world.
+      <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
+        <a href="#watch" class="btn btn-primary">▶ Watch ↓</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Video ── -->
+    <section id="watch" class="section" style="padding-top:1.5rem;">
+      <div class="container">
+        <h2 class="section-title">Watch</h2>
+        <div class="video-block">
+          <div class="video-label">📽 Zone 5 — Evolution &amp; Adaptation</div>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/07Aqcb5sqa8" title="Zone 5: Evolution and Adaptation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="placards" class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="placard-pager"
+             data-try-label="Try the Life Engine"
+             data-prev-zone="zone4.html"
+             data-prev-label="← Zone 4: Emergence &amp; Self-Organisation"
+             data-next-zone="zone6.html"
+             data-next-label="Zone 6: Complexity from Simplicity →">
+          <div class="placard-pages">
+
+            <!-- Page 1 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">What is Evolution?</h2>
+
+              <!-- SVG: Variation → Inheritance → Selection cycle -->
+              <figure class="svg-illustration">
+                <svg viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
+                  <rect width="700" height="210" fill="#13152a"/>
+                  <!-- Three nodes in a triangle cycle -->
+                  <!-- Variation (top-left) -->
+                  <circle cx="175" cy="75" r="50" fill="#1c2040" stroke="#f07868" stroke-width="2"/>
+                  <text x="175" y="70" text-anchor="middle" fill="#f07868" font-size="13" font-weight="700">VARIATION</text>
+                  <text x="175" y="86" text-anchor="middle" fill="#9b96c0" font-size="9">Unique traits</text>
+                  <text x="175" y="97" text-anchor="middle" fill="#9b96c0" font-size="9">in each individual</text>
+                  <!-- Inheritance (top-right) -->
+                  <circle cx="525" cy="75" r="50" fill="#1c2040" stroke="#9b8ec4" stroke-width="2"/>
+                  <text x="525" y="70" text-anchor="middle" fill="#c4b8e8" font-size="13" font-weight="700">INHERITANCE</text>
+                  <text x="525" y="86" text-anchor="middle" fill="#9b96c0" font-size="9">Traits passed to</text>
+                  <text x="525" y="97" text-anchor="middle" fill="#9b96c0" font-size="9">offspring</text>
+                  <!-- Selection (bottom-centre) -->
+                  <circle cx="350" cy="165" r="50" fill="#221f50" stroke="#f07868" stroke-width="2.5"/>
+                  <text x="350" y="160" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">SELECTION</text>
+                  <text x="350" y="176" text-anchor="middle" fill="#c4b8e8" font-size="9">Best-fit individuals</text>
+                  <text x="350" y="187" text-anchor="middle" fill="#c4b8e8" font-size="9">survive &amp; reproduce</text>
+                  <!-- Arrows -->
+                  <defs>
+                    <marker id="arr" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+                      <polygon points="0 0, 8 3, 0 6" fill="#f07868"/>
+                    </marker>
+                  </defs>
+                  <!-- Variation → Inheritance -->
+                  <line x1="225" y1="68" x2="473" y2="68" stroke="#f07868" stroke-width="1.5" marker-end="url(#arr)"/>
+                  <!-- Inheritance → Selection -->
+                  <line x1="494" y1="118" x2="392" y2="148" stroke="#9b8ec4" stroke-width="1.5" marker-end="url(#arr)"/>
+                  <!-- Selection → Variation -->
+                  <line x1="308" y1="148" x2="206" y2="118" stroke="#f07868" stroke-width="1.5" marker-end="url(#arr)"/>
+                  <!-- Centre label -->
+                  <text x="350" y="92" text-anchor="middle" fill="#7a7a99" font-size="10" font-style="italic">Over many generations…</text>
+                </svg>
+                <figcaption>The three pillars of evolution — the engine that drives all life on Earth</figcaption>
+              </figure>
+
+              <div class="card placard-text">
+                <p>Look around you — from the smallest bacteria to the tallest redwood, life on Earth is incredibly diverse. This astonishing variety, and the ways organisms fit so precisely into their environments, is largely thanks to <strong>evolution</strong>.</p>
+                <p>At its core, evolution is a powerful, undirected engine of change that operates over countless generations. It's not about individuals "improving" themselves during their lifetime, but about <em>populations</em> changing over time. The key ingredients are:</p>
+                <ul>
+                  <li><strong>Variation</strong> — Individuals within a population are never identical; each one has unique traits encoded in their genes.</li>
+                  <li><strong>Inheritance</strong> — These variations can be passed down from parents to offspring.</li>
+                  <li><strong>Selection</strong> — Some variations prove more advantageous in a particular environment, allowing those individuals to survive and reproduce more successfully.</li>
+                </ul>
+                <p>Over vast periods of time, this simple cycle sculpts life into ever more complex, efficient, and sometimes bizarre forms. In Artificial Life, we've found ways to bring this powerful engine into our digital and physical worlds.</p>
+              </div>
+            </div>
+
+            <!-- Page 2 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">The Power of Adaptation</h2>
+
+<div class="card placard-text">
+                <p>The main outcome of evolution is <strong>adaptation</strong> — a feature or behaviour that helps an organism survive and reproduce more effectively in its specific environment. Consider a polar bear's thick fur and blubber for the Arctic, or a desert fox's large ears to dissipate heat. These are not random features; they are traits that evolved because they provided a survival advantage.</p>
+                <p>Darwin's finches are a classic example: when the ancestors of today's finches arrived on the isolated Galápagos Islands, different populations encountered different food sources. Over generations, beak shapes diverged — some evolved deep, strong beaks for cracking seeds; others evolved long, thin beaks for catching insects. The same ancestor, radically different adaptations, all driven by selection pressure.</p>
+                <p>In Artificial Life, we leverage this same principle. By setting up "environments" and "fitness goals" for our artificial creatures or programs, we can observe them "adapt" and "evolve" increasingly sophisticated solutions to challenges. This process often yields solutions that human designers might never have conceived!</p>
+              </div>
+            </div>
+
+            <!-- Page 3 -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">Simulating Evolution: Evolutionary Algorithms</h2>
+
+              <!-- SVG: Evolutionary algorithm loop -->
+              <figure class="svg-illustration">
+                <svg viewBox="0 0 700 190" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
+                  <rect width="700" height="190" fill="#13152a"/>
+                  <defs>
+                    <marker id="arr2" markerWidth="8" markerHeight="6" refX="6" refY="3" orient="auto">
+                      <polygon points="0 0, 8 3, 0 6" fill="#9b8ec4"/>
+                    </marker>
+                  </defs>
+                  <!-- Steps as rounded rectangles in a horizontal flow -->
+                  <!-- 1. Population -->
+                  <rect x="25" y="75" width="110" height="44" rx="6" fill="#2a2760" stroke="#f07868" stroke-width="1.5"/>
+                  <text x="80" y="96" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">POPULATION</text>
+                  <text x="80" y="110" text-anchor="middle" fill="#9b96c0" font-size="8.5">Digital individuals</text>
+                  <!-- arrow -->
+                  <line x1="135" y1="97" x2="158" y2="97" stroke="#9b8ec4" stroke-width="1.5" marker-end="url(#arr2)"/>
+                  <!-- 2. Evaluate -->
+                  <rect x="160" y="75" width="110" height="44" rx="6" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
+                  <text x="215" y="96" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">EVALUATE</text>
+                  <text x="215" y="110" text-anchor="middle" fill="#9b96c0" font-size="8.5">Fitness function</text>
+                  <!-- arrow -->
+                  <line x1="270" y1="97" x2="293" y2="97" stroke="#9b8ec4" stroke-width="1.5" marker-end="url(#arr2)"/>
+                  <!-- 3. Select -->
+                  <rect x="295" y="75" width="110" height="44" rx="6" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
+                  <text x="350" y="96" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">SELECT</text>
+                  <text x="350" y="110" text-anchor="middle" fill="#9b96c0" font-size="8.5">Fittest survive</text>
+                  <!-- arrow -->
+                  <line x1="405" y1="97" x2="428" y2="97" stroke="#9b8ec4" stroke-width="1.5" marker-end="url(#arr2)"/>
+                  <!-- 4. Reproduce + Mutate -->
+                  <rect x="430" y="75" width="130" height="44" rx="6" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
+                  <text x="495" y="93" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">REPRODUCE</text>
+                  <text x="495" y="106" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="700">&amp; MUTATE</text>
+                  <!-- arrow back (curved below) -->
+                  <path d="M 560 119 Q 560 155 350 155 Q 140 155 80 119" fill="none" stroke="#f07868" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr2)"/>
+                  <text x="350" y="172" text-anchor="middle" fill="#f07868" font-size="9" font-weight="600">→ New generation</text>
+                  <!-- Output arrow -->
+                  <line x1="560" y1="75" x2="620" y2="55" stroke="#f07868" stroke-width="1.5" marker-end="url(#arr2)"/>
+                  <rect x="618" y="30" width="60" height="30" rx="5" fill="#1c2040" stroke="#f07868" stroke-width="1.5"/>
+                  <text x="648" y="48" text-anchor="middle" fill="#f0c0b8" font-size="9" font-weight="600">SOLUTION</text>
+                </svg>
+                <figcaption>The evolutionary algorithm loop — inspired by natural selection, running in silicon</figcaption>
+              </figure>
+
+              <div class="card placard-text">
+                <p>How do you design something truly innovative without knowing exactly what it should look like? In Artificial Life, we've borrowed nature's most powerful designer. This approach is called <strong>Artificial Evolution</strong>, or more commonly, <strong>Evolutionary Algorithms</strong>.</p>
+                <p>Instead of DNA, we work with digital "genes" — strings of code that define the characteristics of our virtual creatures, robots, or designs. We create a "population" of digital individuals, then set up a <em>fitness function</em> — a measure of how "good" each individual is at solving a problem. Then we simulate the evolutionary cycle:</p>
+                <ul>
+                  <li><strong>Selection</strong> — The "fittest" individuals are chosen to be the next generation's parents.</li>
+                  <li><strong>Reproduction &amp; Mutation</strong> — The "genes" of the fittest are combined and slightly altered to create a new generation of "offspring".</li>
+                </ul>
+                <p>Over hundreds or thousands of generations, this yields surprisingly complex and optimised solutions — a testament to the universal power of evolution, a force that works just as effectively in silicon as it does in nature.</p>
+              </div>
+            </div>
+
+            <!-- Page 4: Interactive -->
+            <div class="placard-page">
+              <h2 class="section-title-centred">Try It: The Life Engine</h2>
+              <div class="interactive-block">
+                <div class="interactive-label">
+                  <span>🧬 Interactive — The Life Engine</span>
+                  <a href="#" target="_blank" rel="noopener">Open full screen ↗</a>
+                </div>
+                <div class="interactive-wrapper">
+                  <div class="placeholder-interactive">
+                    <div class="icon">🧬</div>
+                    <strong style="color:var(--color-heading);">The Life Engine</strong>
+                    <span style="font-size:0.88rem;">Replace this placeholder with the Life Engine embed URL.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /placard-pages -->
+
+          <div class="placard-page-nav">
+            <button class="pager-btn pager-prev" disabled>&larr; Back</button>
+            <div style="display:flex;align-items:center;gap:0.75rem;">
+              <span class="page-indicator"></span>
+              <div class="page-dots"></div>
+            </div>
+            <button class="pager-btn pager-next">Next &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-conf">ALIFE 2025 · 6–10 Oct · Kyoto, Japan · Ciphers of Life</span>
+        <span><em>Life As It Could Be</em> — ALife Public Expo &nbsp;|&nbsp; <a href="https://alife.org" target="_blank" rel="noopener">alife.org</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="expo.js"></script>
+  <script src="hero-bg.js"></script>
+</body>
+</html>
