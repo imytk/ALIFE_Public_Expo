@@ -1,34 +1,31 @@
 /**
  * lang-toggle.js — EN / JP language switcher for the ALife Online Expo
  *
- * HOW TO MARK TRANSLATABLE TEXT
- * ─────────────────────────────
- * Add data-en and data-jp attributes to any element whose *text content*
- * should switch. The element's current innerHTML is used as the EN default
- * if data-en is not explicitly set.
+ * TWO-TIER APPROACH
+ * ─────────────────
+ * 1. BLOCK switching (placard content):
+ *    Sections are structured as two sibling divs:
+ *      <div class="lang-en"> ... English content ... </div>
+ *      <div class="lang-jp"> ... Japanese content ... </div>
+ *    Switching adds/removes the class "lang-jp" on <body>.
+ *    CSS handles show/hide: .lang-jp is hidden by default;
+ *    body.lang-jp .lang-jp { display:block } and body.lang-jp .lang-en { display:none }.
  *
- * Examples:
+ * 2. ELEMENT switching (hero labels, short structural strings):
+ *    Any element with data-en and data-jp attributes has its
+ *    innerHTML swapped directly.
  *
- *   <h2 data-en="What is Life?" data-jp="生命とは何か？">What is Life?</h2>
- *
- *   <p data-en="English paragraph text." data-jp="日本語の段落テキスト。">
- *     English paragraph text.
- *   </p>
- *
- *   <!-- For elements with inner HTML markup, use data-en/data-jp with HTML: -->
- *   <p data-en="<strong>Bold</strong> word." data-jp="<strong>太字</strong>の言葉。">
- *     <strong>Bold</strong> word.
- *   </p>
+ *    Example:
+ *      <h1 data-en="Welcome to Life As It Could Be"
+ *          data-jp="あり得る生命の世界へようこそ">Welcome to Life As It Could Be</h1>
  *
  * FALLBACK
  * ────────
- * If an element has data-en but no data-jp, it stays in English regardless
- * of the selected language (no blank content).
+ * If an element has data-en but no data-jp, it stays in English.
  *
  * PERSISTENCE
  * ───────────
- * The chosen language is stored in localStorage under 'alife-lang' and
- * restored automatically on every page load.
+ * Chosen language stored in localStorage under 'alife-lang'.
  */
 
 (function () {
@@ -55,16 +52,23 @@
   // ── Apply language to the page ────────────────────────────────────────────
 
   function applyLang(lang) {
-    // Update <html lang="…">
+    // 1. Update <html lang="…">
     document.documentElement.lang = lang === 'jp' ? 'ja' : 'en';
 
-    // Swap all translatable elements
+    // 2. Block switching — toggle body class so CSS shows/hides .lang-en / .lang-jp divs
+    if (lang === 'jp') {
+      document.body.classList.add('lang-jp');
+    } else {
+      document.body.classList.remove('lang-jp');
+    }
+
+    // 3. Element switching — for short structural strings (hero badge, h1, hero-sub, h2s)
     document.querySelectorAll('[data-en], [data-jp]').forEach(el => {
       const text = el.getAttribute('data-' + lang);
       if (text != null && text !== '') {
         el.innerHTML = text;
       } else if (lang === 'jp') {
-        // No JP text available — fall back to EN (don't blank the element)
+        // No JP text — fall back to EN
         const en = el.getAttribute('data-en');
         if (en != null && en !== '') {
           el.innerHTML = en;
@@ -72,7 +76,7 @@
       }
     });
 
-    // Update toggle button appearance
+    // 4. Update toggle button appearance
     const btn = document.getElementById('lang-toggle-btn');
     if (btn) {
       btn.setAttribute('aria-pressed', lang === 'jp' ? 'true' : 'false');
@@ -80,7 +84,7 @@
       btn.querySelector('.lt-jp').classList.toggle('lt-active', lang === 'jp');
     }
 
-    // Fire a custom event so other scripts can react if needed
+    // 5. Fire a custom event so other scripts can react if needed
     document.dispatchEvent(new CustomEvent('langchange', { detail: { lang } }));
   }
 

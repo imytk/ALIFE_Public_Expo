@@ -194,6 +194,14 @@ img { max-width: 100%; display: block; }
   .lang-toggle { margin-right: 0.5rem; }
 }
 
+/* ── Language content blocks ── */
+/* Default: show EN, hide JP */
+.lang-jp { display: none; }
+.lang-en { display: block; }
+/* When body carries .lang-jp class: flip */
+body.lang-jp .lang-jp { display: block; }
+body.lang-jp .lang-en { display: none; }
+
 /* ── Hero — canvas simulation owns the background ── */
 .hero {
   padding: 5.5rem 0 4rem;
