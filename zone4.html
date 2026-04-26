@@ -1,203 +1,185 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zone 4: Emergence & Self-Organisation — ALife Public Expo</title>
-  <meta name="description" content="Zone 4: How do complex, life-like patterns arise from simple rules? Explore emergence and self-organisation." />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zone 4: Emergence &amp; Self-Organisation — ALife Public Expo</title>
+<meta content="Zone 4: How do complex, life-like patterns arise from simple rules? Explore emergence and self-organisation." name="description"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-
-  <div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
-
-  <nav class="site-nav">
-    <div class="container">
-      <a class="nav-logo" href="index.html">Artificial Life
+<div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
+<nav class="site-nav">
+<div class="container">
+<a class="nav-logo" href="index.html">Artificial Life
         <span class="nav-logo-sub">Online Expo</span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">Welcome</a>
-        <a href="zone1.html">Zone 1</a>
-        <a href="zone2.html">Zone 2</a>
-        <a href="zone3.html">Zone 3</a>
-        <a href="zone4.html" class="active">Zone 4</a>
-        <a href="zone5.html">Zone 5</a>
-        <a href="zone6.html">Zone 6</a>
-        <a href="zone7.html">Zone 7</a>
-        <a href="zone8.html">Zone 8</a>
-        <a href="zone9.html">Zone 9</a>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero" data-hero-bg="boids4">
-    <div class="container">
-      <span class="zone-badge">Zone 4 · ALife Fundamentals I</span>
-      <h1>Emergence &amp; Self-Organisation</h1>
-      <p class="hero-sub">No leader, no blueprint — yet astonishing order arises. How does complexity emerge from simplicity?
+</a>
+<div class="nav-links">
+<a href="index.html">Welcome</a>
+<a href="zone1.html">Zone 1</a>
+<a href="zone2.html">Zone 2</a>
+<a href="zone3.html">Zone 3</a>
+<a class="active" href="zone4.html">Zone 4</a>
+<a href="zone5.html">Zone 5</a>
+<a href="zone6.html">Zone 6</a>
+<a href="zone7.html">Zone 7</a>
+<a href="zone8.html">Zone 8</a>
+<a href="zone9.html">Zone 9</a>
+</div>
+</div>
+</nav>
+<header class="hero" data-hero-bg="boids4">
+<div class="container">
+<span class="zone-badge" data-en="Zone 4 · ALife Fundamentals I" data-jp="ゾーン4">Zone 4 · ALife Fundamentals I</span>
+<h1 data-en="Emergence &amp; Self-Organisation" data-jp="創発と自己組織化">Emergence &amp; Self-Organisation</h1>
+<p class="hero-sub" data-en='No leader, no blueprint — yet astonishing order arises. How does complexity emerge from simplicity?
+      &lt;div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;"&gt;
+&lt;a class="btn btn-primary" href="#watch"&gt;▶ Watch ↓&lt;/a&gt;
+&lt;/div&gt;' data-jp="リーダーなし、設計図なし — それでも驚くべき秩序が生まれる。複雑さはシンプルさからどのように生まれるか。">No leader, no blueprint — yet astonishing order arises. How does complexity emerge from simplicity?
       <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
-        <a href="#watch" class="btn btn-primary">▶ Watch ↓</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- ── Video ── -->
-    <section id="watch" class="section" style="padding-top:1.5rem;">
-      <div class="container">
-        <h2 class="section-title">Watch</h2>
-        <div class="video-block">
-          <div class="video-label">📽 Zone 4 — Emergence &amp; Self-Organisation</div>
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/pHpyefevVzs" title="Zone 4: Emergence and Self-Organisation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="placards" class="section" style="padding-top:0;">
-      <div class="container">
-        <div class="placard-pager"
-             data-try-label="Try Boids"
-             data-prev-zone="zone3.html"
-             data-prev-label="← Zone 3: History of ALife"
-             data-next-zone="zone5.html"
-             data-next-label="Zone 5: Evolution &amp; Adaptation →">
-          <div class="placard-pages">
-
-            <!-- Page 1 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">The Unseen Conductor: What is Emergence?</h2>
-
-              <div class="card placard-text">
-                <p>Have you ever marvelled at the synchronised ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't! This astonishing phenomenon is called <strong>emergence</strong>.</p>
-                <p>Emergence is the process where complex, intelligent, or surprising patterns and behaviours arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that <em>emerges</em> from the collective decisions of thousands. Each bird follows a few basic rules — stay close to your neighbours, don't crash, match speed — and from these humble beginnings, beautiful and "intelligent" global patterns appear.</p>
-                <p>In Artificial Life, we're fascinated by emergence. We design virtual worlds where agents follow simple instructions, then watch as unexpected, life-like behaviours spontaneously blossom. It's a reminder that complexity does not arise solely from a grand design or from instructions that dictate how everything needs to behave. Instead, complexity can start from the "bottom up" — from simple rules that bring about unexpected phenomena.</p>
+<a class="btn btn-primary" href="#watch">▶ Watch ↓</a>
+</div>
+</p></div>
+</header>
+<main>
+<!-- ── Video ── -->
+<section class="section" id="watch" style="padding-top:1.5rem;">
+<div class="container">
+<h2 class="section-title">Watch</h2>
+<div class="video-block">
+<div class="video-label">📽 Zone 4 — Emergence &amp; Self-Organisation</div>
+<div class="video-wrapper">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/pHpyefevVzs" title="Zone 4: Emergence and Self-Organisation"></iframe>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="placards" style="padding-top:0;">
+<div class="container">
+<div class="placard-pager" data-next-label="Zone 5: Evolution &amp; Adaptation →" data-next-zone="zone5.html" data-prev-label="← Zone 3: History of ALife" data-prev-zone="zone3.html" data-try-label="Try Boids">
+<div class="placard-pages">
+<!-- Page 1 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="The Unseen Conductor: What is Emergence?" data-jp="目に見えない指揮者：創発とは何ですか？">The Unseen Conductor: What is Emergence?</h2>
+<div class="card placard-text">
+<p data-en="Have you ever marvelled at the synchronised ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't! This astonishing phenomenon is called &lt;strong&gt;emergence&lt;/strong&gt;." data-jp="ムクドリの大群がシンクロナイズドバレエを踊る様子や、アリの群れが効率よく作り出す通路に、驚嘆したことはありませんか？まるでリーダー、つまりすべての動きを統率する中央脳があるように見えますが、実際にはそうではありません！この驚くべき現象は「創発」と呼ばれています。">Have you ever marvelled at the synchronised ballet of a massive flock of starlings, or the efficient pathways carved by a colony of ants? It often looks as if there's a leader, a central brain directing every move — but there isn't! This astonishing phenomenon is called <strong>emergence</strong>.</p>
+<p data-en="Emergence is the process where complex, intelligent, or surprising patterns and behaviours arise from the simple interactions of many individual components. The &quot;intelligence&quot; of the flock isn't contained within any single bird; it's a property that &lt;em&gt;emerges&lt;/em&gt; from the collective decisions of thousands. Each bird follows a few basic rules — stay close to your neighbours, don't crash, match speed — and from these humble beginnings, beautiful and &quot;intelligent&quot; global patterns appear." data-jp="創発とは、多くの個々の要素の単純な相互作用から、複雑で知的な、あるいは驚くべきパターンや行動が生まれるプロセスです。群れの「知性」は、特定の鳥にのみ存在するものではなく、何千もの鳥の集合的な意思決定から生まれる特性です。">Emergence is the process where complex, intelligent, or surprising patterns and behaviours arise from the simple interactions of many individual components. The "intelligence" of the flock isn't contained within any single bird; it's a property that <em>emerges</em> from the collective decisions of thousands. Each bird follows a few basic rules — stay close to your neighbours, don't crash, match speed — and from these humble beginnings, beautiful and "intelligent" global patterns appear.</p>
+<p data-en="In Artificial Life, we're fascinated by emergence. We design virtual worlds where agents follow simple instructions, then watch as unexpected, life-like behaviours spontaneously blossom. It's a reminder that complexity does not arise solely from a grand design or from instructions that dictate how everything needs to behave. Instead, complexity can start from the &quot;bottom up&quot; — from simple rules that bring about unexpected phenomena." data-jp="人工生命において、私たちは創発という概念に魅了されています。エージェントが単純な指示に従う仮想世界を設計し、そこから予期せぬ「生命のような」行動が自然発生的に開花するのを観察します。これは、複雑さが壮大な設計や、あらゆるものの振る舞いを規定する指示からのみ生じるのではないことを思い出させてくれます。">In Artificial Life, we're fascinated by emergence. We design virtual worlds where agents follow simple instructions, then watch as unexpected, life-like behaviours spontaneously blossom. It's a reminder that complexity does not arise solely from a grand design or from instructions that dictate how everything needs to behave. Instead, complexity can start from the "bottom up" — from simple rules that bring about unexpected phenomena.</p>
+</div>
+</div>
+<!-- Page 2 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Self-Organisation: The Universe's Innate Drive for Order" data-jp="自己組織化：宇宙の秩序への本質的な原動力">Self-Organisation: The Universe's Innate Drive for Order</h2>
+<!-- SVG: top-down vs bottom-up -->
+<figure class="svg-illustration">
+<svg font-family="DM Sans, sans-serif" viewbox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#13152a" height="200" width="700"></rect>
+<!-- Left: top-down -->
+<rect fill="#1c2040" height="160" rx="8" stroke="#3d3878" stroke-width="1" width="290" x="30" y="20"></rect>
+<text fill="#f07868" font-size="11" font-weight="700" text-anchor="middle" x="175" y="42">TOP-DOWN (Complicated)</text>
+<rect fill="#2a2760" height="28" rx="4" stroke="#f07868" stroke-width="1.5" width="70" x="140" y="55"></rect>
+<text fill="#fff" font-size="10" text-anchor="middle" x="175" y="73">CONTROLLER</text>
+<line stroke="#f07868" stroke-width="1.5" x1="175" x2="175" y1="83" y2="100"></line>
+<line stroke="#3d3878" stroke-width="1" x1="100" x2="250" y1="100" y2="100"></line>
+<line stroke="#3d3878" x1="100" x2="100" y1="100" y2="115"></line>
+<line stroke="#3d3878" x1="175" x2="175" y1="100" y2="115"></line>
+<line stroke="#3d3878" x1="250" x2="250" y1="100" y2="115"></line>
+<rect fill="#221f50" height="24" rx="3" stroke="#3d3878" width="58" x="70" y="115"></rect>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="99" y="131">Part A</text>
+<rect fill="#221f50" height="24" rx="3" stroke="#3d3878" width="58" x="146" y="115"></rect>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="175" y="131">Part B</text>
+<rect fill="#221f50" height="24" rx="3" stroke="#3d3878" width="58" x="222" y="115"></rect>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="251" y="131">Part C</text>
+<text fill="#7a7a99" font-size="9" text-anchor="middle" x="175" y="168">Predictable · Designed · Rigid</text>
+<!-- Right: bottom-up -->
+<rect fill="#1c2040" height="160" rx="8" stroke="#3d3878" stroke-width="1" width="290" x="380" y="20"></rect>
+<text fill="#9b8ec4" font-size="11" font-weight="700" text-anchor="middle" x="525" y="42">BOTTOM-UP (Complex)</text>
+<!-- Agents -->
+<circle cx="450" cy="110" fill="#2a2760" r="10" stroke="#9b8ec4" stroke-width="1.5"></circle>
+<text fill="#c4b8e8" font-size="8" text-anchor="middle" x="450" y="113">A</text>
+<circle cx="490" cy="90" fill="#2a2760" r="10" stroke="#9b8ec4" stroke-width="1.5"></circle>
+<text fill="#c4b8e8" font-size="8" text-anchor="middle" x="490" y="93">B</text>
+<circle cx="530" cy="115" fill="#2a2760" r="10" stroke="#9b8ec4" stroke-width="1.5"></circle>
+<text fill="#c4b8e8" font-size="8" text-anchor="middle" x="530" y="118">C</text>
+<circle cx="570" cy="88" fill="#2a2760" r="10" stroke="#9b8ec4" stroke-width="1.5"></circle>
+<text fill="#c4b8e8" font-size="8" text-anchor="middle" x="570" y="91">D</text>
+<circle cx="520" cy="68" fill="#2a2760" r="10" stroke="#9b8ec4" stroke-width="1.5"></circle>
+<text fill="#c4b8e8" font-size="8" text-anchor="middle" x="520" y="71">E</text>
+<!-- Interaction lines -->
+<line opacity="0.5" stroke="#9b8ec4" stroke-width="1" x1="460" x2="480" y1="107" y2="97"></line>
+<line opacity="0.5" stroke="#9b8ec4" stroke-width="1" x1="500" x2="520" y1="93" y2="108"></line>
+<line opacity="0.5" stroke="#9b8ec4" stroke-width="1" x1="540" x2="560" y1="108" y2="95"></line>
+<line opacity="0.5" stroke="#9b8ec4" stroke-width="1" x1="495" x2="513" y1="83" y2="75"></line>
+<!-- Arrow up to emergent -->
+<text fill="#7a7a99" font-size="9" text-anchor="middle" x="525" y="148">Local interactions ↑</text>
+<text fill="#c4b8e8" font-size="9" font-weight="600" text-anchor="middle" x="525" y="162">EMERGENCE</text>
+<text fill="#7a7a99" font-size="9" text-anchor="middle" x="525" y="174">Surprising · Adaptive · Life-like</text>
+</svg>
+<figcaption>Top-down (complicated) vs. bottom-up (complex) — the key distinction in ALife</figcaption>
+</figure>
+<div class="card placard-text">
+<p data-en="Closely intertwined with emergence is &lt;strong&gt;self-organisation&lt;/strong&gt;: the ability of a system to arrange itself into a structured, coherent, or functional pattern without central command or any external guidance. While emergence describes the &lt;em&gt;result&lt;/em&gt;, self-organisation is the &lt;em&gt;mechanism&lt;/em&gt; by which that order arises from within. There is no master plan or designer; the order arises from the inherent rules of the system's components." data-jp="「創発」と密接に絡み合っているのが「自己組織化」という概念です。これは、システムが中央からの指令や外部からの指示なしに、構造化された、一貫性のある、あるいは機能的なパターンへと自らを編成する能力です。">Closely intertwined with emergence is <strong>self-organisation</strong>: the ability of a system to arrange itself into a structured, coherent, or functional pattern without central command or any external guidance. While emergence describes the <em>result</em>, self-organisation is the <em>mechanism</em> by which that order arises from within. There is no master plan or designer; the order arises from the inherent rules of the system's components.</p>
+<p data-en="Consider a snowflake: its intricate, symmetrical structure emerges purely from the physical properties of water molecules cooling and bonding together, with no central blueprint to dictate their placement. Similarly, the mesmerising patterns in certain chemical reactions (like the Belousov–Zhabotinsky reaction) spontaneously form and dissolve based on local interactions of chemicals." data-jp="雪の結晶を考えてみましょう。その複雑で対称的な構造は、水分子が冷えて結合するという物理的特性のみから生まれ、その配置を規定する中心的な設計図はありません。同様に、特定の化学反応（動画でご覧いただけるベロウソフ・ジャボチンスキー反応など）における魅惑的な模様は、化学物質の局所的な相互作用に基づいて自発的に形成され、消滅します。">Consider a snowflake: its intricate, symmetrical structure emerges purely from the physical properties of water molecules cooling and bonding together, with no central blueprint to dictate their placement. Similarly, the mesmerising patterns in certain chemical reactions (like the Belousov–Zhabotinsky reaction) spontaneously form and dissolve based on local interactions of chemicals.</p>
+<p data-en="In the world of ALife, we draw immense inspiration from self-organising systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways — all from the bottom up. These self-organised systems tell us something utterly fascinating: &lt;em&gt;the universe has an innate capacity for creating order from apparent chaos.&lt;/em&gt;" data-jp="ALifeの世界では、自然界の自己組織化システムから計り知れないほどの着想を得ています。これらの相互作用を支配するシンプルなルールを理解し、それを再現することで、ボトムアップで、驚くほど複雑な方法で構築、適応、そして行動するデジタルシステムやロボットシステムを作り出すことができます。">In the world of ALife, we draw immense inspiration from self-organising systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways — all from the bottom up. These self-organised systems tell us something utterly fascinating: <em>the universe has an innate capacity for creating order from apparent chaos.</em></p>
+</div>
+</div>
+<!-- Page 3 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Why Emergence Matters for ALife" data-jp="自己組織化と創発を通じて「生命のような」複雑性を創造する">Why Emergence Matters for ALife</h2>
+<div class="card placard-text">
+<p data-en='Emergence and self-organisation offer a powerful framework for understanding and creating life-like properties without needing to precisely programme every single detail. Instead of trying to code an intelligent robot step-by-step, ALife researchers might give thousands of tiny virtual "ants" a few simple rules for finding food — and what emerges is an optimised, robust foraging system, a &lt;em&gt;collective intelligence&lt;/em&gt; far beyond that of any single ant.' data-jp="なぜ人工生命にとって、創発と自己組織化がそれほど重要なのでしょうか？なぜなら、あらゆる細部まで精密にプログラミングする必要なく、「生命のような」特性を理解し、創造するための強力な枠組みを提供しているからです。">Emergence and self-organisation offer a powerful framework for understanding and creating life-like properties without needing to precisely programme every single detail. Instead of trying to code an intelligent robot step-by-step, ALife researchers might give thousands of tiny virtual "ants" a few simple rules for finding food — and what emerges is an optimised, robust foraging system, a <em>collective intelligence</em> far beyond that of any single ant.</p>
+<p data-en="This bottom-up approach allows us to:" data-jp="このボトムアップのアプローチは非常に強力で、次のようなことが可能になります。">This bottom-up approach allows us to:</p>
+<ul>
+<li data-en="&lt;strong&gt;Simulate Natural Phenomena&lt;/strong&gt; — Gain deeper insights into how biological systems like brains, immune systems, and ecosystems achieve their complexity." data-jp="自然現象をシミュレートする：生物学的システム（脳、免疫システム、生態系など）がどのように複雑な仕組みを実現しているかについて、より深い洞察を得ます。"><strong>Simulate Natural Phenomena</strong> — Gain deeper insights into how biological systems like brains, immune systems, and ecosystems achieve their complexity.</li>
+<li data-en="&lt;strong&gt;Design Resilient Systems&lt;/strong&gt; — Create computer networks, robotic swarms, and smart cities that can adapt and recover from failures without needing a central controller." data-jp="回復力のあるシステムの設計：中央コントローラーを必要とせずに障害に適応して回復できるコンピューターネットワーク、ロボット群、さらにはスマートシティを作成します。"><strong>Design Resilient Systems</strong> — Create computer networks, robotic swarms, and smart cities that can adapt and recover from failures without needing a central controller.</li>
+<li data-en="&lt;strong&gt;Explore Novel Forms of Life&lt;/strong&gt; — Imagine life that doesn't need a single &quot;body&quot; or &quot;brain&quot;, but exists as a distributed, self-organising network of interacting components." data-jp="新しい生命形態を探る：単一の「体」や「脳」を必要とせず、相互作用するコンポーネントの分散型自己組織化ネットワークとして存在する生命形態を想像してください。"><strong>Explore Novel Forms of Life</strong> — Imagine life that doesn't need a single "body" or "brain", but exists as a distributed, self-organising network of interacting components.</li>
+</ul>
+<p data-en="By understanding emergence, we gain a crucial tool for building artificial systems that truly behave as if they are alive, adaptive, and intelligent." data-jp="創発を理解することで、私たちはあたかも生きているかのように、適応性があり、知的な人工システムを構築するための重要なツールを手に入れることができます。">By understanding emergence, we gain a crucial tool for building artificial systems that truly behave as if they are alive, adaptive, and intelligent.</p>
+</div>
+</div>
+<!-- Page 4: Interactive -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Try It: Boids — Flocking Simulation" data-jp="体験しよう：ボイド群集シミュレーション">Try It: Boids — Flocking Simulation</h2>
+<p data-en="Craig Reynolds' &lt;strong style=&quot;color:var(--color-heading)&quot;&gt;Boids&lt;/strong&gt; (1986) is one of the most famous ALife simulations. Each &quot;boid&quot; follows just three simple rules — separation, alignment, and cohesion — yet together they produce fluid, life-like flocking. Watch emergence in action." data-jp="クレイグ・レイノルズの「ボイド」（1986年）は、コンピュータサイエンスにおける最も有名なシミュレーションのひとつです。3つのシンプルなルール（分離・整列・結合）だけで、鳥の群れのようなリアルな群集行動が生まれます。" style="color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;">Craig Reynolds' <strong style="color:var(--color-heading)">Boids</strong> (1986) is one of the most famous ALife simulations. Each "boid" follows just three simple rules — separation, alignment, and cohesion — yet together they produce fluid, life-like flocking. Watch emergence in action.</p>
+<div class="interactive-block">
+<div class="interactive-label">
+<span>🐦 Interactive — Boids Flocking Simulation</span>
+<a href="https://boids.dan.onl/" rel="noopener" target="_blank">Open full screen ↗</a>
+</div>
+<div class="interactive-wrapper">
+<iframe loading="lazy" sandbox="allow-scripts allow-same-origin" src="https://boids.dan.onl/" title="Boids Flocking Simulation"></iframe>
+</div>
+</div>
+<div class="callout" data-en='&lt;strong&gt;Tip:&lt;/strong&gt; Try adjusting the sliders to change the rules each boid follows. How does tweaking "separation" or "cohesion" change the global pattern? Notice how no single boid is "in charge".' data-jp="スライダーを調整して各ボイドが従うルールを変えてみてください。どのようにして集団全体の行動が変化しますか？" style="margin-top:1rem;">
+<strong>Tip:</strong> Try adjusting the sliders to change the rules each boid follows. How does tweaking "separation" or "cohesion" change the global pattern? Notice how no single boid is "in charge".
               </div>
-            </div>
-
-            <!-- Page 2 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Self-Organisation: The Universe's Innate Drive for Order</h2>
-
-              <!-- SVG: top-down vs bottom-up -->
-              <figure class="svg-illustration">
-                <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
-                  <rect width="700" height="200" fill="#13152a"/>
-                  <!-- Left: top-down -->
-                  <rect x="30" y="20" width="290" height="160" rx="8" fill="#1c2040" stroke="#3d3878" stroke-width="1"/>
-                  <text x="175" y="42" text-anchor="middle" fill="#f07868" font-size="11" font-weight="700">TOP-DOWN (Complicated)</text>
-                  <rect x="140" y="55" width="70" height="28" rx="4" fill="#2a2760" stroke="#f07868" stroke-width="1.5"/>
-                  <text x="175" y="73" text-anchor="middle" fill="#fff" font-size="10">CONTROLLER</text>
-                  <line x1="175" y1="83" x2="175" y2="100" stroke="#f07868" stroke-width="1.5"/>
-                  <line x1="100" y1="100" x2="250" y2="100" stroke="#3d3878" stroke-width="1"/>
-                  <line x1="100" y1="100" x2="100" y2="115" stroke="#3d3878"/>
-                  <line x1="175" y1="100" x2="175" y2="115" stroke="#3d3878"/>
-                  <line x1="250" y1="100" x2="250" y2="115" stroke="#3d3878"/>
-                  <rect x="70" y="115" width="58" height="24" rx="3" fill="#221f50" stroke="#3d3878"/>
-                  <text x="99" y="131" text-anchor="middle" fill="#9b96c0" font-size="9">Part A</text>
-                  <rect x="146" y="115" width="58" height="24" rx="3" fill="#221f50" stroke="#3d3878"/>
-                  <text x="175" y="131" text-anchor="middle" fill="#9b96c0" font-size="9">Part B</text>
-                  <rect x="222" y="115" width="58" height="24" rx="3" fill="#221f50" stroke="#3d3878"/>
-                  <text x="251" y="131" text-anchor="middle" fill="#9b96c0" font-size="9">Part C</text>
-                  <text x="175" y="168" text-anchor="middle" fill="#7a7a99" font-size="9">Predictable · Designed · Rigid</text>
-
-                  <!-- Right: bottom-up -->
-                  <rect x="380" y="20" width="290" height="160" rx="8" fill="#1c2040" stroke="#3d3878" stroke-width="1"/>
-                  <text x="525" y="42" text-anchor="middle" fill="#9b8ec4" font-size="11" font-weight="700">BOTTOM-UP (Complex)</text>
-                  <!-- Agents -->
-                  <circle cx="450" cy="110" r="10" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
-                  <text x="450" y="113" text-anchor="middle" fill="#c4b8e8" font-size="8">A</text>
-                  <circle cx="490" cy="90" r="10" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
-                  <text x="490" y="93" text-anchor="middle" fill="#c4b8e8" font-size="8">B</text>
-                  <circle cx="530" cy="115" r="10" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
-                  <text x="530" y="118" text-anchor="middle" fill="#c4b8e8" font-size="8">C</text>
-                  <circle cx="570" cy="88" r="10" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
-                  <text x="570" y="91" text-anchor="middle" fill="#c4b8e8" font-size="8">D</text>
-                  <circle cx="520" cy="68" r="10" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.5"/>
-                  <text x="520" y="71" text-anchor="middle" fill="#c4b8e8" font-size="8">E</text>
-                  <!-- Interaction lines -->
-                  <line x1="460" y1="107" x2="480" y2="97" stroke="#9b8ec4" stroke-width="1" opacity="0.5"/>
-                  <line x1="500" y1="93" x2="520" y2="108" stroke="#9b8ec4" stroke-width="1" opacity="0.5"/>
-                  <line x1="540" y1="108" x2="560" y2="95" stroke="#9b8ec4" stroke-width="1" opacity="0.5"/>
-                  <line x1="495" y1="83" x2="513" y2="75" stroke="#9b8ec4" stroke-width="1" opacity="0.5"/>
-                  <!-- Arrow up to emergent -->
-                  <text x="525" y="148" text-anchor="middle" fill="#7a7a99" font-size="9">Local interactions ↑</text>
-                  <text x="525" y="162" text-anchor="middle" fill="#c4b8e8" font-size="9" font-weight="600">EMERGENCE</text>
-                  <text x="525" y="174" text-anchor="middle" fill="#7a7a99" font-size="9">Surprising · Adaptive · Life-like</text>
-                </svg>
-                <figcaption>Top-down (complicated) vs. bottom-up (complex) — the key distinction in ALife</figcaption>
-              </figure>
-
-              <div class="card placard-text">
-                <p>Closely intertwined with emergence is <strong>self-organisation</strong>: the ability of a system to arrange itself into a structured, coherent, or functional pattern without central command or any external guidance. While emergence describes the <em>result</em>, self-organisation is the <em>mechanism</em> by which that order arises from within. There is no master plan or designer; the order arises from the inherent rules of the system's components.</p>
-                <p>Consider a snowflake: its intricate, symmetrical structure emerges purely from the physical properties of water molecules cooling and bonding together, with no central blueprint to dictate their placement. Similarly, the mesmerising patterns in certain chemical reactions (like the Belousov–Zhabotinsky reaction) spontaneously form and dissolve based on local interactions of chemicals.</p>
-                <p>In the world of ALife, we draw immense inspiration from self-organising systems in nature. By understanding and replicating the simple rules that govern these interactions, we can create digital or robotic systems that build, adapt, and behave in incredibly complex ways — all from the bottom up. These self-organised systems tell us something utterly fascinating: <em>the universe has an innate capacity for creating order from apparent chaos.</em></p>
-              </div>
-            </div>
-
-            <!-- Page 3 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Why Emergence Matters for ALife</h2>
-
-              <div class="card placard-text">
-                <p>Emergence and self-organisation offer a powerful framework for understanding and creating life-like properties without needing to precisely programme every single detail. Instead of trying to code an intelligent robot step-by-step, ALife researchers might give thousands of tiny virtual "ants" a few simple rules for finding food — and what emerges is an optimised, robust foraging system, a <em>collective intelligence</em> far beyond that of any single ant.</p>
-                <p>This bottom-up approach allows us to:</p>
-                <ul>
-                  <li><strong>Simulate Natural Phenomena</strong> — Gain deeper insights into how biological systems like brains, immune systems, and ecosystems achieve their complexity.</li>
-                  <li><strong>Design Resilient Systems</strong> — Create computer networks, robotic swarms, and smart cities that can adapt and recover from failures without needing a central controller.</li>
-                  <li><strong>Explore Novel Forms of Life</strong> — Imagine life that doesn't need a single "body" or "brain", but exists as a distributed, self-organising network of interacting components.</li>
-                </ul>
-                <p>By understanding emergence, we gain a crucial tool for building artificial systems that truly behave as if they are alive, adaptive, and intelligent.</p>
-              </div>
-            </div>
-
-            <!-- Page 4: Interactive -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Try It: Boids — Flocking Simulation</h2>
-              <p style="color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;">Craig Reynolds' <strong style="color:var(--color-heading)">Boids</strong> (1986) is one of the most famous ALife simulations. Each "boid" follows just three simple rules — separation, alignment, and cohesion — yet together they produce fluid, life-like flocking. Watch emergence in action.</p>
-              <div class="interactive-block">
-                <div class="interactive-label">
-                  <span>🐦 Interactive — Boids Flocking Simulation</span>
-                  <a href="https://boids.dan.onl/" target="_blank" rel="noopener">Open full screen ↗</a>
-                </div>
-                <div class="interactive-wrapper">
-                  <iframe src="https://boids.dan.onl/" title="Boids Flocking Simulation" loading="lazy" sandbox="allow-scripts allow-same-origin"></iframe>
-                </div>
-              </div>
-              <div class="callout" style="margin-top:1rem;">
-                <strong>Tip:</strong> Try adjusting the sliders to change the rules each boid follows. How does tweaking "separation" or "cohesion" change the global pattern? Notice how no single boid is "in charge".
-              </div>
-            </div>
-
-          </div><!-- /placard-pages -->
-
-          <div class="placard-page-nav">
-            <button class="pager-btn pager-prev" disabled>&larr; Back</button>
-            <div style="display:flex;align-items:center;gap:0.75rem;">
-              <span class="page-indicator"></span>
-              <div class="page-dots"></div>
-            </div>
-            <button class="pager-btn pager-next">Next &rarr;</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="footer-conf">ALIFE 2025 · 6–10 Oct · Kyoto, Japan · Ciphers of Life</span>
-        <span><em>Life As It Could Be</em> — ALife Public Expo &nbsp;|&nbsp; <a href="https://alife.org" target="_blank" rel="noopener">alife.org</a></span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="expo.js"></script>
-  <script src="hero-bg.js"></script>
+</div>
+</div><!-- /placard-pages -->
+<div class="placard-page-nav">
+<button class="pager-btn pager-prev" disabled="">← Back</button>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<span class="page-indicator"></span>
+<div class="page-dots"></div>
+</div>
+<button class="pager-btn pager-next">Next →</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-inner">
+<span class="footer-conf">Artificial Life Online Expo  ·  First Shown at ALIFE 2025 · Kyoto, Japan</span>
+<span><em>Life As It Could Be</em>  |  <a href="https://alife.org" rel="noopener" target="_blank">alife.org</a></span>
+<span style="font-size:0.78rem;color:var(--color-muted);">Created by <a href="https://imytk.co.uk" rel="noopener" target="_blank">Imy Khan</a>  ·  <a href="mailto:imy@imytk.co.uk">imy@imytk.co.uk</a></span>
+</div>
+</div>
+</footer>
+<script src="lang-toggle.js"></script>
+<script src="expo.js"></script>
+<script src="hero-bg.js"></script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

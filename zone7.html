@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zone 7: Diverse ALife — Hard, Soft & Wet — ALife Public Expo</title>
-  <meta name="description" content="Zone 7 of the ALife Public Expo. Three flavours of Artificial Life: robots, code, and chemistry." />
-  <link rel="stylesheet" href="style.css" />
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zone 7: Diverse ALife — Hard, Soft &amp; Wet — ALife Public Expo</title>
+<meta content="Zone 7 of the ALife Public Expo. Three flavours of Artificial Life: robots, code, and chemistry." name="description"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
     /* Zone 7 tab navigation */
     .tab-nav {
       display: flex;
@@ -36,109 +37,104 @@
   </style>
 </head>
 <body>
-
-  <div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
-
-  <nav class="site-nav">
-    <div class="container">
-      <a class="nav-logo" href="index.html">Artificial Life
+<div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
+<nav class="site-nav">
+<div class="container">
+<a class="nav-logo" href="index.html">Artificial Life
         <span class="nav-logo-sub">Online Expo</span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">Welcome</a>
-        <a href="zone1.html">Zone 1</a>
-        <a href="zone2.html">Zone 2</a>
-        <a href="zone3.html">Zone 3</a>
-        <a href="zone4.html">Zone 4</a>
-        <a href="zone5.html">Zone 5</a>
-        <a href="zone6.html">Zone 6</a>
-        <a href="zone7.html" class="active">Zone 7</a>
-        <a href="zone8.html">Zone 8</a>
-        <a href="zone9.html">Zone 9</a>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero" data-hero-bg="matrix">
-    <div class="container">
-      <span class="zone-badge">Zone 7</span>
-      <h1>Diverse ALife</h1>
-      <p class="hero-sub">
+</a>
+<div class="nav-links">
+<a href="index.html">Welcome</a>
+<a href="zone1.html">Zone 1</a>
+<a href="zone2.html">Zone 2</a>
+<a href="zone3.html">Zone 3</a>
+<a href="zone4.html">Zone 4</a>
+<a href="zone5.html">Zone 5</a>
+<a href="zone6.html">Zone 6</a>
+<a class="active" href="zone7.html">Zone 7</a>
+<a href="zone8.html">Zone 8</a>
+<a href="zone9.html">Zone 9</a>
+</div>
+</div>
+</nav>
+<header class="hero" data-hero-bg="matrix">
+<div class="container">
+<span class="zone-badge" data-en="Zone 7" data-jp="ゾーン7">Zone 7</span>
+<h1 data-en="Diverse ALife" data-jp="人工生命の多様な形">Diverse ALife</h1>
+<p class="hero-sub" data-en="Three flavours of Artificial Life — hard bodies, soft code, and wet chemistry.
+        Each a different answer to the same question: what could life be made of?" data-jp="ハード、ソフト、ウェット — 生命のようなシステムを創造する3つのフロンティア。">
         Three flavours of Artificial Life — hard bodies, soft code, and wet chemistry.
         Each a different answer to the same question: what could life be made of?
       </p>
-      <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
-        <a href="#zones" class="btn btn-primary" onclick="showTab('hard', this)">🤖 Hard ALife</a>
-        <a href="#zones" class="btn btn-outline" onclick="showTab('soft', this)">💻 Soft ALife</a>
-        <a href="#zones" class="btn btn-outline" onclick="showTab('wet', this)">🧪 Wet ALife</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section id="zones" class="section" style="padding-top:1.5rem;">
-      <div class="container">
-
-        <!-- Tab navigation -->
-        <div class="tab-nav">
-          <button class="tab-btn active" onclick="showTab('hard', this)">🤖 Hard ALife — Robots</button>
-          <button class="tab-btn" onclick="showTab('soft', this)">💻 Soft ALife — Code</button>
-          <button class="tab-btn" onclick="showTab('wet', this)">🧪 Wet ALife — Chemistry</button>
-        </div>
-
-        <!-- ── HARD ── -->
-        <div id="tab-hard" class="tab-panel active">
-
-          <!-- Video first -->
-          <div class="video-block" style="margin-bottom:1.5rem;">
-            <div class="video-label">📽 Zone 7A — Hard ALife</div>
-            <div class="video-wrapper">
-              <iframe src="https://www.youtube.com/embed/UBqookwN1_A"
-                title="Zone 7A: Hard ALife — Robots"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <!-- Placard pager: text → interactive -->
-          <div class="placard-pager"
-               data-try-label="Explore Hard ALife"
-               data-prev-zone="zone6.html"
-               data-prev-label="← Zone 6: Complexity from Simplicity"
-               data-next-zone="zone8.html"
-               data-next-label="Zone 8: ALife &amp; Society →">
-            <div class="placard-pages">
-
-              <!-- Page 1: Text -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Hard ALife: Life in Motion</h2>
-                <div class="card placard-text">
-                  <p>
+<div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
+<a class="btn btn-primary" href="#zones" onclick="showTab('hard', this)">🤖 Hard ALife</a>
+<a class="btn btn-outline" href="#zones" onclick="showTab('soft', this)">💻 Soft ALife</a>
+<a class="btn btn-outline" href="#zones" onclick="showTab('wet', this)">🧪 Wet ALife</a>
+</div>
+</div>
+</header>
+<main>
+<section class="section" id="zones" style="padding-top:1.5rem;">
+<div class="container">
+<!-- Tab navigation -->
+<div class="tab-nav">
+<button class="tab-btn active" onclick="showTab('hard', this)">🤖 Hard ALife — Robots</button>
+<button class="tab-btn" onclick="showTab('soft', this)">💻 Soft ALife — Code</button>
+<button class="tab-btn" onclick="showTab('wet', this)">🧪 Wet ALife — Chemistry</button>
+</div>
+<!-- ── HARD ── -->
+<div class="tab-panel active" id="tab-hard">
+<!-- Video first -->
+<div class="video-block" style="margin-bottom:1.5rem;">
+<div class="video-label">📽 Zone 7A — Hard ALife</div>
+<div class="video-wrapper">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/UBqookwN1_A" title="Zone 7A: Hard ALife — Robots"></iframe>
+</div>
+</div>
+<!-- Placard pager: text → interactive -->
+<div class="placard-pager" data-next-label="Zone 8: ALife &amp; Society →" data-next-zone="zone8.html" data-prev-label="← Zone 6: Complexity from Simplicity" data-prev-zone="zone6.html" data-try-label="Explore Hard ALife">
+<div class="placard-pages">
+<!-- Page 1: Text -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Hard ALife: Life in Motion" data-jp="ハードALife：機械から柔軟な形態まで、動き続ける生命">Hard ALife: Life in Motion</h2>
+<div class="card placard-text">
+<p data-en="Moving beyond the purely digital, &lt;strong&gt;Hard Artificial Life&lt;/strong&gt;
+                    explores how life-like properties can emerge in physical systems —
+                    particularly robots. Here, the body is paramount: Hard ALife is about
+                    how a physical form, its materials, and its interaction with the real
+                    world can give rise to intelligent and adaptive behaviour." data-jp="ハード・ALifeは、純粋なデジタルの世界を超え、物理システム、特にロボットにおいて生命のような特性がどのように発現するかを探求します。ここでは身体が極めて重要です。">
                     Moving beyond the purely digital, <strong>Hard Artificial Life</strong>
                     explores how life-like properties can emerge in physical systems —
                     particularly robots. Here, the body is paramount: Hard ALife is about
                     how a physical form, its materials, and its interaction with the real
                     world can give rise to intelligent and adaptive behaviour.
                   </p>
-                  <p>
+<p data-en="This field draws inspiration from biology to create
+                    &lt;em&gt;embodied intelligence&lt;/em&gt;. But instead of a central brain
+                    controlling every muscle, these robots often rely on:" data-jp="この分野では、「具現化された知能」を生み出すために生物学からヒントを得ることがよくあります。しかし、これらのロボットは、すべての筋肉を制御する中央脳の代わりに、次のようなものに依存することが多いのです。">
                     This field draws inspiration from biology to create
                     <em>embodied intelligence</em>. But instead of a central brain
                     controlling every muscle, these robots often rely on:
                   </p>
-                  <ul>
-                    <li><strong>Distributed Control</strong> — Simple "rules" embedded in individual parts or sensors lead to complex collective behaviours.</li>
-                    <li><strong>Morphological Computing</strong> — The very shape and material properties of a robot can "compute" solutions, making movement and interaction more efficient.</li>
-                    <li><strong>Flexible Materials</strong> — Deformable materials allow for more fluid, organic movements and safer interactions with uncertain environments.</li>
-                  </ul>
-                  <h3 style="margin-top:1.25rem;">Swarms, Crawlers &amp; Beyond</h3>
-                  <ul>
-                    <li><strong>Swarm Robotics</strong> — Inspired by ant colonies and bird flocks, swarms of simple robots cooperate to achieve complex tasks no single robot could manage alone: exploring disaster sites, mapping unknown territories, assembling structures.</li>
-                    <li><strong>Bio-Inspired Locomotion</strong> — Some of the most efficient robots mimic the movements of animals, from insect-like crawling to fish-like swimming, leveraging clever body design rather than complex programming.</li>
-                    <li><strong>Soft Robotics</strong> — Made from flexible materials like silicone or fabric, soft robots squeeze through tight spaces, grasp delicate objects, and interact safely with humans.</li>
-                    <li><strong>Modular &amp; Self-Reconfiguring Robots</strong> — Collections of interchangeable modules that can connect and reconfigure themselves, exhibiting a form of "artificial regeneration".</li>
-                  </ul>
-                  <h3 style="margin-top:1.25rem;">Embodied Intelligence</h3>
-                  <p>
+<ul>
+<li data-en='&lt;strong&gt;Distributed Control&lt;/strong&gt; — Simple "rules" embedded in individual parts or sensors lead to complex collective behaviours.' data-jp="分散制御：単純な「ルール」を個々の部品やセンサーに組み込むと、複雑な集合的な動作につながることがよくあります。"><strong>Distributed Control</strong> — Simple "rules" embedded in individual parts or sensors lead to complex collective behaviours.</li>
+<li data-en='&lt;strong&gt;Morphological Computing&lt;/strong&gt; — The very shape and material properties of a robot can "compute" solutions, making movement and interaction more efficient.' data-jp="形態学的コンピューティング：ロボットの形状と材質特性に基づいて、動きや相互作用をより効率的にするソリューションを「計算」できます。"><strong>Morphological Computing</strong> — The very shape and material properties of a robot can "compute" solutions, making movement and interaction more efficient.</li>
+<li data-en="&lt;strong&gt;Flexible Materials&lt;/strong&gt; — Deformable materials allow for more fluid, organic movements and safer interactions with uncertain environments." data-jp="「硬い」材料：柔軟で変形可能な材料により、より滑らかで有機的な動きが可能になり、ロボットと不確実な環境間の相互作用も安全になります。"><strong>Flexible Materials</strong> — Deformable materials allow for more fluid, organic movements and safer interactions with uncertain environments.</li>
+</ul>
+<h3 style="margin-top:1.25rem;">Swarms, Crawlers &amp; Beyond</h3>
+<ul>
+<li data-en="&lt;strong&gt;Swarm Robotics&lt;/strong&gt; — Inspired by ant colonies and bird flocks, swarms of simple robots cooperate to achieve complex tasks no single robot could manage alone: exploring disaster sites, mapping unknown territories, assembling structures." data-jp="群ロボット：アリのコロニーや鳥の群れに着想を得た、シンプルなロボットの群が協力し、単独のロボットでは不可能な複雑なタスクを達成します。"><strong>Swarm Robotics</strong> — Inspired by ant colonies and bird flocks, swarms of simple robots cooperate to achieve complex tasks no single robot could manage alone: exploring disaster sites, mapping unknown territories, assembling structures.</li>
+<li data-en="&lt;strong&gt;Bio-Inspired Locomotion&lt;/strong&gt; — Some of the most efficient robots mimic the movements of animals, from insect-like crawling to fish-like swimming, leveraging clever body design rather than complex programming." data-jp="生物に着想を得た移動：最も効率的で堅牢なロボットの中には、昆虫のような這いずりから魚のような泳ぎ、鳥のような飛行まで、動物の動きを模倣するように設計されたものがあります。"><strong>Bio-Inspired Locomotion</strong> — Some of the most efficient robots mimic the movements of animals, from insect-like crawling to fish-like swimming, leveraging clever body design rather than complex programming.</li>
+<li data-en="&lt;strong&gt;Soft Robotics&lt;/strong&gt; — Made from flexible materials like silicone or fabric, soft robots squeeze through tight spaces, grasp delicate objects, and interact safely with humans." data-jp="ソフトロボティクス：ロボットは必ずしも硬い金属で作られているわけではありません。ソフトロボットはシリコンや布などの柔軟な素材で作られており、狭い場所を通り抜けたり、繊細な物を掴んだり、人間と安全に交流したりすることができます。"><strong>Soft Robotics</strong> — Made from flexible materials like silicone or fabric, soft robots squeeze through tight spaces, grasp delicate objects, and interact safely with humans.</li>
+<li data-en='&lt;strong&gt;Modular &amp;amp; Self-Reconfiguring Robots&lt;/strong&gt; — Collections of interchangeable modules that can connect and reconfigure themselves, exhibiting a form of "artificial regeneration".' data-jp="モジュール型・自己再構成型ロボット：一部のロボットは、交換可能なモジュールの集合体として設計されており、モジュール同士が接続して自己再構成することができます。"><strong>Modular &amp; Self-Reconfiguring Robots</strong> — Collections of interchangeable modules that can connect and reconfigure themselves, exhibiting a form of "artificial regeneration".</li>
+</ul>
+<h3 style="margin-top:1.25rem;">Embodied Intelligence</h3>
+<p data-en="The central tenet of Hard ALife is that a significant part of
+                    &quot;intelligence&quot; isn't just stored in the brain — it emerges from the
+                    interaction between a body and its environment. A robot's physical design
+                    can simplify its control and enhance its capabilities, enabling robust
+                    adaptation, reduced computational load, and access to environments too
+                    dangerous or delicate for rigid machines." data-jp="ハードALifeの中心的な考えは、「知能」の重要な部分が身体自体に宿っているということです。純粋なコンピューティングや中央制御に頼るのではなく、ロボットの形状、素材、そして物理的環境との相互作用が、適応的で生命のような行動を生み出します。">
                     The central tenet of Hard ALife is that a significant part of
                     "intelligence" isn't just stored in the brain — it emerges from the
                     interaction between a body and its environment. A robot's physical design
@@ -146,72 +142,69 @@
                     adaptation, reduced computational load, and access to environments too
                     dangerous or delicate for rigid machines.
                   </p>
-                </div>
-              </div>
-
-              <!-- Page 2: Interactive -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Hard ALife: Explore Further</h2>
-                <div class="callout" style="margin-bottom:1.25rem;">
-                  <strong>No interactive simulation for Hard ALife in this tab</strong> —
+</div>
+</div>
+<!-- Page 2: Interactive -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Hard ALife: Explore Further" data-jp="ハードALife：さらに探索する">Hard ALife: Explore Further</h2>
+<div class="callout" data-en="&lt;strong&gt;No interactive simulation for Hard ALife in this tab&lt;/strong&gt; —
+                  but switch to the &lt;strong&gt;Soft ALife&lt;/strong&gt; tab to experiment with a live
+                  digital evolution platform!" data-jp="このタブにはハードALifeのインタラクティブシミュレーションはありません。" style="margin-bottom:1.25rem;">
+<strong>No interactive simulation for Hard ALife in this tab</strong> —
                   but switch to the <strong>Soft ALife</strong> tab to experiment with a live
                   digital evolution platform!
                 </div>
-                <div class="card placard-text" style="text-align:center;padding:2rem 1.5rem;">
-                  <p style="color:var(--color-muted);font-size:0.95rem;">Want to see Hard ALife in action? Explore swarm robotics, soft robots, and bio-inspired machines through the video above, then head to Soft ALife for a hands-on simulation.</p>
-                  <div style="margin-top:1.25rem;">
-                    <button class="tab-btn active" style="font-size:0.85rem;padding:0.65rem 1.5rem;" onclick="showTab('soft', this)">💻 Switch to Soft ALife →</button>
-                  </div>
-                </div>
-              </div>
-
-            </div><!-- /placard-pages -->
-            <div class="placard-page-nav">
-              <button class="pager-btn pager-prev" disabled>&larr; Back</button>
-              <div style="display:flex;align-items:center;gap:0.75rem;">
-                <span class="page-indicator"></span>
-                <div class="page-dots"></div>
-              </div>
-              <button class="pager-btn pager-next">Next &rarr;</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- ── SOFT ── -->
-        <div id="tab-soft" class="tab-panel">
-
-          <!-- Video first -->
-          <div class="video-block" style="margin-bottom:1.5rem;">
-            <div class="video-label">📽 Zone 7B — Soft ALife</div>
-            <div class="video-wrapper">
-              <iframe src="https://www.youtube.com/embed/8oy353aIE3M"
-                title="Zone 7B: Soft ALife — Code"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <!-- Placard pager: text → interactive -->
-          <div class="placard-pager"
-               data-try-label="Try Avida-ED"
-               data-prev-zone="zone6.html"
-               data-prev-label="← Zone 6: Complexity from Simplicity"
-               data-next-zone="zone8.html"
-               data-next-label="Zone 8: ALife &amp; Society →">
-            <div class="placard-pages">
-
-              <!-- Page 1: Text -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Soft ALife: Life in Lines of Code</h2>
-                <div class="card placard-text">
-                  <p>
+<div class="card placard-text" style="text-align:center;padding:2rem 1.5rem;">
+<p data-en="Want to see Hard ALife in action? Explore swarm robotics, soft robots, and bio-inspired machines through the video above, then head to Soft ALife for a hands-on simulation." data-jp="ハードALifeを実際に見たいですか？スウォームロボティクス、ソフトロボット、そして生物に着想を得た機械の動画をオンラインで探してみてください。" style="color:var(--color-muted);font-size:0.95rem;">Want to see Hard ALife in action? Explore swarm robotics, soft robots, and bio-inspired machines through the video above, then head to Soft ALife for a hands-on simulation.</p>
+<div style="margin-top:1.25rem;">
+<button class="tab-btn active" onclick="showTab('soft', this)" style="font-size:0.85rem;padding:0.65rem 1.5rem;">💻 Switch to Soft ALife →</button>
+</div>
+</div>
+</div>
+</div><!-- /placard-pages -->
+<div class="placard-page-nav">
+<button class="pager-btn pager-prev" disabled="">← Back</button>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<span class="page-indicator"></span>
+<div class="page-dots"></div>
+</div>
+<button class="pager-btn pager-next">Next →</button>
+</div>
+</div>
+</div>
+<!-- ── SOFT ── -->
+<div class="tab-panel" id="tab-soft">
+<!-- Video first -->
+<div class="video-block" style="margin-bottom:1.5rem;">
+<div class="video-label">📽 Zone 7B — Soft ALife</div>
+<div class="video-wrapper">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/8oy353aIE3M" title="Zone 7B: Soft ALife — Code"></iframe>
+</div>
+</div>
+<!-- Placard pager: text → interactive -->
+<div class="placard-pager" data-next-label="Zone 8: ALife &amp; Society →" data-next-zone="zone8.html" data-prev-label="← Zone 6: Complexity from Simplicity" data-prev-zone="zone6.html" data-try-label="Try Avida-ED">
+<div class="placard-pages">
+<!-- Page 1: Text -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Soft ALife: Life in Lines of Code" data-jp="ソフトALife：計算機の中の生命">Soft ALife: Life in Lines of Code</h2>
+<div class="card placard-text">
+<p data-en="Welcome to the realm of &lt;strong&gt;Soft Artificial Life&lt;/strong&gt;, where
+                    the medium for creating life-like systems is purely computational. Here,
+                    &quot;life&quot; doesn't rely on biological cells or physical bodies — it emerges
+                    from data structures, algorithms, and the raw processing power of
+                    computers." data-jp="ソフトALife（人工生命）の世界へようこそ。ここでは、生命のようなシステムを構築するための媒体は純粋に計算です。「生命」は生物細胞や物理的な身体に依存せず、データ構造、アルゴリズム、そしてコンピュータの純粋な処理能力から生まれます。">
                     Welcome to the realm of <strong>Soft Artificial Life</strong>, where
                     the medium for creating life-like systems is purely computational. Here,
                     "life" doesn't rely on biological cells or physical bodies — it emerges
                     from data structures, algorithms, and the raw processing power of
                     computers.
                   </p>
-                  <p>
+<p data-en="Think of it as creating entirely new universes within a computer's
+                    memory. Researchers start by defining simple digital rules and setting
+                    initial conditions, then let these virtual &quot;bits&quot; and &quot;agents&quot; interact.
+                    What results can be astonishingly complex and dynamic, mimicking
+                    phenomena from evolution to self-organization at speeds impossible in
+                    the physical world." data-jp="コンピュータのメモリ内に全く新しい宇宙を創造すると考えてみてください。研究者はまず、単純なデジタルルールを定義し、初期条件を設定し、これらの仮想的な「ビット」と「エージェント」を相互作用させます。その結果得られるものは驚くほど複雑でダイナミックなものとなり、進化から自己組織化まで、様々な自然現象を模倣することができます。">
                     Think of it as creating entirely new universes within a computer's
                     memory. Researchers start by defining simple digital rules and setting
                     initial conditions, then let these virtual "bits" and "agents" interact.
@@ -219,165 +212,158 @@
                     phenomena from evolution to self-organization at speeds impossible in
                     the physical world.
                   </p>
-                  <h3 style="margin-top:1.25rem;">Creating Digital Worlds</h3>
-                  <ul>
-                    <li><strong>Agent-Based Models &amp; Virtual Ecosystems</strong> — Digital "habitats" where countless individual "agents" follow simple rules. Their collective interactions let us study ecological dynamics, disease spread, social trends, and environmental changes in a controlled, accelerated environment.</li>
-                    <li><strong>Generative Art &amp; Music</strong> — Algorithms inspired by ALife principles create endlessly unique streams of evolving art, music, and architectural designs. These aren't simply random — they "grow" and "adapt" based on rules, much like natural forms.</li>
-                    <li><strong>Self-Organizing Systems</strong> — From the elegant simplicity of Conway's Game of Life to more sophisticated cellular automata, these systems demonstrate how astonishing complexity can emerge from basic local rules.</li>
-                  </ul>
-                  <h3 style="margin-top:1.25rem;">The Power of Abstraction</h3>
-                  <p>
+<h3 style="margin-top:1.25rem;">Creating Digital Worlds</h3>
+<ul>
+<li data-en='&lt;strong&gt;Agent-Based Models &amp;amp; Virtual Ecosystems&lt;/strong&gt; — Digital "habitats" where countless individual "agents" follow simple rules. Their collective interactions let us study ecological dynamics, disease spread, social trends, and environmental changes in a controlled, accelerated environment.' data-jp="エージェントベースモデルと仮想生態系：デジタルの「生息地」を構築し、無数の個々の「エージェント」が単純なルールに従います。これらのエージェントの集団的な相互作用は、複雑な創発行動を生み出します。"><strong>Agent-Based Models &amp; Virtual Ecosystems</strong> — Digital "habitats" where countless individual "agents" follow simple rules. Their collective interactions let us study ecological dynamics, disease spread, social trends, and environmental changes in a controlled, accelerated environment.</li>
+<li data-en="&lt;strong&gt;Generative Art &amp;amp; Music&lt;/strong&gt; — Algorithms inspired by ALife principles create endlessly unique streams of evolving art, music, and architectural designs. These aren't simply random — they &quot;grow&quot; and &quot;adapt&quot; based on rules, much like natural forms." data-jp="ジェネレーティブアートと音楽：ALifeの原理に着想を得たアルゴリズムは、進化し続ける芸術、音楽、建築デザインなど、無限にユニークな作品を生み出すことさえ可能です。これらはランダムではなく、自然の形態と同様に、ルールに基づいて「成長」し「適応」します。"><strong>Generative Art &amp; Music</strong> — Algorithms inspired by ALife principles create endlessly unique streams of evolving art, music, and architectural designs. These aren't simply random — they "grow" and "adapt" based on rules, much like natural forms.</li>
+<li data-en="&lt;strong&gt;Self-Organizing Systems&lt;/strong&gt; — From the elegant simplicity of Conway's Game of Life to more sophisticated cellular automata, these systems demonstrate how astonishing complexity can emerge from basic local rules." data-jp="自己組織化システム：コンウェイのライフゲームの優雅なシンプルさから、より洗練されたシステムまで、ソフトALifeはコード内のいくつかの異なるパラメータを変更することで、様々なスケールにおいてこれらのシステムからどのようなパターンやダイナミクスが出現するかを観察することを可能にします。"><strong>Self-Organizing Systems</strong> — From the elegant simplicity of Conway's Game of Life to more sophisticated cellular automata, these systems demonstrate how astonishing complexity can emerge from basic local rules.</li>
+</ul>
+<h3 style="margin-top:1.25rem;">The Power of Abstraction</h3>
+<p data-en="Soft ALife provides an unparalleled laboratory for understanding
+                    complexity. Digital simulations let us speed up processes that take
+                    millennia in nature, test fundamental theories about emergence and
+                    evolution without the confounding complexities of biology, and directly
+                    inspire next-generation AI and swarm robotics." data-jp="ソフトALifeは、ALifeのこの分野は、理論を迅速に検証し、広大な可能性の空間を探求し、物理世界では不可能なスピードで「生命」が展開するのを目の当たりにすることを可能にします。生命の根源的な論理を生物学的基盤から抽象化することで、理解を深めることができるのです。">
                     Soft ALife provides an unparalleled laboratory for understanding
                     complexity. Digital simulations let us speed up processes that take
                     millennia in nature, test fundamental theories about emergence and
                     evolution without the confounding complexities of biology, and directly
                     inspire next-generation AI and swarm robotics.
                   </p>
-                </div>
-              </div>
-
-              <!-- Page 2: Interactive -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Try It: Avida-ED Digital Evolution</h2>
-                <div class="interactive-block">
-                  <div class="interactive-label">
-                    <span>💻 Interactive — Avida-ED Digital Evolution</span>
-                    <a href="https://avida-ed.msu.edu/" target="_blank" rel="noopener">Open full screen ↗</a>
-                  </div>
-                  <div class="interactive-wrapper">
-                    <iframe src="https://avida-ed.msu.edu/"
-                      title="Avida-ED Digital Evolution Platform"
-                      loading="lazy"
-                      sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
-                  </div>
-                </div>
-                <div class="callout" style="margin-top:1rem;">
-                  <strong>Avida-ED</strong> is a digital evolution research platform used
+</div>
+</div>
+<!-- Page 2: Interactive -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Try It: Avida-ED Digital Evolution" data-jp="体験しよう：Avida-EDデジタル進化">Try It: Avida-ED Digital Evolution</h2>
+<div class="interactive-block">
+<div class="interactive-label">
+<span>💻 Interactive — Avida-ED Digital Evolution</span>
+<a href="https://avida-ed.msu.edu/" rel="noopener" target="_blank">Open full screen ↗</a>
+</div>
+<div class="interactive-wrapper">
+<iframe loading="lazy" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" src="https://avida-ed.msu.edu/" title="Avida-ED Digital Evolution Platform"></iframe>
+</div>
+</div>
+<div class="callout" data-en="&lt;strong&gt;Avida-ED&lt;/strong&gt; is a digital evolution research platform used
+                  in university courses worldwide. Watch digital organisms evolve, compete,
+                  and adapt in real time." data-jp="Avida-EDは、デジタル進化の研究・教育プラットフォームです。仮想の生物が複製し、突然変異し、自然選択のプロセスを通じて進化する様子を観察することができます。" style="margin-top:1rem;">
+<strong>Avida-ED</strong> is a digital evolution research platform used
                   in university courses worldwide. Watch digital organisms evolve, compete,
                   and adapt in real time.
                 </div>
-              </div>
-
-            </div><!-- /placard-pages -->
-            <div class="placard-page-nav">
-              <button class="pager-btn pager-prev" disabled>&larr; Back</button>
-              <div style="display:flex;align-items:center;gap:0.75rem;">
-                <span class="page-indicator"></span>
-                <div class="page-dots"></div>
-              </div>
-              <button class="pager-btn pager-next">Next &rarr;</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- ── WET ── -->
-        <div id="tab-wet" class="tab-panel">
-
-          <!-- Video first -->
-          <div class="video-block" style="margin-bottom:1.5rem;">
-            <div class="video-label">📽 Zone 7C — Wet ALife</div>
-            <div class="video-wrapper">
-              <iframe src="https://www.youtube.com/embed/D58K8OCONQs"
-                title="Zone 7C: Wet ALife — Chemistry"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-
-          <!-- Placard pager: text → interactive -->
-          <div class="placard-pager"
-               data-try-label="Try Organic Builder"
-               data-prev-zone="zone6.html"
-               data-prev-label="← Zone 6: Complexity from Simplicity"
-               data-next-zone="zone8.html"
-               data-next-label="Zone 8: ALife &amp; Society →">
-            <div class="placard-pages">
-
-              <!-- Page 1: Text -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Wet ALife: Life's Raw Ingredients</h2>
-                <div class="card placard-text">
-                  <p>
+</div>
+</div><!-- /placard-pages -->
+<div class="placard-page-nav">
+<button class="pager-btn pager-prev" disabled="">← Back</button>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<span class="page-indicator"></span>
+<div class="page-dots"></div>
+</div>
+<button class="pager-btn pager-next">Next →</button>
+</div>
+</div>
+</div>
+<!-- ── WET ── -->
+<div class="tab-panel" id="tab-wet">
+<!-- Video first -->
+<div class="video-block" style="margin-bottom:1.5rem;">
+<div class="video-label">📽 Zone 7C — Wet ALife</div>
+<div class="video-wrapper">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/D58K8OCONQs" title="Zone 7C: Wet ALife — Chemistry"></iframe>
+</div>
+</div>
+<!-- Placard pager: text → interactive -->
+<div class="placard-pager" data-next-label="Zone 8: ALife &amp; Society →" data-next-zone="zone8.html" data-prev-label="← Zone 6: Complexity from Simplicity" data-prev-zone="zone6.html" data-try-label="Try Organic Builder">
+<div class="placard-pages">
+<!-- Page 1: Text -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Wet ALife: Life's Raw Ingredients" data-jp="ウェットALife：生命の生の材料">Wet ALife: Life's Raw Ingredients</h2>
+<div class="card placard-text">
+<p data-en="At the most fundamental level of life is chemistry. &lt;strong&gt;Wet Artificial
+                    Life&lt;/strong&gt; dives deep into the chemical and biological basis of life,
+                    seeking to understand and recreate life-like properties using
+                    non-biological, pre-biological, or re-engineered biological materials
+                    in a lab." data-jp="生命の最も根底にあるのは化学です。ウェット人工生命は、生命の化学的・生物学的基盤を深く探究します。非生物学的、前生物学的、あるいは再設計された生物学的材料を用いて、実験室で生命に似た特性を理解し、再現することを目指します。">
                     At the most fundamental level of life is chemistry. <strong>Wet Artificial
                     Life</strong> dives deep into the chemical and biological basis of life,
                     seeking to understand and recreate life-like properties using
                     non-biological, pre-biological, or re-engineered biological materials
                     in a lab.
                   </p>
-                  <p>
+<p data-en='This is where scientists literally try to build "life" from the ground
+                    up — whether in a test tube or on a microchip. The goals are to:' data-jp="ここでは、科学者たちが試験管の中であろうとマイクロチップの上であろうと、文字通り「生命」を基礎から構築しようと試みます。目標は、従来の生物を創り出すことではなく、化学を用いて生命の「あり方」に関する大きな疑問に答えることです。">
                     This is where scientists literally try to build "life" from the ground
                     up — whether in a test tube or on a microchip. The goals are to:
                   </p>
-                  <ul>
-                    <li><strong>Uncover Life's Origins</strong> — Show how complex properties could emerge from simple chemical reactions, shedding light on how life on Earth might have first begun.</li>
-                    <li><strong>Explore Alternative Chemistries</strong> — Could life exist with different chemical building blocks than those found in biological systems on Earth?</li>
-                    <li><strong>Engineer Novel Biological Functions</strong> — Design and build new biological systems with specific, useful capabilities.</li>
-                  </ul>
-                  <h3 style="margin-top:1.25rem;">Protocells &amp; Artificial Chemistries</h3>
-                  <ul>
-                    <li><strong>Artificial Chemistries</strong> — Researchers design "chemical soups" where molecules interact in ways that mimic metabolic processes, leading to self-organization, energy cycles, and even rudimentary "growth". The Belousov–Zhabotinsky reaction creates stunning self-replicating patterns without any external control.</li>
-                    <li><strong>Protocells</strong> — Simple, self-assembling chemical compartments (like tiny bubbles) that can grow, divide, and perform simple metabolic reactions — simplified models of the earliest life.</li>
-                    <li><strong>Synthetic Biology</strong> — Re-engineering bacteria to produce drugs, detect toxins, or act as tiny "computers", pushing the boundaries of what biological systems can do.</li>
-                  </ul>
-                  <h3 style="margin-top:1.25rem;">Rethinking Life</h3>
-                  <p>
+<ul>
+<li data-en="&lt;strong&gt;Uncover Life's Origins&lt;/strong&gt; — Show how complex properties could emerge from simple chemical reactions, shedding light on how life on Earth might have first begun." data-jp="生命の起源を理解する：Wet ALifeは、非生物化学物質から「生命のような」特性がいかにして自発的に生じるかを実証することで、数十億年前の地球上で生命がどのように誕生したのかについての重要な手がかりを提供します。"><strong>Uncover Life's Origins</strong> — Show how complex properties could emerge from simple chemical reactions, shedding light on how life on Earth might have first begun.</li>
+<li data-en="&lt;strong&gt;Explore Alternative Chemistries&lt;/strong&gt; — Could life exist with different chemical building blocks than those found in biological systems on Earth?" data-jp="代替化学を探求する：全く異なる化学原理に基づいた理論上の生命体を探索することができ、地球外生命体がどのようなものになるかについての想像力が広がります。"><strong>Explore Alternative Chemistries</strong> — Could life exist with different chemical building blocks than those found in biological systems on Earth?</li>
+<li data-en="&lt;strong&gt;Engineer Novel Biological Functions&lt;/strong&gt; — Design and build new biological systems with specific, useful capabilities." data-jp="新しい生物学的機能を設計する：合成生物学により、科学者は細菌を再設計することで、薬剤を生産したり、毒素を検出したり、さらには小型の「コンピューター」として機能させたりすることができます。"><strong>Engineer Novel Biological Functions</strong> — Design and build new biological systems with specific, useful capabilities.</li>
+</ul>
+<h3 style="margin-top:1.25rem;">Protocells &amp; Artificial Chemistries</h3>
+<ul>
+<li data-en='&lt;strong&gt;Artificial Chemistries&lt;/strong&gt; — Researchers design "chemical soups" where molecules interact in ways that mimic metabolic processes, leading to self-organization, energy cycles, and even rudimentary "growth". The Belousov–Zhabotinsky reaction creates stunning self-replicating patterns without any external control.' data-jp="人工化学：研究者たちは、分子が代謝プロセスを模倣するように相互作用する「化学スープ」を設計し、自己組織化、エネルギー循環、さらには原始的な「成長」へと導きます。"><strong>Artificial Chemistries</strong> — Researchers design "chemical soups" where molecules interact in ways that mimic metabolic processes, leading to self-organization, energy cycles, and even rudimentary "growth". The Belousov–Zhabotinsky reaction creates stunning self-replicating patterns without any external control.</li>
+<li data-en="&lt;strong&gt;Protocells&lt;/strong&gt; — Simple, self-assembling chemical compartments (like tiny bubbles) that can grow, divide, and perform simple metabolic reactions — simplified models of the earliest life." data-jp="原細胞：主要な焦点は「原細胞」の作製です。原細胞とは、化学物質を包み込み、成長、分裂し、さらには単純な代謝反応さえも行うことができる、単純な自己組織化化学区画です。これらは、最も初期の生命形態の簡略化されたモデルと考えられています。"><strong>Protocells</strong> — Simple, self-assembling chemical compartments (like tiny bubbles) that can grow, divide, and perform simple metabolic reactions — simplified models of the earliest life.</li>
+<li data-en='&lt;strong&gt;Synthetic Biology&lt;/strong&gt; — Re-engineering bacteria to produce drugs, detect toxins, or act as tiny "computers", pushing the boundaries of what biological systems can do.' data-jp="合成生物学：工学原理を用いて、生物学的構成要素やシステムを再設計または構築します。科学者は細菌を再設計することで、薬剤を生産したり、毒素を検出したり、さらには小型の「コンピューター」として機能させたりすることで、生物システムの可能性の限界を押し広げています。"><strong>Synthetic Biology</strong> — Re-engineering bacteria to produce drugs, detect toxins, or act as tiny "computers", pushing the boundaries of what biological systems can do.</li>
+</ul>
+<h3 style="margin-top:1.25rem;">Rethinking Life</h3>
+<p data-en="Wet ALife carries huge implications — from understanding the origins of
+                    life (abiogenesis) to exploring life beyond carbon-based chemistry, from
+                    revolutionary biotechnologies to profound ethical questions about what
+                    it means to create life at the molecular level. It is perhaps the most
+                    audacious frontier in all of ALife." data-jp="「ウェット人工生命」は、原始的な始まりから想像上の未来に至るまで、生命そのものに対する私たちの理解に大きな影響を与えます。化学レベルで生命を工学的に制御する能力は、バイオテクノロジー、医療、そして製造業に革命的な可能性を秘めています。また、真に生命に似たシステムを合成する能力に近づくにつれ、責任、生命の定義、そして創造の本質について、重要な倫理的議論を巻き起こしています。">
                     Wet ALife carries huge implications — from understanding the origins of
                     life (abiogenesis) to exploring life beyond carbon-based chemistry, from
                     revolutionary biotechnologies to profound ethical questions about what
                     it means to create life at the molecular level. It is perhaps the most
                     audacious frontier in all of ALife.
                   </p>
-                </div>
-              </div>
-
-              <!-- Page 2: Interactive -->
-              <div class="placard-page">
-                <h2 class="section-title-centred">Try It: Organic Builder</h2>
-                <div class="interactive-block">
-                  <div class="interactive-label">
-                    <span>🧪 Interactive — Organic Builder</span>
-                    <a href="#" target="_blank" rel="noopener">Open full screen ↗</a>
-                  </div>
-                  <div class="interactive-wrapper">
-                    <div class="placeholder-interactive">
-                      <div class="icon">🧪</div>
-                      <strong style="color:var(--color-heading);">Organic Builder</strong>
-                      <span style="font-size:0.88rem;">Replace this placeholder with the Organic Builder embed URL.</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div><!-- /placard-pages -->
-            <div class="placard-page-nav">
-              <button class="pager-btn pager-prev" disabled>&larr; Back</button>
-              <div style="display:flex;align-items:center;gap:0.75rem;">
-                <span class="page-indicator"></span>
-                <div class="page-dots"></div>
-              </div>
-              <button class="pager-btn pager-next">Next &rarr;</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="footer-conf">ALIFE 2025 · 6–10 Oct · Kyoto, Japan · Ciphers of Life</span>
-        <span><em>Life As It Could Be</em> — ALife Public Expo &nbsp;|&nbsp;
-          <a href="https://alife.org" target="_blank" rel="noopener">alife.org</a></span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="expo.js"></script>
-  <script src="hero-bg.js"></script>
-  <script>
+</div>
+</div>
+<!-- Page 2: Interactive -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Try It: Organic Builder" data-jp="体験しよう：オーガニックビルダー">Try It: Organic Builder</h2>
+<div class="interactive-block">
+<div class="interactive-label">
+<span>🧪 Interactive — Organic Builder</span>
+<a href="#" rel="noopener" target="_blank">Open full screen ↗</a>
+</div>
+<div class="interactive-wrapper">
+<div class="placeholder-interactive">
+<div class="icon">🧪</div>
+<strong style="color:var(--color-heading);">Organic Builder</strong>
+<span style="font-size:0.88rem;">Replace this placeholder with the Organic Builder embed URL.</span>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /placard-pages -->
+<div class="placard-page-nav">
+<button class="pager-btn pager-prev" disabled="">← Back</button>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<span class="page-indicator"></span>
+<div class="page-dots"></div>
+</div>
+<button class="pager-btn pager-next">Next →</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-inner">
+<span class="footer-conf">Artificial Life Online Expo  ·  First Shown at ALIFE 2025 · Kyoto, Japan</span>
+<span><em>Life As It Could Be</em>  |  <a href="https://alife.org" rel="noopener" target="_blank">alife.org</a></span>
+<span style="font-size:0.78rem;color:var(--color-muted);">Created by <a href="https://imytk.co.uk" rel="noopener" target="_blank">Imy Khan</a>  ·  <a href="mailto:imy@imytk.co.uk">imy@imytk.co.uk</a></span>
+</div>
+</div>
+</footer>
+<script src="lang-toggle.js"></script>
+<script src="expo.js"></script>
+<script src="hero-bg.js"></script>
+<script>
     function showTab(id, btn) {
       document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -388,6 +374,5 @@
       });
     }
   </script>
-
 </body>
 </html>

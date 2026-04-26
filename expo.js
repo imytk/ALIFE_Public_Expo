@@ -26,14 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevZone  = pager.dataset.prevZone  || null;
     const prevLabel = pager.dataset.prevLabel || '← Prev Zone';
 
-    // Build dots
-    pages.forEach((_, i) => {
-      const dot = document.createElement('button');
-      dot.className = 'dot' + (i === 0 ? ' active' : '');
-      dot.setAttribute('aria-label', `Go to page ${i + 1}`);
-      dot.addEventListener('click', () => goTo(i));
-      dotsContainer.appendChild(dot);
-    });
+    // Build dots (listeners added after goTo is defined, via event delegation below)
 
     function updateButtons() {
       const last = pages.length - 1;
@@ -88,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    function goTo(n) {
+    function goTo(n, scroll) {
       pages[current].classList.remove('active');
       dotsContainer.querySelectorAll('.dot')[current].classList.remove('active');
       current = n;
@@ -96,15 +89,24 @@ document.addEventListener('DOMContentLoaded', () => {
       dotsContainer.querySelectorAll('.dot')[current].classList.add('active');
       if (indicator) indicator.textContent = `${current + 1} / ${pages.length}`;
       updateButtons();
-      // Scroll pager into view smoothly
-      pager.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Only scroll when the user navigates — not on the initial page load
+      if (scroll) pager.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
-    if (prevBtn) prevBtn.addEventListener('click', () => { if (current > 0) goTo(current - 1); });
-    if (nextBtn) nextBtn.addEventListener('click', () => { if (current < pages.length - 1) goTo(current + 1); });
+    // Build dots now that goTo is defined
+    pages.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', `Go to page ${i + 1}`);
+      dot.addEventListener('click', () => goTo(i, true));
+      dotsContainer.appendChild(dot);
+    });
 
-    // Init
-    goTo(0);
+    if (prevBtn) prevBtn.addEventListener('click', () => { if (current > 0) goTo(current - 1, true); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { if (current < pages.length - 1) goTo(current + 1, true); });
+
+    // Init — no scroll, page loads at top
+    goTo(0, false);
   });
 
 });

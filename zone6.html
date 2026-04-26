@@ -1,205 +1,188 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zone 6: Complexity from Simplicity — ALife Public Expo</title>
-  <meta name="description" content="Zone 6: How does extraordinary complexity arise from surprisingly simple rules?" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zone 6: Complexity from Simplicity — ALife Public Expo</title>
+<meta content="Zone 6: How does extraordinary complexity arise from surprisingly simple rules?" name="description"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-
-  <div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
-
-  <nav class="site-nav">
-    <div class="container">
-      <a class="nav-logo" href="index.html">Artificial Life
+<div class="top-bar">Artificial Life Online Expo - As Seen At ALIFE 2025 (Kyoto, Japan)</div>
+<nav class="site-nav">
+<div class="container">
+<a class="nav-logo" href="index.html">Artificial Life
         <span class="nav-logo-sub">Online Expo</span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">Welcome</a>
-        <a href="zone1.html">Zone 1</a>
-        <a href="zone2.html">Zone 2</a>
-        <a href="zone3.html">Zone 3</a>
-        <a href="zone4.html">Zone 4</a>
-        <a href="zone5.html">Zone 5</a>
-        <a href="zone6.html" class="active">Zone 6</a>
-        <a href="zone7.html">Zone 7</a>
-        <a href="zone8.html">Zone 8</a>
-        <a href="zone9.html">Zone 9</a>
-      </div>
-    </div>
-  </nav>
-
-  <header class="hero" data-hero-bg="rule30">
-    <div class="container">
-      <span class="zone-badge">Zone 6 · ALife Fundamentals III</span>
-      <h1>Complexity from Simplicity</h1>
-      <p class="hero-sub">The whole is greater than the sum of its parts — and far more surprising.
+</a>
+<div class="nav-links">
+<a href="index.html">Welcome</a>
+<a href="zone1.html">Zone 1</a>
+<a href="zone2.html">Zone 2</a>
+<a href="zone3.html">Zone 3</a>
+<a href="zone4.html">Zone 4</a>
+<a href="zone5.html">Zone 5</a>
+<a class="active" href="zone6.html">Zone 6</a>
+<a href="zone7.html">Zone 7</a>
+<a href="zone8.html">Zone 8</a>
+<a href="zone9.html">Zone 9</a>
+</div>
+</div>
+</nav>
+<header class="hero" data-hero-bg="rule30">
+<div class="container">
+<span class="zone-badge" data-en="Zone 6 · ALife Fundamentals III" data-jp="ゾーン6">Zone 6 · ALife Fundamentals III</span>
+<h1 data-en="Complexity from Simplicity" data-jp="単純から複雑へ">Complexity from Simplicity</h1>
+<p class="hero-sub" data-en='The whole is greater than the sum of its parts — and far more surprising.
+      &lt;div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;"&gt;
+&lt;a class="btn btn-primary" href="#watch"&gt;▶ Watch ↓&lt;/a&gt;
+&lt;/div&gt;' data-jp="全体は部分の総和よりも大きく、はるかに驚くべきものです。">The whole is greater than the sum of its parts — and far more surprising.
       <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;position:relative;margin-top:0.25rem;">
-        <a href="#watch" class="btn btn-primary">▶ Watch ↓</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-
-    <!-- ── Video ── -->
-    <section id="watch" class="section" style="padding-top:1.5rem;">
-      <div class="container">
-        <h2 class="section-title">Watch</h2>
-        <div class="video-block">
-          <div class="video-label">📽 Zone 6 — Complexity from Simplicity</div>
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/jhnuv4jpS2c" title="Zone 6: Complexity from Simplicity" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="placards" class="section" style="padding-top:0;">
-      <div class="container">
-        <div class="placard-pager"
-             data-try-label="Try Lenia"
-             data-prev-zone="zone5.html"
-             data-prev-label="← Zone 5: Evolution &amp; Adaptation"
-             data-next-zone="zone7.html"
-             data-next-label="Zone 7: Diverse ALife →">
-          <div class="placard-pages">
-
-            <!-- Page 1 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Unpacking Complexity</h2>
-
-              <!-- SVG: Complicated vs Complex comparison -->
-              <figure class="svg-illustration">
-                <svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
-                  <rect width="700" height="200" fill="#13152a"/>
-                  <!-- Divider -->
-                  <line x1="350" y1="10" x2="350" y2="190" stroke="#3d3878" stroke-width="1" stroke-dasharray="5,4"/>
-                  <!-- Left: Complicated -->
-                  <text x="175" y="30" text-anchor="middle" fill="#f07868" font-size="12" font-weight="700">COMPLICATED</text>
-                  <text x="175" y="44" text-anchor="middle" fill="#7a7a99" font-size="9">e.g. a jet engine</text>
-                  <!-- Gear icon representation -->
-                  <circle cx="175" cy="105" r="40" fill="none" stroke="#3d3878" stroke-width="1.5" stroke-dasharray="8,4"/>
-                  <circle cx="175" cy="105" r="25" fill="#221f50" stroke="#f07868" stroke-width="1.5"/>
-                  <text x="175" y="109" text-anchor="middle" fill="#f07868" font-size="18">⚙</text>
-                  <text x="175" y="162" text-anchor="middle" fill="#9b96c0" font-size="9">Many parts · Predictable</text>
-                  <text x="175" y="175" text-anchor="middle" fill="#9b96c0" font-size="9">Top-down design · Explainable</text>
-                  <!-- Right: Complex -->
-                  <text x="525" y="30" text-anchor="middle" fill="#9b8ec4" font-size="12" font-weight="700">COMPLEX</text>
-                  <text x="525" y="44" text-anchor="middle" fill="#7a7a99" font-size="9">e.g. a rainforest</text>
-                  <!-- Many small nodes interacting -->
-                  <circle cx="490" cy="85" r="8" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.2"/>
-                  <circle cx="525" cy="70" r="8" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.2"/>
-                  <circle cx="560" cy="90" r="8" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.2"/>
-                  <circle cx="505" cy="115" r="8" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.2"/>
-                  <circle cx="545" cy="118" r="8" fill="#2a2760" stroke="#9b8ec4" stroke-width="1.2"/>
-                  <circle cx="525" cy="100" r="8" fill="#221f50" stroke="#f07868" stroke-width="1.5"/>
-                  <line x1="490" y1="85" x2="525" y2="100" stroke="#9b8ec4" stroke-width="1" opacity="0.6"/>
-                  <line x1="525" y1="70" x2="525" y2="100" stroke="#9b8ec4" stroke-width="1" opacity="0.6"/>
-                  <line x1="560" y1="90" x2="525" y2="100" stroke="#9b8ec4" stroke-width="1" opacity="0.6"/>
-                  <line x1="505" y1="115" x2="525" y2="100" stroke="#9b8ec4" stroke-width="1" opacity="0.6"/>
-                  <line x1="545" y1="118" x2="525" y2="100" stroke="#9b8ec4" stroke-width="1" opacity="0.6"/>
-                  <line x1="490" y1="85" x2="505" y2="115" stroke="#9b8ec4" stroke-width="1" opacity="0.3"/>
-                  <line x1="525" y1="70" x2="560" y2="90" stroke="#9b8ec4" stroke-width="1" opacity="0.3"/>
-                  <text x="525" y="145" text-anchor="middle" fill="#c4b8e8" font-size="10" font-weight="600">↑ EMERGENCE</text>
-                  <text x="525" y="162" text-anchor="middle" fill="#9b96c0" font-size="9">Non-linear · Unpredictable</text>
-                  <text x="525" y="175" text-anchor="middle" fill="#9b96c0" font-size="9">Bottom-up · Adaptive</text>
-                </svg>
-                <figcaption>Complicated vs. Complex — a crucial distinction at the heart of ALife</figcaption>
-              </figure>
-
-              <div class="card placard-text">
-                <p>We often use the word "complex" to describe something intricate or difficult. But in science — and in the world of ALife — "complexity" has a very specific meaning, and it's not the same as being "complicated"!</p>
-                <p>A <strong>complicated</strong> system (like a high-tech watch or a jet engine) has many parts, but its behaviour is often predictable. Every part has a defined role, the system was built top-down from a detailed plan, and if you know the parts, you can predict the whole.</p>
-                <p>A <strong>complex</strong> system is fundamentally different:</p>
-                <ul>
-                  <li><strong>Non-linear Interactions</strong> — Parts influence each other in ways that aren't direct or proportional. A small change in one part can have disproportionate effects elsewhere — the <em>butterfly effect</em>.</li>
-                  <li><strong>Emergent Properties</strong> — The system exhibits behaviours not present in any individual part, and cannot be easily predicted by looking at parts in isolation. The "whole" is truly greater than the sum of its parts.</li>
-                  <li><strong>Adaptability</strong> — Complex systems often change, learn, and adapt over time.</li>
-                </ul>
-                <p>Think of a bustling ant colony, a thriving rainforest, or your own human brain. No central blueprint dictates their every action. Their functionality and adaptability emerge from countless simple local interactions. This is the cornerstone of Artificial Life.</p>
-              </div>
-            </div>
-
-            <!-- Page 2 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Feedback Loops and Global Patterns</h2>
-
-              <div class="card placard-text">
-                <p>The principle of complexity from simplicity is at play all around us, influencing everything from traffic on our roads to trends in our social circles. The true magic of these systems lies in <strong>feedback loops</strong>: a small action in one part of the system creates a chain of cause-and-effect that can amplify itself.</p>
-                <p>In a financial market, a single trader's decision to sell can cause a small dip in stock price. This dip triggers other traders to sell, the price drops further, and so on — a self-reinforcing loop producing a global outcome (a market crash) from countless local decisions.</p>
-                <p>In an ecosystem, an increase in a prey population creates more food for predators, causing the predator population to grow. But as predator numbers rise, they consume more prey, shrinking the prey population again. This push-and-pull creates a dynamic, self-regulating balance — a powerful demonstration of how interactions in a complex system are never simply proportional.</p>
-              </div>
-            </div>
-
-            <!-- Page 3 -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Modelling Complex Systems</h2>
-
-              <div class="card placard-text">
-                <p>Since we can't fully grasp complex systems by just observing them, we use mathematical and computational models. By encoding the simplest rules of interaction, we can simulate these systems and watch what happens. This helps us answer critical questions about <em>life as it is</em>:</p>
-                <ul>
-                  <li>How do simple molecules, following basic rules of attraction and repulsion, spontaneously organise themselves into proteins or cell membranes?</li>
-                  <li>How do all the interactions between species in a forest create a robust ecosystem?</li>
-                  <li>How does a seemingly small local change — like melting Arctic sea ice — affect global weather patterns?</li>
-                </ul>
-                <p>We can also use these tools to explore <em>life as it could be</em> — the core pursuit of ALife:</p>
-                <ul>
-                  <li><strong>Alternative Chemistries</strong> — Could life emerge from different building blocks?</li>
-                  <li><strong>Open-Ended Evolution</strong> — Can we create systems where novelty and complexity continuously increase without a pre-set goal?</li>
-                  <li><strong>Artificial Societies</strong> — What are the minimal rules required for a group of simple agents to form a cohesive, functioning society?</li>
-                  <li><strong>Synthetic Ecosystems</strong> — Can we design and build entirely new ecosystems from scratch?</li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Page 4: Interactive -->
-            <div class="placard-page">
-              <h2 class="section-title-centred">Try It: Lenia — Continuous Life</h2>
-              <p style="color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;"><strong style="color:var(--color-heading)">Lenia</strong> is a generalisation of Conway's Game of Life into continuous space and time, creating extraordinarily lifelike, moving "creatures" from pure mathematics.</p>
-              <div class="interactive-block">
-                <div class="interactive-label">
-                  <span>🌀 Interactive — Lenia Continuous Cellular Automaton</span>
-                  <a href="#" target="_blank" rel="noopener">Open full screen ↗</a>
-                </div>
-                <div class="interactive-wrapper">
-                  <div class="placeholder-interactive">
-                    <div class="icon">🌀</div>
-                    <strong style="color:var(--color-heading);">Lenia</strong>
-                    <span style="font-size:0.88rem;">Replace this placeholder with the Lenia simulation embed URL.</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div><!-- /placard-pages -->
-
-          <div class="placard-page-nav">
-            <button class="pager-btn pager-prev" disabled>&larr; Back</button>
-            <div style="display:flex;align-items:center;gap:0.75rem;">
-              <span class="page-indicator"></span>
-              <div class="page-dots"></div>
-            </div>
-            <button class="pager-btn pager-next">Next &rarr;</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="footer-conf">ALIFE 2025 · 6–10 Oct · Kyoto, Japan · Ciphers of Life</span>
-        <span><em>Life As It Could Be</em> — ALife Public Expo &nbsp;|&nbsp; <a href="https://alife.org" target="_blank" rel="noopener">alife.org</a></span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="expo.js"></script>
-  <script src="hero-bg.js"></script>
+<a class="btn btn-primary" href="#watch">▶ Watch ↓</a>
+</div>
+</p></div>
+</header>
+<main>
+<!-- ── Video ── -->
+<section class="section" id="watch" style="padding-top:1.5rem;">
+<div class="container">
+<h2 class="section-title">Watch</h2>
+<div class="video-block">
+<div class="video-label">📽 Zone 6 — Complexity from Simplicity</div>
+<div class="video-wrapper">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/jhnuv4jpS2c" title="Zone 6: Complexity from Simplicity"></iframe>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="placards" style="padding-top:0;">
+<div class="container">
+<div class="placard-pager" data-next-label="Zone 7: Diverse ALife →" data-next-zone="zone7.html" data-prev-label="← Zone 5: Evolution &amp; Adaptation" data-prev-zone="zone5.html" data-try-label="Try Lenia">
+<div class="placard-pages">
+<!-- Page 1 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Unpacking Complexity" data-jp="複雑さを解き明かす">Unpacking Complexity</h2>
+<!-- SVG: Complicated vs Complex comparison -->
+<figure class="svg-illustration">
+<svg font-family="DM Sans, sans-serif" viewbox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#13152a" height="200" width="700"></rect>
+<!-- Divider -->
+<line stroke="#3d3878" stroke-dasharray="5,4" stroke-width="1" x1="350" x2="350" y1="10" y2="190"></line>
+<!-- Left: Complicated -->
+<text fill="#f07868" font-size="12" font-weight="700" text-anchor="middle" x="175" y="30">COMPLICATED</text>
+<text fill="#7a7a99" font-size="9" text-anchor="middle" x="175" y="44">e.g. a jet engine</text>
+<!-- Gear icon representation -->
+<circle cx="175" cy="105" fill="none" r="40" stroke="#3d3878" stroke-dasharray="8,4" stroke-width="1.5"></circle>
+<circle cx="175" cy="105" fill="#221f50" r="25" stroke="#f07868" stroke-width="1.5"></circle>
+<text fill="#f07868" font-size="18" text-anchor="middle" x="175" y="109">⚙</text>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="175" y="162">Many parts · Predictable</text>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="175" y="175">Top-down design · Explainable</text>
+<!-- Right: Complex -->
+<text fill="#9b8ec4" font-size="12" font-weight="700" text-anchor="middle" x="525" y="30">COMPLEX</text>
+<text fill="#7a7a99" font-size="9" text-anchor="middle" x="525" y="44">e.g. a rainforest</text>
+<!-- Many small nodes interacting -->
+<circle cx="490" cy="85" fill="#2a2760" r="8" stroke="#9b8ec4" stroke-width="1.2"></circle>
+<circle cx="525" cy="70" fill="#2a2760" r="8" stroke="#9b8ec4" stroke-width="1.2"></circle>
+<circle cx="560" cy="90" fill="#2a2760" r="8" stroke="#9b8ec4" stroke-width="1.2"></circle>
+<circle cx="505" cy="115" fill="#2a2760" r="8" stroke="#9b8ec4" stroke-width="1.2"></circle>
+<circle cx="545" cy="118" fill="#2a2760" r="8" stroke="#9b8ec4" stroke-width="1.2"></circle>
+<circle cx="525" cy="100" fill="#221f50" r="8" stroke="#f07868" stroke-width="1.5"></circle>
+<line opacity="0.6" stroke="#9b8ec4" stroke-width="1" x1="490" x2="525" y1="85" y2="100"></line>
+<line opacity="0.6" stroke="#9b8ec4" stroke-width="1" x1="525" x2="525" y1="70" y2="100"></line>
+<line opacity="0.6" stroke="#9b8ec4" stroke-width="1" x1="560" x2="525" y1="90" y2="100"></line>
+<line opacity="0.6" stroke="#9b8ec4" stroke-width="1" x1="505" x2="525" y1="115" y2="100"></line>
+<line opacity="0.6" stroke="#9b8ec4" stroke-width="1" x1="545" x2="525" y1="118" y2="100"></line>
+<line opacity="0.3" stroke="#9b8ec4" stroke-width="1" x1="490" x2="505" y1="85" y2="115"></line>
+<line opacity="0.3" stroke="#9b8ec4" stroke-width="1" x1="525" x2="560" y1="70" y2="90"></line>
+<text fill="#c4b8e8" font-size="10" font-weight="600" text-anchor="middle" x="525" y="145">↑ EMERGENCE</text>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="525" y="162">Non-linear · Unpredictable</text>
+<text fill="#9b96c0" font-size="9" text-anchor="middle" x="525" y="175">Bottom-up · Adaptive</text>
+</svg>
+<figcaption>Complicated vs. Complex — a crucial distinction at the heart of ALife</figcaption>
+</figure>
+<div class="card placard-text">
+<p data-en="We often use the word &quot;complex&quot; to describe something intricate or difficult. But in science — and in the world of ALife — &quot;complexity&quot; has a very specific meaning, and it's not the same as being &quot;complicated&quot;!" data-jp="私たちは世界を見るとき、入り組んでいたり難解だったりする何かを表現するために「複雑」という言葉をよく使います。しかし、科学の世界（ALifeの世界も含む）では、「複雑性」には非常に特別な意味があり、「複雑である」こととは全く異なります。">We often use the word "complex" to describe something intricate or difficult. But in science — and in the world of ALife — "complexity" has a very specific meaning, and it's not the same as being "complicated"!</p>
+<p data-en="A &lt;strong&gt;complicated&lt;/strong&gt; system (like a high-tech watch or a jet engine) has many parts, but its behaviour is often predictable. Every part has a defined role, the system was built top-down from a detailed plan, and if you know the parts, you can predict the whole." data-jp="複雑なシステム（ハイテク時計やジェットエンジンなど）は多くの部品で構成されていますが、その動作は多くの場合予測可能です。それぞれの部品には明確な役割があり、システムは詳細な計画に従って、上から下へ、一つ一つ部品を積み重ねて構築されています。">A <strong>complicated</strong> system (like a high-tech watch or a jet engine) has many parts, but its behaviour is often predictable. Every part has a defined role, the system was built top-down from a detailed plan, and if you know the parts, you can predict the whole.</p>
+<p data-en="A &lt;strong&gt;complex&lt;/strong&gt; system is fundamentally different:" data-jp="しかし、複雑なシステムは異なります。それは次のような特徴を持っています。">A <strong>complex</strong> system is fundamentally different:</p>
+<ul>
+<li data-en="&lt;strong&gt;Non-linear Interactions&lt;/strong&gt; — Parts influence each other in ways that aren't direct or proportional. A small change in one part can have disproportionate effects elsewhere — the &lt;em&gt;butterfly effect&lt;/em&gt;." data-jp="非線形相互作用：各要素は必ずしも直接的または比例的ではない方法で相互に影響を与えます。ある要素の小さな変化が、他の部分に不均衡な影響を及ぼす可能性があります。"><strong>Non-linear Interactions</strong> — Parts influence each other in ways that aren't direct or proportional. A small change in one part can have disproportionate effects elsewhere — the <em>butterfly effect</em>.</li>
+<li data-en='&lt;strong&gt;Emergent Properties&lt;/strong&gt; — The system exhibits behaviours not present in any individual part, and cannot be easily predicted by looking at parts in isolation. The "whole" is truly greater than the sum of its parts.' data-jp="創発特性：システムは、個々の部分には見られない振る舞いや特性を示し、部分だけを単独で見ても容易に予測できません。「全体」は、真に部分の総和よりも大きく、かつ部分とは異なるものです。"><strong>Emergent Properties</strong> — The system exhibits behaviours not present in any individual part, and cannot be easily predicted by looking at parts in isolation. The "whole" is truly greater than the sum of its parts.</li>
+<li data-en="&lt;strong&gt;Adaptability&lt;/strong&gt; — Complex systems often change, learn, and adapt over time." data-jp="適応性：複雑なシステムは、時間の経過とともに変化し、適応することがよくあります。"><strong>Adaptability</strong> — Complex systems often change, learn, and adapt over time.</li>
+</ul>
+<p data-en="Think of a bustling ant colony, a thriving rainforest, or your own human brain. No central blueprint dictates their every action. Their functionality and adaptability emerge from countless simple local interactions. This is the cornerstone of Artificial Life." data-jp="活気に満ちたアリのコロニー、緑豊かな熱帯雨林、あるいはあなた自身の人間の脳を思い浮かべてみてください。それらの行動を全て指示する中心的な設計図はありません。その代わりに、それらの驚くべき機能性と適応性は、無数の単純な局所的な相互作用から生まれます。">Think of a bustling ant colony, a thriving rainforest, or your own human brain. No central blueprint dictates their every action. Their functionality and adaptability emerge from countless simple local interactions. This is the cornerstone of Artificial Life.</p>
+</div>
+</div>
+<!-- Page 2 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Feedback Loops and Global Patterns" data-jp="フィードバックループとグローバルパターン">Feedback Loops and Global Patterns</h2>
+<div class="card placard-text">
+<p data-en="The principle of complexity from simplicity is at play all around us, influencing everything from traffic on our roads to trends in our social circles. The true magic of these systems lies in &lt;strong&gt;feedback loops&lt;/strong&gt;: a small action in one part of the system creates a chain of cause-and-effect that can amplify itself." data-jp="単純さから複雑性が生まれるという原理は現在、私たちの周囲で機能しており、道路の交通から社会の動向まで、あらゆるものに影響を及ぼしています。これらのシステムの真の魅力はフィードバックループにあります。システムの一部における小さな行動が、因果関係の連鎖を生み出し、それが増幅していくのです。">The principle of complexity from simplicity is at play all around us, influencing everything from traffic on our roads to trends in our social circles. The true magic of these systems lies in <strong>feedback loops</strong>: a small action in one part of the system creates a chain of cause-and-effect that can amplify itself.</p>
+<p data-en="In a financial market, a single trader's decision to sell can cause a small dip in stock price. This dip triggers other traders to sell, the price drops further, and so on — a self-reinforcing loop producing a global outcome (a market crash) from countless local decisions." data-jp="例えば、活気に満ちた金融市場では、一人のトレーダーの売却決定が株価の小幅な下落を引き起こすことがあります。この下落は他のトレーダーの売却を誘発し、株価はさらに下落し、それが繰り返されます。この自己強化的なループは、無数の局所的な意思決定が世界的な結果（市場の暴落）を引き起こす直接的な、しかし予測不可能な結果です。">In a financial market, a single trader's decision to sell can cause a small dip in stock price. This dip triggers other traders to sell, the price drops further, and so on — a self-reinforcing loop producing a global outcome (a market crash) from countless local decisions.</p>
+<p data-en="In an ecosystem, an increase in a prey population creates more food for predators, causing the predator population to grow. But as predator numbers rise, they consume more prey, shrinking the prey population again. This push-and-pull creates a dynamic, self-regulating balance — a powerful demonstration of how interactions in a complex system are never simply proportional." data-jp="同様に、生態系においては、被食者の個体数が増加すると捕食者の餌が増加し、捕食者の個体数が急増します。しかし、捕食者の個体数が増加すると、被食者の個体数は減少します。この押し引きの関係は、動的な自己調節的なバランスを生み出します。">In an ecosystem, an increase in a prey population creates more food for predators, causing the predator population to grow. But as predator numbers rise, they consume more prey, shrinking the prey population again. This push-and-pull creates a dynamic, self-regulating balance — a powerful demonstration of how interactions in a complex system are never simply proportional.</p>
+</div>
+</div>
+<!-- Page 3 -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Modelling Complex Systems" data-jp="複雑なシステムのモデリング">Modelling Complex Systems</h2>
+<div class="card placard-text">
+<p data-en="Since we can't fully grasp complex systems by just observing them, we use mathematical and computational models. By encoding the simplest rules of interaction, we can simulate these systems and watch what happens. This helps us answer critical questions about &lt;em&gt;life as it is&lt;/em&gt;:" data-jp="これらのシステムを観察するだけでは完全に理解することはできないため、数学モデルや計算モデルを用いて研究します。最も単純な相互作用のルールをコード化することで、これらの複雑なシステムをシミュレートし、何が起こるかを観察することができます。">Since we can't fully grasp complex systems by just observing them, we use mathematical and computational models. By encoding the simplest rules of interaction, we can simulate these systems and watch what happens. This helps us answer critical questions about <em>life as it is</em>:</p>
+<ul>
+<li data-en="How do simple molecules, following basic rules of attraction and repulsion, spontaneously organise themselves into proteins or cell membranes?" data-jp="例えば、引力と反発力という基本的な法則に従う単純な分子が、どのようにしてタンパク質や細胞膜のような複雑な構造へと自発的に組織化し、最終的に生命へと繋がるのでしょうか？">How do simple molecules, following basic rules of attraction and repulsion, spontaneously organise themselves into proteins or cell membranes?</li>
+<li data-en="How do all the interactions between species in a forest create a robust ecosystem?" data-jp="森林における種間の様々な相互作用は、どのようにして強固で回復力のある生態系を生み出すのでしょうか？">How do all the interactions between species in a forest create a robust ecosystem?</li>
+<li data-en="How does a seemingly small local change — like melting Arctic sea ice — affect global weather patterns?" data-jp="北極の海氷融解のように、一見小さな局所的な変化が、地球規模の気象パターンにどのような影響を与えるのでしょうか？">How does a seemingly small local change — like melting Arctic sea ice — affect global weather patterns?</li>
+</ul>
+<p data-en="We can also use these tools to explore &lt;em&gt;life as it could be&lt;/em&gt; — the core pursuit of ALife:" data-jp="これらのツールは、生命のあり方を探求するのにも役立ちます。複雑さを受け入れることで、生命そのものの別のバージョンを探求することができます。">We can also use these tools to explore <em>life as it could be</em> — the core pursuit of ALife:</p>
+<ul>
+<li data-en="&lt;strong&gt;Alternative Chemistries&lt;/strong&gt; — Could life emerge from different building blocks?" data-jp="異なる化学原理：異なる化学原理を用いて生命が出現することは可能でしょうか？"><strong>Alternative Chemistries</strong> — Could life emerge from different building blocks?</li>
+<li data-en="&lt;strong&gt;Open-Ended Evolution&lt;/strong&gt; — Can we create systems where novelty and complexity continuously increase without a pre-set goal?" data-jp="オープンエンドな進化：単純なエージェントの集団がまとまりのある機能的な社会を形成するために必要な最小限のルールは何でしょうか？"><strong>Open-Ended Evolution</strong> — Can we create systems where novelty and complexity continuously increase without a pre-set goal?</li>
+<li data-en="&lt;strong&gt;Artificial Societies&lt;/strong&gt; — What are the minimal rules required for a group of simple agents to form a cohesive, functioning society?" data-jp="人工社会：事前に定義された目標なしに、斬新さと複雑さが継続的に増大する、新しいタイプの生態系や真にオープンエンドな進化システムを設計し、創造できるでしょうか？"><strong>Artificial Societies</strong> — What are the minimal rules required for a group of simple agents to form a cohesive, functioning society?</li>
+<li data-en="&lt;strong&gt;Synthetic Ecosystems&lt;/strong&gt; — Can we design and build entirely new ecosystems from scratch?" data-jp="合成生態系：まったく新しい生態系をゼロから設計・構築することはできるでしょうか？"><strong>Synthetic Ecosystems</strong> — Can we design and build entirely new ecosystems from scratch?</li>
+</ul>
+</div>
+</div>
+<!-- Page 4: Interactive -->
+<div class="placard-page">
+<h2 class="section-title-centred" data-en="Try It: Lenia — Continuous Life" data-jp="体験しよう：Lenia — 連続した生命">Try It: Lenia — Continuous Life</h2>
+<p data-en="&lt;strong style=&quot;color:var(--color-heading)&quot;&gt;Lenia&lt;/strong&gt; is a generalisation of Conway's Game of Life into continuous space and time, creating extraordinarily lifelike, moving &quot;creatures&quot; from pure mathematics." data-jp="Leniaは、コンウェイのライフゲームを連続空間と時間へと一般化したもので、純粋な数学から驚くほど生命のような、動く「生物」を生み出します。" style="color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;"><strong style="color:var(--color-heading)">Lenia</strong> is a generalisation of Conway's Game of Life into continuous space and time, creating extraordinarily lifelike, moving "creatures" from pure mathematics.</p>
+<div class="interactive-block">
+<div class="interactive-label">
+<span>🌀 Interactive — Lenia Continuous Cellular Automaton</span>
+<a href="#" rel="noopener" target="_blank">Open full screen ↗</a>
+</div>
+<div class="interactive-wrapper">
+<div class="placeholder-interactive">
+<div class="icon">🌀</div>
+<strong style="color:var(--color-heading);">Lenia</strong>
+<span style="font-size:0.88rem;">Replace this placeholder with the Lenia simulation embed URL.</span>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /placard-pages -->
+<div class="placard-page-nav">
+<button class="pager-btn pager-prev" disabled="">← Back</button>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<span class="page-indicator"></span>
+<div class="page-dots"></div>
+</div>
+<button class="pager-btn pager-next">Next →</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-inner">
+<span class="footer-conf">Artificial Life Online Expo  ·  First Shown at ALIFE 2025 · Kyoto, Japan</span>
+<span><em>Life As It Could Be</em>  |  <a href="https://alife.org" rel="noopener" target="_blank">alife.org</a></span>
+<span style="font-size:0.78rem;color:var(--color-muted);">Created by <a href="https://imytk.co.uk" rel="noopener" target="_blank">Imy Khan</a>  ·  <a href="mailto:imy@imytk.co.uk">imy@imytk.co.uk</a></span>
+</div>
+</div>
+</footer>
+<script src="lang-toggle.js"></script>
+<script src="expo.js"></script>
+<script src="hero-bg.js"></script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

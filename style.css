@@ -158,6 +158,42 @@ img { max-width: 100%; display: block; }
 .nav-links a:hover { color: var(--color-heading); background: var(--color-surface2); text-decoration: none; }
 .nav-links a.active { color: var(--coral); background: rgba(240,120,104,0.1); text-decoration: none; }
 
+/* ── Language toggle ── */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: auto;
+  margin-right: 0.75rem;
+  padding: 0.22rem 0.55rem;
+  background: var(--color-surface2);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--color-muted);
+  transition: border-color 0.2s, background 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lang-toggle:hover {
+  border-color: var(--periwinkle);
+  background: rgba(155,142,196,0.12);
+}
+.lang-toggle .lt-sep {
+  color: var(--color-border);
+  font-weight: 300;
+}
+.lang-toggle .lt-active {
+  color: var(--coral);
+}
+@media (max-width: 680px) {
+  .lang-toggle { margin-right: 0.5rem; }
+}
+
 /* ── Hero — canvas simulation owns the background ── */
 .hero {
   padding: 5.5rem 0 4rem;
