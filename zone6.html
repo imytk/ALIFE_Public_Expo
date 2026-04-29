@@ -104,15 +104,14 @@
 <figcaption>Complicated vs. Complex — a crucial distinction at the heart of ALife</figcaption>
 </figure><div class="card placard-text">
 <p>We often use the word "complex" to describe something intricate or difficult. But in science — and in the world of ALife — "complexity" has a very specific meaning, and it's not the same as being "complicated"!</p>
-<p>A <strong>complicated</strong> system (like a high-tech watch or a jet engine) has many parts, but its behaviour is often predictable. Every part has a defined role, the system was built top-down from a detailed plan, and if you know the parts, you can predict the whole.</p>
-<p>A <strong>complex</strong> system is fundamentally different:</p>
-<ul>
-<li><strong>Non-linear Interactions</strong> — Parts influence each other in ways that aren't direct or proportional. A small change in one part can have disproportionate effects elsewhere — the <em>butterfly effect</em>.</li>
-<li><strong>Emergent Properties</strong> — The system exhibits behaviours not present in any individual part, and cannot be easily predicted by looking at parts in isolation. The "whole" is truly greater than the sum of its parts.</li>
-<li><strong>Adaptability</strong> — Complex systems often change, learn, and adapt over time.</li>
-</ul>
-<p>Think of a bustling ant colony, a thriving rainforest, or your own human brain. No central blueprint dictates their every action. Their functionality and adaptability emerge from countless simple local interactions. This is the cornerstone of Artificial Life.</p>
+        
+<p>A <strong>complicated</strong> system (like a high-tech watch or a jet engine) has many parts, but its behaviour is often predictable in principle. Every component has a defined role, the system was built top-down from a detailed plan. If you know the parts, you can understand the whole, and the systems behave as they were designed to. </p>
+
+<p>A <strong>complex system</strong> is different. Its parts interact in ways that are non-linear: small changes in one place can produce disproportionate effects elsewhere. This is the famous "butterfly effect" — the idea, from chaos theory, that a butterfly flapping its wings in Brazil might set off a chain of atmospheric effects that eventually produces a storm in Texas. It's a strong visual example of a real phenomenon: in non-linear systems, causes and effects are not proportional, and small perturbations (or disturbances) can cascade unpredictably. Complex systems also exhibit emergent properties — behaviours that are not present in any individual component and cannot be predicted by studying the parts in isolation. The whole is genuinely different from the sum of its parts. And they have a tendancy to adapt: they change in response to their environment in ways that no one designed.</p>
+
+<p>Think of a bustling ant colony, a thriving rainforest, or your own human brain. Their functionality and adaptability emerge from countless simple local interactions, and they act in ways that we cannot predict from any one part in isolation. Complexity is everywhere, and is a cornerstone of Artificial Life.</p>
 </div></div>
+        
               <div class="lang-jp"><figure class="svg-illustration">
 <svg font-family="DM Sans, sans-serif" viewbox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
 <rect fill="#13152a" height="200" width="700"></rect>
@@ -168,8 +167,10 @@
 
               <div class="lang-en"><div class="card placard-text">
 <p>The principle of complexity from simplicity is at play all around us, influencing everything from traffic on our roads to trends in our social circles. The true magic of these systems lies in <strong>feedback loops</strong>: a small action in one part of the system creates a chain of cause-and-effect that can amplify itself.</p>
-<p>In a financial market, a single trader's decision to sell can cause a small dip in stock price. This dip triggers other traders to sell, the price drops further, and so on — a self-reinforcing loop producing a global outcome (a market crash) from countless local decisions.</p>
-<p>In an ecosystem, an increase in a prey population creates more food for predators, causing the predator population to grow. But as predator numbers rise, they consume more prey, shrinking the prey population again. This push-and-pull creates a dynamic, self-regulating balance — a powerful demonstration of how interactions in a complex system are never simply proportional.</p>
+                      
+<p>In a financial market, a single trader's decision to sell can cause a small dip in stock price. This dip triggers other traders to sell, the price drops further, and so on — a self-reinforcing loop producing a global outcome (a market crash) from countless local decisions. The <a href=https://en.wikipedia.org/wiki/2010_flash_crash>2010 Flash Crash</a>, in which the US stock market lost nearly a trillion dollars in value in minutes before partially recovering, is an unfortunate recent example — caused by a cascade of automated trading decisions, each following simple local rules, producing a global outcome no individual trader intended or controlled.</p>
+                      
+<p>Ecosystems work the same way. An increase in a prey population creates more food for predators, causing the predator population to grow. But as predator numbers rise, they consume more prey, shrinking the prey population again. This push-and-pull creates a dynamic, self-regulating balance — a powerful demonstration of how interactions in a complex system are never simply proportional. The <a href=https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations>lynx and snowshoe hare populations</a> of northern Canada oscillate in a ten-year cycle that has been tracked for over a century — a textbook example of complex feedback producing orderly, predictable patterns at the population level from the chaotic individual level below.</p>
 </div></div>
               <div class="lang-jp"><div class="card placard-text">
 <p>単純さから複雑性が生まれるという原理は現在、私たちの周囲で機能しており、道路の交通から社会の動向まで、あらゆるものに影響を及ぼしています。これらのシステムの真の魅力はフィードバックループにあります。システムの一部における小さな行動が、因果関係の連鎖を生み出し、それが増幅していくのです。</p>
@@ -183,19 +184,16 @@
 
 
               <div class="lang-en"><div class="card placard-text">
-<p>Since we can't fully grasp complex systems by just observing them, we use mathematical and computational models. By encoding the simplest rules of interaction, we can simulate these systems and watch what happens. This helps us answer critical questions about <em>life as it is</em>:</p>
-<ul>
-<li>How do simple molecules, following basic rules of attraction and repulsion, spontaneously organise themselves into proteins or cell membranes?</li>
-<li>How do all the interactions between species in a forest create a robust ecosystem?</li>
-<li>How does a seemingly small local change — like melting Arctic sea ice — affect global weather patterns?</li>
-</ul>
-<p>We can also use these tools to explore <em>life as it could be</em> — the core pursuit of ALife:</p>
-<ul>
-<li><strong>Alternative Chemistries</strong> — Could life emerge from different building blocks?</li>
-<li><strong>Open-Ended Evolution</strong> — Can we create systems where novelty and complexity continuously increase without a pre-set goal?</li>
-<li><strong>Artificial Societies</strong> — What are the minimal rules required for a group of simple agents to form a cohesive, functioning society?</li>
-<li><strong>Synthetic Ecosystems</strong> — Can we design and build entirely new ecosystems from scratch?</li>
-</ul>
+<p>Because complex systems are too intricate (or intractable) to fully grasp through observation alone, we use mathematical and computational models to study them. By encoding simple rules of interaction and running simulations, we can watch complexity emerge and ask questions that would otherwise be impossible to answer. 
+
+<p>Some of the most important questions in science are questions about complex systems. How do simple molecules, following basic rules of attraction and repulsion, spontaneously organise themselves into the proteins and membranes that make cells possible? <a href=https://en.wikipedia.org/wiki/Agent-based_model_of_epidemic_spread>Agent-based models of epidemic spread</a> were used during the COVID-19 pandemic to test the likely effects of different public health interventions. <a href=https://en.wikipedia.org/wiki/Climate_model>Climate models</a> attempt to capture the non-linear interactions between atmosphere, ocean, ice, and land that determine how the planet will respond to rising CO₂.</p>
+
+<p>ALife extends this further — not just modelling life as it is, but exploring what life could be. Could life emerge from different chemical building blocks — silicon rather than carbon, perhaps, or something stranger? Can we build systems where novelty and complexity increase indefinitely, without a pre-set goal — a form of <a href=https://en.wikipedia.org/wiki/Open-ended_evolution>open-ended evolution</a> that never runs out of room to surprise us? What minimal rules are needed for a group of simple agents to form a functioning society? Can we design self-sustaining digital worlds — <a href=https://en.wikipedia.org/wiki/Artificial_life#Digital_organisms>artificial ecosystems</a> — that evolve over time, giving us a living laboratory for understanding the principles of life?
+</p>
+
+<p>Ultimately, the answers to these questions are highly complex — but the key to finding them begins with a few simple rules.</p>
+
+        
 </div></div>
               <div class="lang-jp"><div class="card placard-text">
 <p>これらのシステムを観察するだけでは完全に理解することはできないため、数学モデルや計算モデルを用いて研究します。最も単純な相互作用のルールをコード化することで、これらの複雑なシステムをシミュレートし、何が起こるかを観察することができます。</p>
