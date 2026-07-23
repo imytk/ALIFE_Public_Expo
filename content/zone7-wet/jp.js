@@ -8,8 +8,8 @@ window.__ALIFE_CONTENT__['zone7-wet:jp'] = [
   },
   {
     "id": "try-it-organic-builder",
-    "title": "体験しよう：オーガニックビルダー",
-    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🧪 Interactive — Organic Builder</span>\n<a href=\"#\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<div class=\"placeholder-interactive\">\n<div class=\"icon\">🧪</div>\n<strong style=\"color:var(--color-heading);\">Organic Builder</strong>\n<span style=\"font-size:0.88rem;\">Replace this placeholder with the Organic Builder embed URL.</span>\n</div>\n</div>\n</div>",
+    "title": "探索する：人工化学シミュレーション",
+    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🧪 探索する — 人工化学シミュレーション</span>\n<a href=\"https://www.complexity-explorables.org/fields/chemistry/\" rel=\"noopener\" target=\"_blank\">Complexity Explorablesを開く ↗</a>\n</div>\n<div class=\"interactive-wrapper\" style=\"height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:2.5rem 1.5rem;background:var(--color-surface2);text-align:center;\">\n<div class=\"icon\" style=\"font-size:2rem;\">🧪</div>\n<p style=\"max-width:520px;color:var(--color-muted);font-size:0.95rem;\">オリジナルのOrganic BuilderはJavaアプレットとして作られていましたが、これは現在どのブラウザでも実行できない技術です（適切なプラグインを入れても動きません）。代わりに、<strong style=\"color:var(--color-heading);\">Complexity Explorables</strong>のブラウザベースの人工化学シミュレーションをお試しください。<a href=\"https://www.complexity-explorables.org/explorables/eigenartig/\" rel=\"noopener\" target=\"_blank\">Eigenartig</a>（生命の化学的起源を説明するハイパーサイクルモデル）や<a href=\"https://www.complexity-explorables.org/explorables/hopfed-turingles/\" rel=\"noopener\" target=\"_blank\">Hopfed Turingles</a>（反応拡散系によるパターン形成）などがあります。</p>\n<a class=\"btn btn-primary\" href=\"https://www.complexity-explorables.org/fields/chemistry/\" rel=\"noopener\" target=\"_blank\">化学シミュレーションを探索する ↗</a>\n</div>\n</div>",
     "wrapCard": false
   }
 ];

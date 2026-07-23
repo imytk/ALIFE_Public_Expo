@@ -21,7 +21,7 @@ window.__ALIFE_CONTENT__['zone5:en'] = [
   {
     "id": "try-it-the-life-engine",
     "title": "Try It: The Life Engine",
-    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🧬 Interactive — The Life Engine</span>\n<a href=\"#\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<div class=\"placeholder-interactive\">\n<div class=\"icon\">🧬</div>\n<strong style=\"color:var(--color-heading);\">The Life Engine</strong>\n<span style=\"font-size:0.88rem;\">Replace this placeholder with the Life Engine embed URL.</span>\n</div>\n</div>\n</div>",
+    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🧬 Interactive — The Life Engine</span>\n<a href=\"https://thelifeengine.net/\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<iframe loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms\" src=\"https://thelifeengine.net/\" title=\"The Life Engine\"></iframe>\n</div>\n</div><div class=\"callout\" style=\"margin-top:1rem;\"><strong>The Life Engine</strong> is an evolution simulator where cellular organisms compete, mutate, and evolve in real time. If it doesn’t load here, try <a href=\"https://thelifeengine.net/\" rel=\"noopener\" target=\"_blank\">opening it directly</a>.</div>",
     "wrapCard": false
   }
 ];

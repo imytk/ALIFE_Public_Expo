@@ -9,7 +9,7 @@ window.__ALIFE_CONTENT__['zone7-soft:jp'] = [
   {
     "id": "try-it-avida-ed-digital-evolution",
     "title": "体験しよう：Avida-EDデジタル進化",
-    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>💻 Interactive — Avida-ED Digital Evolution</span>\n<a href=\"https://avida-ed.msu.edu/\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<iframe loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms allow-popups\" src=\"https://avida-ed.msu.edu/\" title=\"Avida-ED Digital Evolution Platform\"></iframe>\n</div>\n</div><div class=\"callout\" style=\"margin-top:1rem;\">Avida-EDは、デジタル進化の研究・教育プラットフォームです。仮想の生物が複製し、突然変異し、自然選択のプロセスを通じて進化する様子を観察することができます。</div>",
+    "body": "<div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>💻 インタラクティブ — Avida-EDデジタル進化</span>\n<a href=\"https://avida-ed.github.io/Avida-ED4/\" rel=\"noopener\" target=\"_blank\">フルスクリーンで開く ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<iframe loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin allow-forms allow-popups\" src=\"https://avida-ed.github.io/Avida-ED4/\" title=\"Avida-ED Digital Evolution Platform\"></iframe>\n</div>\n</div><div class=\"callout\" style=\"margin-top:1rem;\"><strong>Avida-ED</strong>は、世界中の大学の授業で使われているデジタル進化の研究プラットフォームです。デジタル生物が進化し、競争し、リアルタイムで適応する様子を観察できます。最良の体験のために、<a href=\"https://avida-ed.github.io/Avida-ED4/\" rel=\"noopener\" target=\"_blank\">フルスクリーンで開く</a>ことをおすすめします。</div>",
     "wrapCard": false
   }
 ];
