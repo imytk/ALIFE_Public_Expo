@@ -1,0 +1,31 @@
+# Line-ending normalisation.
+#
+# Windows editors silently rewrite whole files from LF to CRLF on save. Git then
+# reports every line as changed even though nothing did — 420 lines of noise in a
+# diff that should have been empty. `text=auto` tells Git to store LF in the
+# repository and check files out in whatever form the platform prefers, so that
+# never reaches a commit.
+#
+# If a file still shows a whole-file diff after this, run:
+#     git add --renormalize .
+* text=auto
+
+# Explicit for the file types this site is built from, so intent is obvious.
+*.html   text
+*.css    text
+*.js     text
+*.json   text
+*.md     text
+*.csv    text
+*.py     text
+*.yml    text
+
+# Binary assets — Git must never rewrite bytes inside these.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    text
+*.mp4    binary
+*.docx   binary
+*.pdf    binary

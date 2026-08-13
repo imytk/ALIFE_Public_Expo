@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Embed compatibility tester — ALife Expo</title>
+<style>
+  :root { --ok:#2f9e5f; --bad:#c8453b; --wait:#8a8a8a; --ink:#1d2025; --muted:#6b7280; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin:0; background:#f6f7f9; color:var(--ink); }
+  header { padding:1.75rem 1.5rem 1rem; max-width:1100px; margin:0 auto; }
+  h1 { margin:0 0 .35rem; font-size:1.5rem; }
+  p.lede { color:var(--muted); margin:.25rem 0 1rem; max-width:70ch; line-height:1.5; }
+  #summary { max-width:1100px; margin:0 auto 1rem; padding:0 1.5rem; font-size:.9rem; color:var(--muted); }
+  .zone { max-width:1100px; margin:0 auto; padding:0 1.5rem 1rem; }
+  .zone > h2 { font-size:1.05rem; border-bottom:2px solid #e3e6ea; padding-bottom:.4rem; margin:1.5rem 0 .75rem; }
+  .card { background:#fff; border:1px solid #e3e6ea; border-radius:10px; margin-bottom:1rem; overflow:hidden; }
+  .bar { display:flex; align-items:center; gap:.6rem; padding:.6rem .85rem; border-bottom:1px solid #eef0f3; flex-wrap:wrap; }
+  .name { font-weight:600; font-size:.95rem; }
+  .url { font-size:.78rem; color:var(--muted); word-break:break-all; }
+  .note { font-size:.8rem; color:var(--muted); padding:.5rem .85rem 0; }
+  .badge { font-size:.72rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase;
+           padding:.2rem .5rem; border-radius:99px; color:#fff; background:var(--wait); white-space:nowrap; }
+  .badge.ok { background:var(--ok); } .badge.bad { background:var(--bad); }
+  .frame { height:420px; background:repeating-linear-gradient(45deg,#fafbfc,#fafbfc 10px,#f2f4f6 10px,#f2f4f6 20px); }
+  iframe { width:100%; height:100%; border:0; display:block; }
+  a { color:#2563eb; }
+  .legend { display:flex; gap:1rem; flex-wrap:wrap; font-size:.82rem; color:var(--muted); margin-bottom:.5rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Embed compatibility tester</h1>
+  <p class="lede">
+    Each candidate below is loaded in an iframe exactly the way the expo zones load their
+    interactives. Sites that send <code>X-Frame-Options</code> or a
+    <code>frame-ancestors</code> CSP will refuse to appear — that is the
+    "refused to connect" error. <strong>Open this file in your browser</strong>
+    (double-click it) and read the badges.
+  </p>
+  <p class="lede">
+    The badge is a best-effort automatic guess. <strong>Trust your eyes over the badge</strong>:
+    if the panel below shows a working simulation, it embeds. Some sites load but are
+    unusable at this size — note those too.
+  </p>
+  <div class="legend">
+    <span>🟩 <strong>Embeds</strong> — usable in a zone</span>
+    <span>🟥 <strong>Blocked</strong> — must be a link-out instead</span>
+    <span>⬜ <strong>Checking</strong> — give it a few seconds</span>
+  </div>
+</header>
+<div id="summary"></div>
+<main id="out"></main>
+
+<script>
+const CANDIDATES = [
+  { zone: "Zone 1 — Game of Life (replacing conwaylife.com)", items: [
+    { name: "conwaylife.com (CURRENT — expected to fail)", url: "https://conwaylife.com/",
+      note: "The control case. If this shows blocked, that confirms the reported fault." },
+    { name: "copy.sh/life", url: "https://copy.sh/life/",
+      note: "Hashlife engine, huge built-in pattern library (glider guns, spaceships). The most capable option; UI is a little dense for a first-time visitor." },
+    { name: "playgameoflife.com", url: "https://playgameoflife.com/",
+      note: "Friendliest for the general public: big grid, obvious play button, pattern presets." },
+    { name: "gameoflife.sh", url: "https://www.gameoflife.sh/",
+      note: "Paintable infinite grid with pan and zoom. Very clean, minimal chrome." },
+    { name: "bitstorm.org", url: "https://bitstorm.org/gameoflife/",
+      note: "The classic tiny applet. Small and dated, but nearly foolproof to use." },
+  ]},
+  { zone: "Zone 6 — Complexity from Simplicity (Lenia slot)", items: [
+    { name: "Lenia — Complexity Explorables port \"Get a life!\"", url: "https://chakazul.github.io/lenia-CE/lenia.html",
+      note: "★ Bert Chan's own Lenia, rebuilt as an explorable with plain-language controls. GitHub Pages, so almost certainly embeddable. Best fit if you want Lenia specifically." },
+    { name: "Lenia — official JS version", url: "https://chakazul.github.io/Lenia/JavaScript/Lenia.html",
+      note: "The full research tool: creature zoo, statistics panels, kernel editor. Powerful but visually busy for a public audience." },
+    { name: "Gray-Scott reaction-diffusion", url: "https://pmneila.github.io/jsexp/grayscott/",
+      note: "Draw with the mouse and watch patterns eat and replicate. Instantly graspable, no instructions needed — arguably a better public exhibit than Lenia." },
+    { name: "Elementary cellular automata (Rule 30 / 110)", url: "https://devinacker.github.io/celldemo/",
+      note: "One dimension, eight rules, and you still get chaos and universal computation. The purest 'complexity from simplicity' demonstration." },
+    { name: "Sandspiel", url: "https://sandspiel.club/",
+      note: "Falling-sand world where simple element rules produce fire, plants and weather. Extremely fun; playful rather than scientific." },
+  ]},
+  { zone: "Zone 8A — Disease spread (replacing Infectious Matter)", items: [
+    { name: "infectiousmatter.com (CURRENT)", url: "https://infectiousmatter.com/fullsim/",
+      note: "The control case for the disease slot." },
+    { name: "Complexity Explorables — \"I herd you!\"", url: "https://www.complexity-explorables.org/explorables/i-herd-you/",
+      note: "★ Herd immunity made visible: raise vaccination coverage and watch outbreaks stop reaching people who were never vaccinated. Strong social message for Zone 8." },
+    { name: "Complexity Explorables — \"Critical HexSIRSize\"", url: "https://www.complexity-explorables.org/explorables/critical-hexsirsize/",
+      note: "Spatial SIRS model on a hex lattice. Shows the epidemic threshold — nudge one slider and the outbreak either dies or takes off." },
+    { name: "Complexity Explorables — \"Epidemonic\"", url: "https://www.complexity-explorables.org/explorables/epidemonic/",
+      note: "The classic SIRS model with waves of reinfection. Simplest of the three." },
+    { name: "Epidemic Calculator", url: "https://gabgoh.github.io/COVID/index.html",
+      note: "Curve-and-slider model rather than agents. More clinical; less ALife-flavoured." },
+  ]},
+  { zone: "Zone 8B — Ecosystems (replacing Conservation Mag safari)", items: [
+    { name: "conservationmag.org safari (CURRENT)", url: "https://conservationmag.org/en/kids-activities/explore-ecosystems-with-the-interactive-ecosystem-simulation-safari",
+      note: "The control case. Note this is an article page wrapping a simulation, which is why it frames badly." },
+    { name: "Complexity Explorables — \"Lotka Martini\"", url: "https://www.complexity-explorables.org/explorables/lotka-martini/",
+      note: "★ Predator and prey on a hex lattice — populations boom, crash and chase each other in spiral waves. The clearest ecosystem story of the set." },
+    { name: "Complexity Explorables — \"Cycledelic\"", url: "https://www.complexity-explorables.org/explorables/cycledelic/",
+      note: "Rock-paper-scissors between three species, showing how cyclic competition lets rivals coexist instead of one winning. Visually gorgeous." },
+    { name: "Complexity Explorables — \"Critically Inflammatory\"", url: "https://www.complexity-explorables.org/explorables/critically-inflammatory/",
+      note: "Forest fire model: vegetation regrows, lightning strikes, and the system self-organises to a critical state. Good climate/resilience angle." },
+    { name: "Complexity Explorables — \"Maggots in the Wiggle Room\"", url: "https://www.complexity-explorables.org/explorables/maggots-in-the-wiggle-room/",
+      note: "Creatures move, eat each other, replicate and mutate into new species. Closest to a literal 'ecosystem safari'." },
+  ]},
+];
+
+const out = document.getElementById("out");
+const frames = [];
+
+CANDIDATES.forEach(group => {
+  const sec = document.createElement("section");
+  sec.className = "zone";
+  sec.innerHTML = `<h2>${group.zone}</h2>`;
+  group.items.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="bar">
+        <span class="badge">checking</span>
+        <span class="name"></span>
+        <span class="url"></span>
+      </div>
+      <div class="note"></div>
+      <div class="frame"><iframe loading="eager" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>`;
+    card.querySelector(".name").textContent = item.name;
+    card.querySelector(".url").textContent = item.url;
+    card.querySelector(".note").textContent = item.note;
+    const f = card.querySelector("iframe");
+    f.title = item.name;
+    f.src = item.url;
+    frames.push({ item, frame: f, badge: card.querySelector(".badge") });
+    sec.appendChild(card);
+  });
+  out.appendChild(sec);
+});
+
+// Heuristic: a frame blocked by X-Frame-Options / CSP stays on about:blank, which the
+// parent CAN read. A frame that genuinely loaded is cross-origin, so reading its
+// location throws a SecurityError. Throwing is therefore the success signal.
+function classify() {
+  let ok = 0, bad = 0;
+  frames.forEach(rec => {
+    let embeds;
+    try {
+      const href = rec.frame.contentWindow.location.href;
+      embeds = !(href === "about:blank" || href === "");
+    } catch (e) {
+      embeds = true;
+    }
+    rec.badge.textContent = embeds ? "embeds" : "blocked";
+    rec.badge.className = "badge " + (embeds ? "ok" : "bad");
+    embeds ? ok++ : bad++;
+  });
+  document.getElementById("summary").innerHTML =
+    `<strong>${ok}</strong> of ${frames.length} candidates appear to embed; <strong>${bad}</strong> appear blocked. ` +
+    `Scroll through and confirm visually — a green badge on a blank panel means the site loaded but rendered nothing useful at this size.`;
+}
+
+setTimeout(classify, 6000);
+setTimeout(classify, 15000);
+</script>
+</body>
+</html>

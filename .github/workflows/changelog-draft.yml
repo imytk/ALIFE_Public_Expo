@@ -1,0 +1,91 @@
+# Drafts Change Log entries from git history and opens a pull request.
+#
+# WHY A PULL REQUEST AND NOT A DIRECT COMMIT
+# ──────────────────────────────────────────
+# changelog.html is visitor-facing. Commit messages ("Update zone7.html")
+# are not publishable prose, so this workflow does the mechanical part —
+# spotting undocumented dates, working out which zones changed, laying out
+# the card markup — and then stops. Nothing reaches the live site until a
+# human edits the wording and merges the PR.
+#
+# The PR branch is reused and force-updated, so repeated pushes update the
+# same open PR rather than piling up new ones.
+
+name: Draft Change Log
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: changelog-draft
+  cancel-in-progress: true
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history — the script reads git log
+
+      - name: Generate draft entries
+        id: draft
+        run: |
+          if python3 tools/changelog_draft.py --check > /dev/null; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+          else
+            python3 tools/changelog_draft.py --write
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open or update the draft pull request
+        if: steps.draft.outputs.needed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          BRANCH=chore/changelog-draft
+
+          git config user.name  "changelog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -B "$BRANCH"
+          git add changelog.html
+
+          if git diff --cached --quiet; then
+            echo "No changelog changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: draft Change Log entries from recent commits"
+          git push --force origin "$BRANCH"
+
+          if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
+            # Built with printf rather than a heredoc: an indented heredoc
+            # terminator inside a YAML block would never close.
+            printf '%s\n' \
+              'Auto-generated draft entries for dates missing from `changelog.html`.' \
+              '' \
+              '**These are drafts.** Before merging:' \
+              '' \
+              '- Rewrite each `<li>` in visitor-facing language (what changed for a reader, not which file was edited).' \
+              '- Delete the `<!-- DRAFT -->` marker comments and the trailing `<!-- sha - files -->` comments.' \
+              '- Merge or drop entries that are not worth telling visitors about.' \
+              '' \
+              'Regenerate locally with `python3 tools/changelog_draft.py --write`.' \
+              > /tmp/pr-body.md
+
+            gh pr create \
+              --base main \
+              --head "$BRANCH" \
+              --title "Draft Change Log entries" \
+              --body-file /tmp/pr-body.md
+          else
+            echo "Existing PR updated."
+          fi

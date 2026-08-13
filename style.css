@@ -451,6 +451,18 @@ img { max-width: 100%; display: block; }
 .interactive-wrapper { position: relative; height: 540px; }
 .interactive-wrapper iframe { width: 100%; height: 100%; border: none; display: block; }
 
+/* Some embedded simulations size their controls to the browser viewport, so in
+   a 540px-tall frame they render oversized and get cropped. `zoom-out` gives the
+   iframe a larger logical viewport and then scales the whole frame down, which
+   fits the full interface inside the box instead of clipping it. */
+.interactive-wrapper.zoom-out { overflow: hidden; }
+.interactive-wrapper.zoom-out iframe {
+  width: 142.86%;   /* 100 / 0.7 */
+  height: 142.86%;
+  transform: scale(0.7);
+  transform-origin: 0 0;
+}
+
 .placeholder-interactive {
   width: 100%;
   height: 100%;

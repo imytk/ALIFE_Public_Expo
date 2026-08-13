@@ -19,9 +19,9 @@ window.__ALIFE_CONTENT__['zone6:jp'] = [
     "wrapCard": true
   },
   {
-    "id": "try-it-lenia-continuous-life",
-    "title": "体験しよう：Lenia — 連続した生命",
-    "body": "<p style=\"color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;\">Leniaは、コンウェイのライフゲームを連続空間と時間へと一般化したもので、純粋な数学から驚くほど生命のような、動く「生物」を生み出します。</p><div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🌀 Interactive — Lenia Continuous Cellular Automaton</span>\n<a href=\"#\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper\">\n<div class=\"placeholder-interactive\">\n<div class=\"icon\">🌀</div>\n<strong style=\"color:var(--color-heading);\">Lenia</strong>\n<span style=\"font-size:0.88rem;\">Replace this placeholder with the Lenia simulation embed URL.</span>\n</div>\n</div>\n</div>",
+    "id": "try-it-reaction-diffusion",
+    "title": "体験しよう：反応拡散系 — ひとりでに生まれる模様",
+    "body": "<p style=\"color:var(--color-muted);margin-bottom:1.25rem;font-size:0.95rem;\"><strong style=\"color:var(--color-heading)\">反応拡散</strong>モデルとは、物質が空間に広がり、出会ったところで互いに反応するとき何が起きるかを記述するものです。皿の上の2種類の化学物質を思い浮かべてください。一方は系を育て、もう一方は消費し、どちらも外へと拡散していきます。モデルはこれだけです。それでも、斑点、縞、迷路、そして生きた細胞のように分裂して増えていく塊が現れます。下の<strong style=\"color:var(--color-heading)\">グレイ・スコット</strong>系は、<a href=\"https://en.wikipedia.org/wiki/Turing_pattern\">1952年にアラン・チューリングが提唱した</a>、動物の模様の成り立ちを説明する仕組みと近い関係にあります。</p><div class=\"interactive-block\">\n<div class=\"interactive-label\">\n<span>🧪 インタラクティブ — グレイ・スコット反応拡散系</span>\n<a href=\"https://pmneila.github.io/jsexp/grayscott/\" rel=\"noopener\" target=\"_blank\">Open full screen ↗</a>\n</div>\n<div class=\"interactive-wrapper zoom-out\">\n<iframe loading=\"lazy\" sandbox=\"allow-scripts allow-same-origin\" src=\"https://pmneila.github.io/jsexp/grayscott/\" title=\"Gray-Scott Reaction-Diffusion\"></iframe>\n</div>\n</div><div class=\"callout\" style=\"margin-top:1rem;\"><strong>ヒント：</strong>キャンバスをクリック＆ドラッグして新しい物質を加え、そのまま動かしてみてください。プリセットを切り替えてみましょう。2つのパラメータをほんの少し変えるだけで、這い回る虫のような模様から無限に分裂する細胞まで、まったく別の世界が生まれます。ここには誰かが描いた模様はひとつもありません。すべては2つの単純なルールが、いたるところで同時に働いた結果です。</div>",
     "wrapCard": false
   }
 ];
