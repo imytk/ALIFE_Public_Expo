@@ -42,7 +42,7 @@ REPO = Path(__file__).resolve().parent.parent
 CHANGELOG = REPO / "changelog.html"
 
 # Commits touching only these paths never produce an entry.
-EXCLUDE = {"changelog.html", ".github", "tools", ".gitignore", "CNAME"}
+EXCLUDE = {"changelog.html", ".github", "tools", "docs", ".gitattributes", ".gitignore", "CNAME"}
 
 ZONE_TITLES = {
     "1": "Welcome to Life As It Could Be",
